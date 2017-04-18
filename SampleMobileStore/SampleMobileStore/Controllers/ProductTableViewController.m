@@ -7,7 +7,6 @@
 //
 
 #import "ProductTableViewController.h"
-#import "ProductTableViewCell.h"
 
 @interface ProductTableViewController ()
 
@@ -15,10 +14,27 @@
 
 @implementation ProductTableViewController
 
+- (void)processItemsChanged;
+{
+    self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    products = [DemoData getProducts];
+    [[Cart sharedInstance] setDelegate:self];
+    
+    products = [DemoData products];
+    
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Sign In" style:UIBarButtonItemStylePlain target:self action:nil];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
+                                              initWithTitle:[[Cart sharedInstance] formattedCartCount]
+                                              style:UIBarButtonItemStylePlain
+                                              target:self
+                                              action:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,14 +59,21 @@
     return cell;
 }
 
-/*
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        // Get the new view controller using [segue destinationViewController].
+        ProductDetailViewController *detailViewController = [segue destinationViewController];
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        int row = (int)[indexPath row];
+        
+        // Pass the selected object to the new view controller.
+        detailViewController.productDetail = products[row];
+    }
 }
-*/
+
 
 @end

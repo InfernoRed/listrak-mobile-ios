@@ -10,6 +10,6 @@
 
 @interface DemoData : NSObject
 
-+ (NSArray *)getProducts;
++ (NSArray *)products;
 
 @end

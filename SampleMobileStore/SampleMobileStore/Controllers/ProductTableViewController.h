@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "../Models/Product.h"
-#import "../Models/DemoData.h"
+#import "Product.h"
+#import "DemoData.h"
+#import "Cart.h"
+#import "ProductTableViewCell.h"
+#import "ProductDetailViewController.h"
 
-@interface ProductTableViewController : UITableViewController {
+@interface ProductTableViewController : UITableViewController<CartDelegate> {
     NSArray *products;
 }
 

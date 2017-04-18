@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F0380481EA1518600193D03 /* DemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0380471EA1518600193D03 /* DemoData.m */; };
+		3F9592311EA6649B00455361 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592301EA6649B00455361 /* ProductDetailViewController.m */; };
+		3F9592351EA693E200455361 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592341EA693E200455361 /* Cart.m */; };
 		3FE777501EA11A340083C2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7774F1EA11A340083C2A1 /* main.m */; };
 		3FE777531EA11A340083C2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE777521EA11A340083C2A1 /* AppDelegate.m */; };
 		3FE777591EA11A340083C2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE777571EA11A340083C2A1 /* Main.storyboard */; };
@@ -21,6 +23,10 @@
 /* Begin PBXFileReference section */
 		3F0380461EA1518600193D03 /* DemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoData.h; sourceTree = "<group>"; };
 		3F0380471EA1518600193D03 /* DemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoData.m; sourceTree = "<group>"; };
+		3F95922F1EA6649B00455361 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		3F9592301EA6649B00455361 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		3F9592331EA693E200455361 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		3F9592341EA693E200455361 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
 		3FE7774B1EA11A340083C2A1 /* SampleMobileStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMobileStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE7774F1EA11A340083C2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FE777511EA11A340083C2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F9592321EA664B300455361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FE777761EA1266F0083C2A1 /* ProductTableViewCell.h */,
+				3FE777771EA1266F0083C2A1 /* ProductTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3FE777421EA11A340083C2A1 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +85,7 @@
 				3FE7775A1EA11A340083C2A1 /* Assets.xcassets */,
 				3FE7776E1EA123A70083C2A1 /* Models */,
 				3FE7776B1EA123240083C2A1 /* Controllers */,
+				3F9592321EA664B300455361 /* Views */,
 				3FE7774E1EA11A340083C2A1 /* Supporting Files */,
 				3FE777511EA11A340083C2A1 /* AppDelegate.h */,
 				3FE777521EA11A340083C2A1 /* AppDelegate.m */,
@@ -91,10 +107,10 @@
 		3FE7776B1EA123240083C2A1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3FE777761EA1266F0083C2A1 /* ProductTableViewCell.h */,
-				3FE777771EA1266F0083C2A1 /* ProductTableViewCell.m */,
 				3FE777791EA1268A0083C2A1 /* ProductTableViewController.h */,
 				3FE7777A1EA1268A0083C2A1 /* ProductTableViewController.m */,
+				3F95922F1EA6649B00455361 /* ProductDetailViewController.h */,
+				3F9592301EA6649B00455361 /* ProductDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -102,6 +118,8 @@
 		3FE7776E1EA123A70083C2A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3F9592331EA693E200455361 /* Cart.h */,
+				3F9592341EA693E200455361 /* Cart.m */,
 				3FE7777E1EA12B430083C2A1 /* Product.h */,
 				3FE7777C1EA12A590083C2A1 /* Product.m */,
 				3F0380461EA1518600193D03 /* DemoData.h */,
@@ -184,7 +202,9 @@
 				3FE777781EA1266F0083C2A1 /* ProductTableViewCell.m in Sources */,
 				3FE7777D1EA12A590083C2A1 /* Product.m in Sources */,
 				3FE777531EA11A340083C2A1 /* AppDelegate.m in Sources */,
+				3F9592351EA693E200455361 /* Cart.m in Sources */,
 				3FE777501EA11A340083C2A1 /* main.m in Sources */,
+				3F9592311EA6649B00455361 /* ProductDetailViewController.m in Sources */,
 				3F0380481EA1518600193D03 /* DemoData.m in Sources */,
 				3FE7777B1EA1268A0083C2A1 /* ProductTableViewController.m in Sources */,
 			);
