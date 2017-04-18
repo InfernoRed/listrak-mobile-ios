@@ -19,16 +19,26 @@
     self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
 }
 
+- (void)processUserChanged;
+{
+    self.navigationItem.leftBarButtonItem.title = [self formattedAccountName];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [[Cart sharedInstance] setDelegate:self];
+    [[Account sharedInstance] setDelegate:self];
     
     products = [DemoData products];
     
     [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Sign In" style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:[self formattedAccountName]
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:self
+                                                                            action:nil];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
                                               initWithTitle:[[Cart sharedInstance] formattedCartCount]
@@ -73,6 +83,13 @@
         // Pass the selected object to the new view controller.
         detailViewController.productDetail = products[row];
     }
+}
+
+
+- (NSString *)formattedAccountName;
+{
+    Account *currentAccount = [Account sharedInstance];
+    return [currentAccount isSignedIn] ? currentAccount.firstName : @"Sign In";
 }
 
 

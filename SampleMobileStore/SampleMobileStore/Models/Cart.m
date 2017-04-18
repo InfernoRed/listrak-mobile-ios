@@ -75,7 +75,7 @@
 {
     [self.items removeAllObjects];
     [self.delegate processItemsChanged];
-    // TODO: invoke SDK's removeItem
+    // TODO: invoke SDK's clearItems
 }
 
 @end

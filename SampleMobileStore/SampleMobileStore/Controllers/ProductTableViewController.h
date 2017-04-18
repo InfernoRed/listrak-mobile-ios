@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Product.h"
 #import "DemoData.h"
+#import "Account.h"
 #import "Cart.h"
 #import "ProductTableViewCell.h"
 #import "ProductDetailViewController.h"
 
-@interface ProductTableViewController : UITableViewController<CartDelegate> {
+@interface ProductTableViewController : UITableViewController<CartDelegate, AccountDelegate> {
     NSArray *products;
 }
 
