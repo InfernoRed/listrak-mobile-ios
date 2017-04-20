@@ -1,0 +1,57 @@
+//
+//  CheckoutViewController.m
+//  SampleMobileStore
+//
+//  Created by Pamela Vong on 4/20/17.
+//  Copyright © 2017 Listrak. All rights reserved.
+//
+
+#import "CheckoutViewController.h"
+
+@interface CheckoutViewController ()
+
+@end
+
+@implementation CheckoutViewController
+
+- (NSString *)getRandomOrderNumber;
+{
+    int random1 = arc4random() % 900000 + 100000;
+    int random2 = arc4random() % 900000 + 100000;
+    
+    return [NSString stringWithFormat:@"%i-%i", random1, random2];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    Cart *cart = [Cart sharedInstance];
+    Account *account = [Account sharedInstance];
+    
+    self.lblDescription.text = account.isSignedIn ? @"Verify your information below and click the Buy button at the top-right." : @"Enter your information below and click the Buy button at the top-right.";
+    self.lblOrderNum.text = [self getRandomOrderNumber];
+    self.lblTotal.text = cart.formattedTotalAmount;
+    
+    self.txtFirstName.text = account.firstName;
+    self.txtLastName.text = account.lastName;
+    self.txtEmail.text = account.email;
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (IBAction)buy:(id)sender {
+}
+@end
