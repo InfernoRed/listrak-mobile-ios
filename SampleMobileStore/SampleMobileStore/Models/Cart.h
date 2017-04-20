@@ -9,14 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "Product.h"
 
-@protocol CartDelegate <NSObject>
-@required
-- (void)processItemsChanged;
-@end
+extern NSString *const CartItemsChangedNotification;
 
 @interface Cart : NSObject
 
-@property (nonatomic, weak) id delegate;
 @property (nonatomic, strong) NSMutableDictionary *items;
 
 + (Cart *)sharedInstance;

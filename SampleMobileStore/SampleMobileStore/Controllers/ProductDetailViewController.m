@@ -21,22 +21,20 @@
 
 
 - (IBAction)addToCart:(id)sender {
-    [[Cart sharedInstance] addProduct:self.productDetail];
-    [self update];
-}
+    [[Cart sharedInstance] addProduct:self.productDetail];}
 
 - (IBAction)removeFromCart:(id)sender {
-    [[Cart sharedInstance] removeProduct:self.productDetail];
-    [self update];
-}
+    [[Cart sharedInstance] removeProduct:self.productDetail];}
 
-- (void)update;
+
+- (void)cartItemsChangedNotification;
 {
     self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
     BOOL isInCart = [[Cart sharedInstance] containsProduct:self.productDetail];
     self.btnAdd.hidden = isInCart;
     self.btnRemove.hidden = !isInCart;
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,15 +49,19 @@
                         localizedStringFromNumber:_productDetail.amount
                         numberStyle:NSNumberFormatterCurrencyStyle];
     
-    [self update];
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(cartItemsChangedNotification)
+     name:CartItemsChangedNotification
+     object:nil];
     
-    // Do any additional setup after loading the view.
+    [self cartItemsChangedNotification];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 {

@@ -19,18 +19,30 @@
     [self.delegate cartTableViewControllerClosed:self];
 }
 
+
+- (void)cartItemsChangedNotification;
+{
+    products = [Cart sharedInstance].products;
+    [self.tableView reloadData];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[Cart sharedInstance] setDelegate:self];
-    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(cartItemsChangedNotification)
+     name:CartItemsChangedNotification
+     object:nil];
+
     products = [Cart sharedInstance].products;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
 
 #pragma mark - Table view data source
 
@@ -44,8 +56,25 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     CartTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ProductCell" forIndexPath:indexPath];
-    cell.productName.text = ((Product *)products[indexPath.row]).name;
+    cell.lblProductName.text = ((Product *)products[indexPath.row]).name;
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    id product = products[indexPath.row];
+    
+    id alert = [UIAlertController alertControllerWithTitle:@"Remove Item" message:@"Would you like to remove this item from the shopping cart?" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Yes"
+                                              style:UIAlertActionStyleDestructive
+                                            handler:^(UIAlertAction *action) {
+                                                [[Cart sharedInstance] removeProduct:product];
+                                            }]];
+    [alert addAction:[UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 /*

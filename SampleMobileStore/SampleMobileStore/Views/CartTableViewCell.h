@@ -10,6 +10,6 @@
 
 @interface CartTableViewCell : UITableViewCell
 
-@property (strong, nonatomic) IBOutlet UILabel *productName;
+@property (strong, nonatomic) IBOutlet UILabel *lblProductName;
 
 @end

@@ -8,14 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol AccountDelegate <NSObject>
-@required
-- (void)processUserChanged;
-@end
+extern NSString *const AccountUserChangedNotification;
 
 @interface Account : NSObject
 
-@property (nonatomic, weak) id delegate;
 @property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;

@@ -14,6 +14,7 @@
 		3F95923B1EA7E65800455361 /* CartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F95923A1EA7E65800455361 /* CartTableViewController.m */; };
 		3F95923E1EA7E74600455361 /* CartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F95923D1EA7E74600455361 /* CartTableViewCell.m */; };
 		3FB7B6291EA842C200AD740E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7B6281EA842C200AD740E /* AccountViewController.m */; };
+		3FB7B62C1EA90AEB00AD740E /* CartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7B62B1EA90AEB00AD740E /* CartFooterView.m */; };
 		3FE777501EA11A340083C2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7774F1EA11A340083C2A1 /* main.m */; };
 		3FE777531EA11A340083C2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE777521EA11A340083C2A1 /* AppDelegate.m */; };
 		3FE777591EA11A340083C2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE777571EA11A340083C2A1 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		3F95923D1EA7E74600455361 /* CartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewCell.m; sourceTree = "<group>"; };
 		3FB7B6271EA842C200AD740E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		3FB7B6281EA842C200AD740E /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		3FB7B62A1EA90AEB00AD740E /* CartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartFooterView.h; sourceTree = "<group>"; };
+		3FB7B62B1EA90AEB00AD740E /* CartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartFooterView.m; sourceTree = "<group>"; };
 		3FE7774B1EA11A340083C2A1 /* SampleMobileStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMobileStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE7774F1EA11A340083C2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FE777511EA11A340083C2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				3FE777771EA1266F0083C2A1 /* ProductTableViewCell.m */,
 				3F95923C1EA7E74600455361 /* CartTableViewCell.h */,
 				3F95923D1EA7E74600455361 /* CartTableViewCell.m */,
+				3FB7B62A1EA90AEB00AD740E /* CartFooterView.h */,
+				3FB7B62B1EA90AEB00AD740E /* CartFooterView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				3FE7777B1EA1268A0083C2A1 /* ProductTableViewController.m in Sources */,
 				3FB7B6291EA842C200AD740E /* AccountViewController.m in Sources */,
 				3F95923B1EA7E65800455361 /* CartTableViewController.m in Sources */,
+				3FB7B62C1EA90AEB00AD740E /* CartFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

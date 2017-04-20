@@ -10,6 +10,7 @@
 #import "Product.h"
 #import "Cart.h"
 #import "CartTableViewCell.h"
+#import "CartFooterView.h"
 
 @class CartTableViewController;
 

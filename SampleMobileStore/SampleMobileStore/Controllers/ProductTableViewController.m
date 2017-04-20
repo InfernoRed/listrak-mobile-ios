@@ -14,16 +14,6 @@
 
 @implementation ProductTableViewController
 
-- (void)processItemsChanged;
-{
-    self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
-}
-
-- (void)processUserChanged;
-{
-    self.navigationItem.leftBarButtonItem.title = [self formattedAccountName];
-}
-
 - (void)accountViewControllerClosed:(AccountViewController *)controller;
 {
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -34,6 +24,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+
 - (NSString *)formattedAccountName;
 {
     Account *currentAccount = [Account sharedInstance];
@@ -41,22 +32,47 @@
 }
 
 
+- (void)accountUserChangedNotification;
+{
+    self.navigationItem.leftBarButtonItem.title = [self formattedAccountName];
+}
+
+- (void)cartItemsChangedNotification;
+{
+    self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
+}
+
+
+- (void)loadNotificationObservers;
+{
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(accountUserChangedNotification)
+     name:AccountUserChangedNotification
+     object:nil];
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(cartItemsChangedNotification)
+     name:CartItemsChangedNotification
+     object:nil];
+    
+    [self accountUserChangedNotification];
+    [self cartItemsChangedNotification];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[Cart sharedInstance] setDelegate:self];
-    [[Account sharedInstance] setDelegate:self];
-    
     products = [DemoData products];
     
-    [self processUserChanged];
-    [self processItemsChanged];
+    [self loadNotificationObservers];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
 
 #pragma mark - Table view data source
 
@@ -71,7 +87,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     ProductTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ProductCell" forIndexPath:indexPath];
-    cell.productName.text = ((Product *)products[indexPath.row]).name;
+    cell.lblProductName.text = ((Product *)products[indexPath.row]).name;
     return cell;
 }
 
@@ -91,13 +107,11 @@
     else if ([segue.identifier isEqualToString:@"showCart"]) {
         UINavigationController *navigationController = [segue destinationViewController];
         CartTableViewController *cartViewController = [navigationController viewControllers][0];
-        cartViewController.delegate = self;
-    }
+        cartViewController.delegate = self;    }
     else if ([segue.identifier isEqualToString:@"showAccount"]) {
         UINavigationController *navigationController = [segue destinationViewController];
         AccountViewController *accountViewController = [navigationController viewControllers][0];
-        accountViewController.delegate = self;
-    }
+        accountViewController.delegate = self;    }
 }
 
 @end

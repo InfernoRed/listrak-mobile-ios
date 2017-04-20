@@ -8,6 +8,8 @@
 
 #import "Account.h"
 
+NSString *const AccountUserChangedNotification = @"AccountUserChangedNotification";
+
 @implementation Account
 
 + (Account *)sharedInstance;
@@ -57,7 +59,7 @@
 
 - (void)saveUserDefaults;
 {
-    [self.delegate processUserChanged];
+    [self notifyUserChanged];
     
     [[NSUserDefaults standardUserDefaults] setValue:self.email forKey:@"Email"];
     [[NSUserDefaults standardUserDefaults] setValue:self.firstName forKey:@"FirstName"];
@@ -70,6 +72,14 @@
     self.email = [[NSUserDefaults standardUserDefaults] stringForKey:@"Email"];
     self.firstName = [[NSUserDefaults standardUserDefaults] stringForKey:@"FirstName"];
     self.lastName = [[NSUserDefaults standardUserDefaults] stringForKey:@"LastName"];
+}
+
+
+- (void)notifyUserChanged;
+{
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:AccountUserChangedNotification
+     object:self];
 }
 
 @end

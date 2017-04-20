@@ -16,7 +16,7 @@
 #import "AccountViewController.h"
 #import "CartTableViewController.h"
 
-@interface ProductTableViewController : UITableViewController<CartDelegate, AccountDelegate, CartTableViewControllerDelegate, AccountViewControllerDelegate> {
+@interface ProductTableViewController : UITableViewController<CartTableViewControllerDelegate, AccountViewControllerDelegate> {
     NSArray *products;
 }
 

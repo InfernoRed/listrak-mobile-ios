@@ -8,6 +8,7 @@
 
 #import "Cart.h"
 
+NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
 
 @implementation Cart
 
@@ -39,14 +40,13 @@
 
 - (NSDecimalNumber *)totalAmount;
 {
-    return [self.items.allValues valueForKeyPath:@"@sum.self"];
+    return [self.items.allValues valueForKeyPath:@"@sum.amount"];
 }
 
 - (NSString *)formattedTotalAmount;
 {
-    id total = [self formattedTotalAmount];
     return [NSNumberFormatter
-            localizedStringFromNumber:total
+            localizedStringFromNumber:self.totalAmount
             numberStyle:NSNumberFormatterCurrencyStyle];
 }
 
@@ -59,7 +59,7 @@
 {
     if (![self containsProduct:item]){
         self.items[item.sku] = item;
-        [self.delegate processItemsChanged];
+        [self notifyItemsChanged];
         // TODO: invoke SDK's addItem
     }
 }
@@ -67,15 +67,23 @@
 - (void)removeProduct:(Product *)item;
 {
     [self.items removeObjectForKey:item.sku];
-    [self.delegate processItemsChanged];
+    [self notifyItemsChanged];
     // TODO: invoke SDK's removeItem
 }
 
 - (void)clearProducts;
 {
     [self.items removeAllObjects];
-    [self.delegate processItemsChanged];
+    [self notifyItemsChanged];
+    
     // TODO: invoke SDK's clearItems
+}
+
+- (void)notifyItemsChanged;
+{
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:CartItemsChangedNotification
+     object:self];
 }
 
 @end
