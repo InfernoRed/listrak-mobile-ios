@@ -11,6 +11,9 @@
 		3F9592311EA6649B00455361 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592301EA6649B00455361 /* ProductDetailViewController.m */; };
 		3F9592351EA693E200455361 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592341EA693E200455361 /* Cart.m */; };
 		3F9592381EA6BB9600455361 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592371EA6BB9600455361 /* Account.m */; };
+		3F95923B1EA7E65800455361 /* CartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F95923A1EA7E65800455361 /* CartTableViewController.m */; };
+		3F95923E1EA7E74600455361 /* CartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F95923D1EA7E74600455361 /* CartTableViewCell.m */; };
+		3FB7B6291EA842C200AD740E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7B6281EA842C200AD740E /* AccountViewController.m */; };
 		3FE777501EA11A340083C2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7774F1EA11A340083C2A1 /* main.m */; };
 		3FE777531EA11A340083C2A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE777521EA11A340083C2A1 /* AppDelegate.m */; };
 		3FE777591EA11A340083C2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE777571EA11A340083C2A1 /* Main.storyboard */; };
@@ -30,6 +33,12 @@
 		3F9592341EA693E200455361 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
 		3F9592361EA6BB9600455361 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		3F9592371EA6BB9600455361 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		3F9592391EA7E65800455361 /* CartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewController.h; sourceTree = "<group>"; };
+		3F95923A1EA7E65800455361 /* CartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewController.m; sourceTree = "<group>"; };
+		3F95923C1EA7E74600455361 /* CartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewCell.h; sourceTree = "<group>"; };
+		3F95923D1EA7E74600455361 /* CartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewCell.m; sourceTree = "<group>"; };
+		3FB7B6271EA842C200AD740E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		3FB7B6281EA842C200AD740E /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		3FE7774B1EA11A340083C2A1 /* SampleMobileStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMobileStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE7774F1EA11A340083C2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FE777511EA11A340083C2A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +71,8 @@
 			children = (
 				3FE777761EA1266F0083C2A1 /* ProductTableViewCell.h */,
 				3FE777771EA1266F0083C2A1 /* ProductTableViewCell.m */,
+				3F95923C1EA7E74600455361 /* CartTableViewCell.h */,
+				3F95923D1EA7E74600455361 /* CartTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +121,10 @@
 		3FE7776B1EA123240083C2A1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3FB7B6271EA842C200AD740E /* AccountViewController.h */,
+				3FB7B6281EA842C200AD740E /* AccountViewController.m */,
+				3F9592391EA7E65800455361 /* CartTableViewController.h */,
+				3F95923A1EA7E65800455361 /* CartTableViewController.m */,
 				3FE777791EA1268A0083C2A1 /* ProductTableViewController.h */,
 				3FE7777A1EA1268A0083C2A1 /* ProductTableViewController.m */,
 				3F95922F1EA6649B00455361 /* ProductDetailViewController.h */,
@@ -205,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9592381EA6BB9600455361 /* Account.m in Sources */,
+				3F95923E1EA7E74600455361 /* CartTableViewCell.m in Sources */,
 				3FE777781EA1266F0083C2A1 /* ProductTableViewCell.m in Sources */,
 				3FE7777D1EA12A590083C2A1 /* Product.m in Sources */,
 				3FE777531EA11A340083C2A1 /* AppDelegate.m in Sources */,
@@ -213,6 +229,8 @@
 				3F9592311EA6649B00455361 /* ProductDetailViewController.m in Sources */,
 				3F0380481EA1518600193D03 /* DemoData.m in Sources */,
 				3FE7777B1EA1268A0083C2A1 /* ProductTableViewController.m in Sources */,
+				3FB7B6291EA842C200AD740E /* AccountViewController.m in Sources */,
+				3F95923B1EA7E65800455361 /* CartTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

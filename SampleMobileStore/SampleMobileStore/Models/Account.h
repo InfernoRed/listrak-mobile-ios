@@ -14,10 +14,8 @@
 @end
 
 @interface Account : NSObject
-{
-    id <AccountDelegate> _delegate;
-}
-@property (nonatomic, strong) id delegate;
+
+@property (nonatomic, weak) id delegate;
 @property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;

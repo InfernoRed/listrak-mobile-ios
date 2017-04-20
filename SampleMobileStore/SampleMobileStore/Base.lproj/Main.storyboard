@@ -27,7 +27,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="381" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGQ-r2-f2q">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGQ-r2-f2q">
                                             <rect key="frame" x="32" y="12" width="317" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -52,13 +52,128 @@
                             <outlet property="delegate" destination="2sa-qH-5VU" id="17o-EE-Dry"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Products" id="XCB-w7-fhx"/>
+                    <navigationItem key="navigationItem" title="Products" id="XCB-w7-fhx">
+                        <barButtonItem key="leftBarButtonItem" title="Sign In" style="plain" id="BOb-qu-W4J">
+                            <connections>
+                                <segue destination="aUJ-1q-bZW" kind="presentation" identifier="showAccount" id="CQj-M1-Mib"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Cart (0)" style="plain" id="RIh-Oy-bDA">
+                            <connections>
+                                <segue destination="bTy-Tj-atF" kind="presentation" identifier="showCart" id="dvr-7l-N63"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dg3-a2-cfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="544.79999999999995" y="-11.244377811094454"/>
         </scene>
-        <!--Product Detail View Controller-->
+        <!--Cart-->
+        <scene sceneID="Fon-W1-l1I">
+            <objects>
+                <tableViewController id="XOM-xL-m6v" customClass="CartTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bjq-Fy-O1d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" id="tMP-fK-K1l" customClass="CartTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tMP-fK-K1l" id="78F-Fk-gvB">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaT-vS-zRz">
+                                            <rect key="frame" x="22" y="0.0" width="374" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="productName" destination="YaT-vS-zRz" id="VjJ-gD-X0H"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="XOM-xL-m6v" id="UFb-XH-UdS"/>
+                            <outlet property="delegate" destination="XOM-xL-m6v" id="M6o-mT-G28"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Cart" id="KJx-9y-rE0">
+                        <barButtonItem key="leftBarButtonItem" title="Close" style="plain" id="i1e-Ic-c8Y">
+                            <connections>
+                                <action selector="close:" destination="XOM-xL-m6v" id="9W9-Lg-soH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZ8-cv-Pdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="905"/>
+        </scene>
+        <!--Cart Navigation-->
+        <scene sceneID="8te-9k-ddM">
+            <objects>
+                <navigationController title="Cart Navigation" id="bTy-Tj-atF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D85-d2-yak">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XOM-xL-m6v" kind="relationship" relationship="rootViewController" id="WEy-zP-q1t"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3q7-Qd-rfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="905"/>
+        </scene>
+        <!--Account Navigation-->
+        <scene sceneID="tHt-vX-Zqy">
+            <objects>
+                <navigationController title="Account Navigation" id="aUJ-1q-bZW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NxT-sT-Pd2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KRE-JT-72B" kind="relationship" relationship="rootViewController" id="1fj-rR-3ML"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8e9-Y9-eYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1475" y="-820"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="WwN-4W-Nqg">
+            <objects>
+                <viewController id="KRE-JT-72B" customClass="AccountViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nC6-AC-fkk"/>
+                        <viewControllerLayoutGuide type="bottom" id="uxu-aQ-9Rx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YGC-F5-zq4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Account" id="bGb-cf-HSP">
+                        <barButtonItem key="leftBarButtonItem" title="Close" style="plain" id="0SJ-eh-M8w">
+                            <connections>
+                                <action selector="close:" destination="KRE-JT-72B" id="lJL-mb-Ock"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flg-xj-vDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="-820"/>
+        </scene>
+        <!--Product Detail-->
         <scene sceneID="dEf-4r-oj1">
             <objects>
                 <viewController id="mvo-dU-T7Z" customClass="ProductDetailViewController" sceneMemberID="viewController">
@@ -141,6 +256,13 @@
                             <constraint firstItem="nRO-Bg-1Np" firstAttribute="trailing" secondItem="jpd-Du-OIB" secondAttribute="trailingMargin" id="vgT-1G-ZbX"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Product Detail" id="KBL-85-oe9">
+                        <barButtonItem key="rightBarButtonItem" title="Cart (0)" style="plain" id="ckZ-pc-F0B">
+                            <connections>
+                                <segue destination="bTy-Tj-atF" kind="presentation" identifier="showCart" id="iaN-lP-nTa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btnAdd" destination="2fZ-EO-4FL" id="e8j-LB-IYj"/>
                         <outlet property="btnRemove" destination="c2y-H0-kjv" id="IMZ-a2-9QR"/>
@@ -151,12 +273,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2HN-d3-zyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1440.5797101449277" y="-11.413043478260871"/>
+            <point key="canvasLocation" x="1474" y="-2"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Products Navigation-->
         <scene sceneID="g58-2L-8Yu">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sGf-lJ-Bda" sceneMemberID="viewController">
+                <navigationController title="Products Navigation" automaticallyAdjustsScrollViewInsets="NO" id="sGf-lJ-Bda" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NwF-kb-faS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -172,4 +294,7 @@
             <point key="canvasLocation" x="-394.39999999999998" y="-11.244377811094454"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dvr-7l-N63"/>
+    </inferredMetricsTieBreakers>
 </document>

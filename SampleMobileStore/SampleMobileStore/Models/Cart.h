@@ -15,10 +15,8 @@
 @end
 
 @interface Cart : NSObject
-{
-    id <CartDelegate> _delegate;
-}
-@property (nonatomic, strong) id delegate;
+
+@property (nonatomic, weak) id delegate;
 @property (nonatomic, strong) NSMutableDictionary *items;
 
 + (Cart *)sharedInstance;

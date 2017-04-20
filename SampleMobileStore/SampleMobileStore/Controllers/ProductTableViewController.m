@@ -24,6 +24,22 @@
     self.navigationItem.leftBarButtonItem.title = [self formattedAccountName];
 }
 
+- (void)accountViewControllerClosed:(AccountViewController *)controller;
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)cartTableViewControllerClosed:(CartTableViewController *)controller;
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (NSString *)formattedAccountName;
+{
+    Account *currentAccount = [Account sharedInstance];
+    return [currentAccount isSignedIn] ? currentAccount.firstName : @"Sign In";
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,18 +49,8 @@
     
     products = [DemoData products];
     
-    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:[self formattedAccountName]
-                                                                             style:UIBarButtonItemStylePlain
-                                                                            target:self
-                                                                            action:nil];
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-                                              initWithTitle:[[Cart sharedInstance] formattedCartCount]
-                                              style:UIBarButtonItemStylePlain
-                                              target:self
-                                              action:nil];
+    [self processUserChanged];
+    [self processItemsChanged];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -74,7 +80,6 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        // Get the new view controller using [segue destinationViewController].
         ProductDetailViewController *detailViewController = [segue destinationViewController];
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
@@ -83,14 +88,16 @@
         // Pass the selected object to the new view controller.
         detailViewController.productDetail = products[row];
     }
+    else if ([segue.identifier isEqualToString:@"showCart"]) {
+        UINavigationController *navigationController = [segue destinationViewController];
+        CartTableViewController *cartViewController = [navigationController viewControllers][0];
+        cartViewController.delegate = self;
+    }
+    else if ([segue.identifier isEqualToString:@"showAccount"]) {
+        UINavigationController *navigationController = [segue destinationViewController];
+        AccountViewController *accountViewController = [navigationController viewControllers][0];
+        accountViewController.delegate = self;
+    }
 }
-
-
-- (NSString *)formattedAccountName;
-{
-    Account *currentAccount = [Account sharedInstance];
-    return [currentAccount isSignedIn] ? currentAccount.firstName : @"Sign In";
-}
-
 
 @end

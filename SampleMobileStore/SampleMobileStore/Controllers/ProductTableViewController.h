@@ -13,8 +13,10 @@
 #import "Cart.h"
 #import "ProductTableViewCell.h"
 #import "ProductDetailViewController.h"
+#import "AccountViewController.h"
+#import "CartTableViewController.h"
 
-@interface ProductTableViewController : UITableViewController<CartDelegate, AccountDelegate> {
+@interface ProductTableViewController : UITableViewController<CartDelegate, AccountDelegate, CartTableViewControllerDelegate, AccountViewControllerDelegate> {
     NSArray *products;
 }
 

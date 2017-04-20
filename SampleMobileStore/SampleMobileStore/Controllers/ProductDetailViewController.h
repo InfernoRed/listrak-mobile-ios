@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Product.h"
 #import "Cart.h"
+#import "CartTableViewController.h"
 
-@interface ProductDetailViewController : UIViewController
+@interface ProductDetailViewController : UIViewController<CartTableViewControllerDelegate>
 
 @property (strong, nonatomic) Product *productDetail;
 

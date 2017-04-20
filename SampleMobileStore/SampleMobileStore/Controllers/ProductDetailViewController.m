@@ -14,33 +14,9 @@
 
 @implementation ProductDetailViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    self.navigationItem.title = _productDetail.name;
-    
-    self.lblDescription.text = _productDetail.productDescription;
-    
-    self.lblSku.text = _productDetail.sku;
-    
-    self.lblAmount.text = [NSNumberFormatter
-                        localizedStringFromNumber:_productDetail.amount
-                        numberStyle:NSNumberFormatterCurrencyStyle];
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-                                              initWithTitle:[[Cart sharedInstance] formattedCartCount]
-                                              style:UIBarButtonItemStylePlain
-                                              target:self
-                                              action:nil];
-    
-    [self update];
-    
-    // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)cartTableViewControllerClosed:(CartTableViewController *)controller;
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -60,6 +36,38 @@
     BOOL isInCart = [[Cart sharedInstance] containsProduct:self.productDetail];
     self.btnAdd.hidden = isInCart;
     self.btnRemove.hidden = !isInCart;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.title = _productDetail.name;
+    
+    self.lblDescription.text = _productDetail.productDescription;
+    
+    self.lblSku.text = _productDetail.sku;
+    
+    self.lblAmount.text = [NSNumberFormatter
+                        localizedStringFromNumber:_productDetail.amount
+                        numberStyle:NSNumberFormatterCurrencyStyle];
+    
+    [self update];
+    
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+{
+    if ([segue.identifier isEqualToString:@"showCart"]) {
+        UINavigationController *navigationController = [segue destinationViewController];
+        CartTableViewController *cartViewController = [navigationController viewControllers][0];
+        cartViewController.delegate = self;
+    }
 }
 
 @end
