@@ -107,11 +107,13 @@
     else if ([segue.identifier isEqualToString:@"showCart"]) {
         UINavigationController *navigationController = [segue destinationViewController];
         CartTableViewController *cartViewController = [navigationController viewControllers][0];
-        cartViewController.delegate = self;    }
+        cartViewController.delegate = self;
+    }
     else if ([segue.identifier isEqualToString:@"showAccount"]) {
         UINavigationController *navigationController = [segue destinationViewController];
         AccountViewController *accountViewController = [navigationController viewControllers][0];
-        accountViewController.delegate = self;    }
+        accountViewController.delegate = self;
+    }
 }
 
 @end

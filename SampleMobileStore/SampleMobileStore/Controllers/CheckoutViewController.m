@@ -14,6 +14,27 @@
 
 @implementation CheckoutViewController
 
+- (IBAction)buy:(id)sender {
+    id alert = [UIAlertController alertControllerWithTitle:@"Checkout" message:@"Are you sure you're ready to buy?" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"Yes"
+                                              style:UIAlertActionStyleDefault
+                                            handler:^(UIAlertAction *action) {
+                                                BOOL success = [[Cart sharedInstance] processOrderWithEmail:self.txtEmail.text firstName:self.txtFirstName.text lastName:self.txtLastName.text orderNumber:self.lblOrderNum.text];
+                                                if (!success) {
+                                                    id alert2 = [UIAlertController alertControllerWithTitle:@"Can't Buy" message:@"Make sure you've filled out all entries before continuing." preferredStyle:UIAlertControllerStyleAlert];
+                                                    [alert2 addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+                                                    [self presentViewController:alert2 animated:YES completion:nil];
+                                                    return;
+                                                }
+                                                [self dismissViewControllerAnimated:YES completion:nil];
+                                            }]];
+    [alert addAction:[UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:nil]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+
 - (NSString *)getRandomOrderNumber;
 {
     int random1 = arc4random() % 900000 + 100000;
@@ -51,7 +72,4 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)buy:(id)sender {
-}
 @end

@@ -31,7 +31,7 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
               firstName:(NSString *)firstName
                lastName:(NSString *)lastName;
 {
-    if (email.length != 0 && firstName.length != 0 && lastName != 0) {
+    if (email.length != 0 && firstName.length != 0 && lastName.length != 0) {
         self.email = email;
         self.firstName = firstName;
         self.lastName = lastName;
@@ -40,9 +40,9 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
         
         // TODO: invoke SDK call to setSessionIdentity
         
-        return true;
+        return YES;
     } else {
-        return false;
+        return NO;
     }
 }
 
