@@ -26,6 +26,6 @@ extern NSString *const CartItemsChangedNotification;
 - (void)addProduct:(Product *)item;
 - (void)removeProduct:(Product *)item;
 - (void)clearProducts;
-- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber);
+- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber;
 
 @end

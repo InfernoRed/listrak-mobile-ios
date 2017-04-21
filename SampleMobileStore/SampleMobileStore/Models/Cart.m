@@ -86,7 +86,7 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
      object:self];
 }
 
-- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber);
+- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber;
 {
     if (email.length != 0 && firstName.length != 0 && lastName.length != 0 && orderNumber.length != 0) {
         // TODO: send Order info to SDK
