@@ -12,8 +12,7 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
 
 @implementation Cart
 
-+ (Cart *)sharedInstance;
-{
++ (Cart *)sharedInstance {
     static Cart *myInstance = nil;
     if (myInstance == nil) {
         myInstance = [[[self class] alloc] init];
@@ -23,40 +22,33 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
 }
 
 
-- (NSArray *)products;
-{
+- (NSArray *)products {
     return self.items.allValues;
 }
 
-- (NSUInteger)productsCount;
-{
+- (NSUInteger)productsCount {
     return self.items.count;
 }
 
-- (NSString *)formattedCartCount;
-{
+- (NSString *)formattedCartCount {
     return [NSString stringWithFormat:@"Cart(%i)", [self productsCount]];
 }
 
-- (NSDecimalNumber *)totalAmount;
-{
+- (NSDecimalNumber *)totalAmount {
     return [self.items.allValues valueForKeyPath:@"@sum.amount"];
 }
 
-- (NSString *)formattedTotalAmount;
-{
+- (NSString *)formattedTotalAmount {
     return [NSNumberFormatter
             localizedStringFromNumber:self.totalAmount
             numberStyle:NSNumberFormatterCurrencyStyle];
 }
 
-- (BOOL)containsProduct:(Product *)item;
-{
+- (BOOL)containsProduct:(Product *)item {
     return [self.items.allValues containsObject:item];
 }
 
-- (void)addProduct:(Product *)item;
-{
+- (void)addProduct:(Product *)item {
     if (![self containsProduct:item]){
         self.items[item.sku] = item;
         [self notifyItemsChanged];
@@ -64,30 +56,26 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
     }
 }
 
-- (void)removeProduct:(Product *)item;
-{
+- (void)removeProduct:(Product *)item {
     [self.items removeObjectForKey:item.sku];
     [self notifyItemsChanged];
     // TODO: invoke SDK's removeItem
 }
 
-- (void)clearProducts;
-{
+- (void)clearProducts {
     [self.items removeAllObjects];
     [self notifyItemsChanged];
     
     // TODO: invoke SDK's clearItems
 }
 
-- (void)notifyItemsChanged;
-{
+- (void)notifyItemsChanged {
     [[NSNotificationCenter defaultCenter]
      postNotificationName:CartItemsChangedNotification
      object:self];
 }
 
-- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber;
-{
+- (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber {
     if (email.length != 0 && firstName.length != 0 && lastName.length != 0 && orderNumber.length != 0) {
         // TODO: send Order info to SDK
         

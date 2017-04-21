@@ -13,8 +13,7 @@
 - (Product *)initWithName:(id)name
               description:(id)productDescription
                       sku:(id)sku
-                   amount:(id)amount;
-{
+                   amount:(id)amount {
     self = [super init];
     if (self) {
         self.name = name;

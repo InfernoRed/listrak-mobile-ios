@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Account.h"
 
 @class AccountViewController;
 
@@ -19,6 +20,18 @@
 
 @property (nonatomic, weak) id <AccountViewControllerDelegate> delegate;
 
+@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
+@property (strong, nonatomic) IBOutlet UIView *vwSignIn;
+@property (strong, nonatomic) IBOutlet UITextField *txtFirstName;
+@property (strong, nonatomic) IBOutlet UITextField *txtLastName;
+@property (strong, nonatomic) IBOutlet UITextField *txtEmail;
+@property (strong, nonatomic) IBOutlet UIView *vwSignOut;
+@property (strong, nonatomic) IBOutlet UILabel *lblFirstName;
+@property (strong, nonatomic) IBOutlet UILabel *lblLastName;
+@property (strong, nonatomic) IBOutlet UILabel *lblEmail;
+
+- (IBAction)signIn:(id)sender;
+- (IBAction)signOut:(id)sender;
 - (IBAction)close:(id)sender;
 
 @end

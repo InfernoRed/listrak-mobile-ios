@@ -14,37 +14,31 @@
 
 @implementation ProductTableViewController
 
-- (void)accountViewControllerClosed:(AccountViewController *)controller;
-{
+- (void)accountViewControllerClosed:(AccountViewController *)controller {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)cartTableViewControllerClosed:(CartTableViewController *)controller;
-{
+- (void)cartTableViewControllerClosed:(CartTableViewController *)controller {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
-- (NSString *)formattedAccountName;
-{
+- (NSString *)formattedAccountName {
     Account *currentAccount = [Account sharedInstance];
     return [currentAccount isSignedIn] ? currentAccount.firstName : @"Sign In";
 }
 
 
-- (void)accountUserChangedNotification;
-{
+- (void)accountUserChangedNotification {
     self.navigationItem.leftBarButtonItem.title = [self formattedAccountName];
 }
 
-- (void)cartItemsChangedNotification;
-{
+- (void)cartItemsChangedNotification {
     self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
 }
 
 
-- (void)loadNotificationObservers;
-{
+- (void)loadNotificationObservers {
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(accountUserChangedNotification)

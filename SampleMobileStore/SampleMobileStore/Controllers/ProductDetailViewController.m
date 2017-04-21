@@ -14,21 +14,21 @@
 
 @implementation ProductDetailViewController
 
-- (void)cartTableViewControllerClosed:(CartTableViewController *)controller;
-{
+- (void)cartTableViewControllerClosed:(CartTableViewController *)controller {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
 - (IBAction)addToCart:(id)sender {
-    [[Cart sharedInstance] addProduct:self.productDetail];}
+    [[Cart sharedInstance] addProduct:self.productDetail];
+}
 
 - (IBAction)removeFromCart:(id)sender {
-    [[Cart sharedInstance] removeProduct:self.productDetail];}
+    [[Cart sharedInstance] removeProduct:self.productDetail];
+}
 
 
-- (void)cartItemsChangedNotification;
-{
+- (void)cartItemsChangedNotification {
     self.navigationItem.rightBarButtonItem.title = [[Cart sharedInstance] formattedCartCount];
     BOOL isInCart = [[Cart sharedInstance] containsProduct:self.productDetail];
     self.btnAdd.hidden = isInCart;
@@ -63,8 +63,7 @@
 }
 
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
-{
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"showCart"]) {
         UINavigationController *navigationController = [segue destinationViewController];
         CartTableViewController *cartViewController = [navigationController viewControllers][0];

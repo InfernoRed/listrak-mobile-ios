@@ -10,8 +10,7 @@
 
 @implementation CartFooterView
 
-- (id)initWithCoder:(NSCoder *)aDecoder;
-{
+- (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     
     [[NSNotificationCenter defaultCenter]
@@ -20,19 +19,14 @@
      name:CartItemsChangedNotification
      object:nil];
     
-    //[self cartItemsChangedNotification];
-    
     return self;
 }
 
-- (void)layoutSubviews;
-{
+- (void)layoutSubviews {
     [self cartItemsChangedNotification];
 }
 
-
-- (void)cartItemsChangedNotification;
-{
+- (void)cartItemsChangedNotification {
     self.lblTotal.text = [[Cart sharedInstance] formattedTotalAmount];
     BOOL hasProducts = [[Cart sharedInstance] productsCount] > 0;
     
@@ -42,16 +36,8 @@
     self.vwBorder.hidden = !hasProducts;
 }
 
-- (void)checkout:(id)sender;
-{
-    
-}
-
-- (void)clear:(id)sender;
-{
+- (void)clear:(id)sender {
     [[Cart sharedInstance] clearProducts];
 }
-
-
 
 @end

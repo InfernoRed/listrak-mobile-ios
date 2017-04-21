@@ -12,8 +12,7 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
 
 @implementation Account
 
-+ (Account *)sharedInstance;
-{
++ (Account *)sharedInstance {
     static Account *myInstance = nil;
     if (myInstance == nil) {
         myInstance = [[[self class] alloc] init];
@@ -22,15 +21,13 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
     return myInstance;
 }
 
-- (BOOL)isSignedIn;
-{
+- (BOOL)isSignedIn {
     return self.email.length != 0;
 }
 
 - (BOOL)signInWithEmail:(NSString *)email
               firstName:(NSString *)firstName
-               lastName:(NSString *)lastName;
-{
+               lastName:(NSString *)lastName {
     if (email.length != 0 && firstName.length != 0 && lastName.length != 0) {
         self.email = email;
         self.firstName = firstName;
@@ -46,8 +43,7 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
     }
 }
 
-- (void)signOut;
-{
+- (void)signOut {
     self.email = nil;
     self.firstName = nil;
     self.lastName = nil;
@@ -57,8 +53,7 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
     // TODO: invoke SDK call to startSession
 }
 
-- (void)saveUserDefaults;
-{
+- (void)saveUserDefaults {
     [self notifyUserChanged];
     
     [[NSUserDefaults standardUserDefaults] setValue:self.email forKey:@"Email"];
@@ -67,16 +62,14 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (void)readUserDefaults;
-{
+- (void)readUserDefaults {
     self.email = [[NSUserDefaults standardUserDefaults] stringForKey:@"Email"];
     self.firstName = [[NSUserDefaults standardUserDefaults] stringForKey:@"FirstName"];
     self.lastName = [[NSUserDefaults standardUserDefaults] stringForKey:@"LastName"];
 }
 
 
-- (void)notifyUserChanged;
-{
+- (void)notifyUserChanged {
     [[NSNotificationCenter defaultCenter]
      postNotificationName:AccountUserChangedNotification
      object:self];

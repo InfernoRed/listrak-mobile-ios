@@ -13,8 +13,7 @@
 
 static NSArray *products;
 
-+ (NSArray *)products;
-{
++ (NSArray *)products {
     if (!products) {
         products = @[[[Product alloc] initWithName:@"Bluetooth Headphones"
                                        description:@"Wireless headphones with super bass."

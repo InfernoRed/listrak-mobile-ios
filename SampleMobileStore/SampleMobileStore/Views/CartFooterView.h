@@ -17,7 +17,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *btnCheckout;
 @property (strong, nonatomic) IBOutlet UIButton *btnClear;
 
-- (IBAction)checkout:(id)sender;
 - (IBAction)clear:(id)sender;
 
 @end
