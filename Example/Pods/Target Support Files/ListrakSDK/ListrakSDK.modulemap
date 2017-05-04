@@ -1,0 +1,6 @@
+framework module ListrakSDK {
+  umbrella header "ListrakSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ListrakSDK_Example' do
+  pod 'ListrakSDK', :path => '../'
+
+  target 'ListrakSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end

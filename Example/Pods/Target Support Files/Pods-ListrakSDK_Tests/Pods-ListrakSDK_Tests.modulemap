@@ -1,0 +1,6 @@
+framework module Pods_ListrakSDK_Tests {
+  umbrella header "Pods-ListrakSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
