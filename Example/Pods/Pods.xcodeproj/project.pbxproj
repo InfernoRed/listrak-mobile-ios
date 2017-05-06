@@ -38,6 +38,16 @@
 		3FE2A8941EBD652C00E561B7 /* ListrakCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8881EBD652200E561B7 /* ListrakCartItem.m */; };
 		3FE2A8951EBD652C00E561B7 /* ListrakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8891EBD652200E561B7 /* ListrakItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FE2A8961EBD652C00E561B7 /* ListrakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A88A1EBD652200E561B7 /* ListrakItem.m */; };
+		3FE2A8991EBE25F100E561B7 /* ListrakOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8971EBE25F100E561B7 /* ListrakOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2A89A1EBE25F100E561B7 /* ListrakOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8981EBE25F100E561B7 /* ListrakOrder.m */; };
+		3FE2A89D1EBE260700E561B7 /* ListrakOrdering.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A89B1EBE260700E561B7 /* ListrakOrdering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2A89E1EBE260700E561B7 /* ListrakOrdering.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A89C1EBE260700E561B7 /* ListrakOrdering.m */; };
+		3FE2A8A11EBE262100E561B7 /* ListrakActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A89F1EBE262100E561B7 /* ListrakActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2A8A21EBE262100E561B7 /* ListrakActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8A01EBE262100E561B7 /* ListrakActivity.m */; };
+		3FE2A8A51EBE267500E561B7 /* ListrakConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8A31EBE267500E561B7 /* ListrakConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2A8A61EBE267500E561B7 /* ListrakConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8A41EBE267500E561B7 /* ListrakConfig.m */; };
+		3FE2A8A91EBE268A00E561B7 /* ListrakSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8A71EBE268A00E561B7 /* ListrakSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2A8AA1EBE268A00E561B7 /* ListrakSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8A81EBE268A00E561B7 /* ListrakSession.m */; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 186D37D789BDC5806713AC08D0BD0452 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF30858E3C4F8F822AB008755EC09E9 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 983F42157C09B24C95033E6A987BBF22 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -200,6 +210,16 @@
 		3FE2A8881EBD652200E561B7 /* ListrakCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakCartItem.m; sourceTree = "<group>"; };
 		3FE2A8891EBD652200E561B7 /* ListrakItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakItem.h; sourceTree = "<group>"; };
 		3FE2A88A1EBD652200E561B7 /* ListrakItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakItem.m; sourceTree = "<group>"; };
+		3FE2A8971EBE25F100E561B7 /* ListrakOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakOrder.h; sourceTree = "<group>"; };
+		3FE2A8981EBE25F100E561B7 /* ListrakOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakOrder.m; sourceTree = "<group>"; };
+		3FE2A89B1EBE260700E561B7 /* ListrakOrdering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakOrdering.h; sourceTree = "<group>"; };
+		3FE2A89C1EBE260700E561B7 /* ListrakOrdering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakOrdering.m; sourceTree = "<group>"; };
+		3FE2A89F1EBE262100E561B7 /* ListrakActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakActivity.h; sourceTree = "<group>"; };
+		3FE2A8A01EBE262100E561B7 /* ListrakActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakActivity.m; sourceTree = "<group>"; };
+		3FE2A8A31EBE267500E561B7 /* ListrakConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakConfig.h; sourceTree = "<group>"; };
+		3FE2A8A41EBE267500E561B7 /* ListrakConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakConfig.m; sourceTree = "<group>"; };
+		3FE2A8A71EBE268A00E561B7 /* ListrakSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakSession.h; sourceTree = "<group>"; };
+		3FE2A8A81EBE268A00E561B7 /* ListrakSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakSession.m; sourceTree = "<group>"; };
 		408EA78FA928332DAE21B1527BCC7A2F /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		42EC02837F7465B7AED8E1A256D57C91 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		4F25913BF83774E44730B6112ADA5B91 /* ListrakSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListrakSDK-umbrella.h"; sourceTree = "<group>"; };
@@ -654,6 +674,16 @@
 				3FE2A8881EBD652200E561B7 /* ListrakCartItem.m */,
 				3FE2A8891EBD652200E561B7 /* ListrakItem.h */,
 				3FE2A88A1EBD652200E561B7 /* ListrakItem.m */,
+				3FE2A8971EBE25F100E561B7 /* ListrakOrder.h */,
+				3FE2A8981EBE25F100E561B7 /* ListrakOrder.m */,
+				3FE2A89B1EBE260700E561B7 /* ListrakOrdering.h */,
+				3FE2A89C1EBE260700E561B7 /* ListrakOrdering.m */,
+				3FE2A89F1EBE262100E561B7 /* ListrakActivity.h */,
+				3FE2A8A01EBE262100E561B7 /* ListrakActivity.m */,
+				3FE2A8A31EBE267500E561B7 /* ListrakConfig.h */,
+				3FE2A8A41EBE267500E561B7 /* ListrakConfig.m */,
+				3FE2A8A71EBE268A00E561B7 /* ListrakSession.h */,
+				3FE2A8A81EBE268A00E561B7 /* ListrakSession.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -730,10 +760,15 @@
 			files = (
 				3FE2A8951EBD652C00E561B7 /* ListrakItem.h in Headers */,
 				3FE2A8931EBD652C00E561B7 /* ListrakCartItem.h in Headers */,
+				3FE2A8991EBE25F100E561B7 /* ListrakOrder.h in Headers */,
+				3FE2A8A91EBE268A00E561B7 /* ListrakSession.h in Headers */,
+				3FE2A89D1EBE260700E561B7 /* ListrakOrdering.h in Headers */,
 				3FE2A8841EBD650C00E561B7 /* ListrakItemExtension.h in Headers */,
 				3FE2A8831EBD650100E561B7 /* ListrakCartItemExtension.h in Headers */,
+				3FE2A8A11EBE262100E561B7 /* ListrakActivity.h in Headers */,
 				52EDE90DBD74D155C53A3FD8AF619FA8 /* ListrakSDK-umbrella.h in Headers */,
 				3FE2A8911EBD652C00E561B7 /* ListrakCart.h in Headers */,
+				3FE2A8A51EBE267500E561B7 /* ListrakConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,9 +955,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE2A8A21EBE262100E561B7 /* ListrakActivity.m in Sources */,
 				3FE2A8941EBD652C00E561B7 /* ListrakCartItem.m in Sources */,
+				3FE2A8A61EBE267500E561B7 /* ListrakConfig.m in Sources */,
+				3FE2A8AA1EBE268A00E561B7 /* ListrakSession.m in Sources */,
 				3FE2A8961EBD652C00E561B7 /* ListrakItem.m in Sources */,
 				3FE2A8921EBD652C00E561B7 /* ListrakCart.m in Sources */,
+				3FE2A89A1EBE25F100E561B7 /* ListrakOrder.m in Sources */,
+				3FE2A89E1EBE260700E561B7 /* ListrakOrdering.m in Sources */,
 				FDDA5184F0B7922C35C9BD3C3CC75BBE /* ListrakSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

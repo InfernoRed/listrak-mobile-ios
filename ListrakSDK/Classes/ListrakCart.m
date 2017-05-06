@@ -1,6 +1,6 @@
 //
 //  ListrakCart.m
-//  Pods
+//  ListrakSDK
 //
 //  Created by Pamela Vong on 5/5/17.
 //
