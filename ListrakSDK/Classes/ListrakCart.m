@@ -21,6 +21,41 @@
     return myInstance;
 }
 
++ (NSArray *)cartItems {
+    return [[self sharedInstance] cartItems];
+}
+
++ (ListrakCartItem *)getItemWithSku:(NSString *)sku {
+    return [[self sharedInstance] getItemWithSku:sku];
+}
+
++ (BOOL)hasItemWithSku:(NSString *)sku {
+    return [[self sharedInstance] hasItemWithSku:sku];
+}
+
++ (void)addItemWithSku:(NSString *)sku
+              quantity:(NSInteger)quantity
+                 price:(NSDecimalNumber *)price
+                 title:(NSString *)title
+              imageUrl:(NSString *)imageUrl
+               linkUrl:(NSString *)linkUrl {
+    [[self sharedInstance] addItemWithSku:sku quantity:quantity price:price title:title imageUrl:imageUrl linkUrl:linkUrl];
+}
+
++ (void)updateItemQuantityWithSku:(NSString *)sku
+                         quantity:(NSInteger)quantity {
+    [[self sharedInstance] updateItemQuantityWithSku:sku quantity:quantity];
+}
+
++ (void)removeItemWithSku:(NSString *)sku {
+    [[self sharedInstance] removeItemWithSku:sku];
+}
+
++ (void)clearItems {
+    [[self sharedInstance] clearItems];
+}
+
+
 - (NSArray *)cartItems {
     return self.items.allValues;
 }
@@ -29,15 +64,15 @@
     if (sku.length == 0) {
         [NSException raise:NSInvalidArgumentException format:@"sku cannot be null or empty"];
     }
+    if (![self hasItemWithSku:sku]) {
+        return nil;
+    }
     return [self.items valueForKey:sku];
 }
 
 - (BOOL)hasItemWithSku:(NSString *)sku {
     if (sku.length == 0) {
         [NSException raise:NSInvalidArgumentException format:@"sku cannot be null or empty"];
-    }
-    if (![self hasItemWithSku:sku]) {
-        return nil;
     }
     return [self.items.allKeys containsObject:sku];
 }

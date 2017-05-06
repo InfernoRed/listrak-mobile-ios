@@ -13,20 +13,18 @@
 
 @property (nonatomic, strong) NSMutableDictionary *items;
 
-+ (ListrakCart *)sharedInstance;
-
-- (NSArray *)cartItems;
-- (ListrakCartItem *)getItemWithSku:(NSString *)sku;
-- (BOOL)hasItemWithSku:(NSString *)sku;
-- (void)addItemWithSku:(NSString *)sku
++ (NSArray *)cartItems;
++ (ListrakCartItem *)getItemWithSku:(NSString *)sku;
++ (BOOL)hasItemWithSku:(NSString *)sku;
++ (void)addItemWithSku:(NSString *)sku
               quantity:(NSInteger)quantity
                  price:(NSDecimalNumber *)price
                  title:(NSString *)title
               imageUrl:(NSString *)imageUrl
                linkUrl:(NSString *)linkUrl;
-- (void)updateItemQuantityWithSku:(NSString *)sku
++ (void)updateItemQuantityWithSku:(NSString *)sku
                          quantity:(NSInteger)quantity;
-- (void)removeItemWithSku:(NSString *)sku;
-- (void)clearItems;
++ (void)removeItemWithSku:(NSString *)sku;
++ (void)clearItems;
 
 @end
