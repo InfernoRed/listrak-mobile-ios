@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Product.h"
+#import "ListrakCart.h"
 
 extern NSString *const CartItemsChangedNotification;
 
