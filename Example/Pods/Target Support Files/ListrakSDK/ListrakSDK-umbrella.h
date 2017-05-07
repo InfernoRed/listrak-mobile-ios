@@ -10,6 +10,16 @@
 #endif
 #endif
 
+#import "ListrakActivity.h"
+#import "ListrakCart.h"
+#import "ListrakCartItem.h"
+#import "ListrakCartItemExtension.h"
+#import "ListrakConfig.h"
+#import "ListrakItem.h"
+#import "ListrakItemExtension.h"
+#import "ListrakOrder.h"
+#import "ListrakOrdering.h"
+#import "ListrakSession.h"
 
 FOUNDATION_EXPORT double ListrakSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ListrakSDKVersionString[];

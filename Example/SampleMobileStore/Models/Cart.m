@@ -31,7 +31,7 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
 }
 
 - (NSString *)formattedCartCount {
-    return [NSString stringWithFormat:@"Cart(%lu)", [self productsCount]];
+    return [NSString stringWithFormat:@"Cart(%lu)", (unsigned long)[self productsCount]];
 }
 
 - (NSDecimalNumber *)totalAmount {

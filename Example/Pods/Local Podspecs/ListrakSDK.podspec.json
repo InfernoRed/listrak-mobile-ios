@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of ListrakSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/pamtaro/ListrakSDK",
+  "homepage": "https://github.com/InfernoRed/listrak-mobile-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "pamtaro": "pamelavong@gmail.com"
+    "pamtaro": "pamela.vong@infernored.com"
   },
   "source": {
-    "git": "https://github.com/pamtaro/ListrakSDK.git",
+    "git": "https://github.com/InfernoRed/listrak-mobile-ios.git",
     "tag": "0.1.0"
   },
   "platforms": {
