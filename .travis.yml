@@ -12,3 +12,7 @@ language: objective-c
 script:
 - set -o pipefail && xcodebuild test -workspace Example/ListrakSDK.xcworkspace -scheme ListrakSDK-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' -sdk iphonesimulator10.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+after_success:
+# Workaround for travis CI failures with xcodebuild
+# https://github.com/travis-ci/travis-ci/issues/4725
+- sleep 5
