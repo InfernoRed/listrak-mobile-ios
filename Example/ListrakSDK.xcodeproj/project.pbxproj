@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B09CC850F55463068024753 /* ListrakOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09C903BE27CFD9E120D149 /* ListrakOrderTests.m */; };
 		3F27397D1EBBAA7500B187F5 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2739761EBBAA7500B187F5 /* Account.m */; };
 		3F27397E1EBBAA7500B187F5 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2739781EBBAA7500B187F5 /* Cart.m */; };
 		3F27397F1EBBAA7500B187F5 /* DemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F27397A1EBBAA7500B187F5 /* DemoData.m */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		0504119601F0C1D48721E018 /* Pods-ListrakSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListrakSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListrakSDK_Tests/Pods-ListrakSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1B09C903BE27CFD9E120D149 /* ListrakOrderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakOrderTests.m; sourceTree = "<group>"; };
 		3F2739751EBBAA7500B187F5 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		3F2739761EBBAA7500B187F5 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		3F2739771EBBAA7500B187F5 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			children = (
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				6003F5BB195388D20070C39A /* ListrakCartTests.m */,
+				1B09C903BE27CFD9E120D149 /* ListrakOrderTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* ListrakCartTests.m in Sources */,
+				1B09CC850F55463068024753 /* ListrakOrderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

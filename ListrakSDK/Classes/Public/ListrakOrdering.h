@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListrakOrder;
+
 @interface ListrakOrdering : NSObject
+
++ (ListrakOrder *)createOrder;
++ (ListrakOrder *)createOrderFromCart;
++ (void *)submitOrder:(ListrakOrder *)order;
 
 @end

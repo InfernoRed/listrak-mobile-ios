@@ -10,4 +10,8 @@
 
 @interface ListrakSession : NSObject
 
++ (NSString *)emailAddress;
++ (NSString *)firstName;
++ (NSString *)lastName;
+
 @end
