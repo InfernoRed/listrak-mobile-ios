@@ -12,6 +12,8 @@
 
 @implementation ListrakCart
 
+#pragma mark - Internal Singleton Initialization
+
 + (ListrakCart *)sharedInstance {
     static ListrakCart *myInstance = nil;
     if (myInstance == nil) {
@@ -20,6 +22,8 @@
     }
     return myInstance;
 }
+
+#pragma mark - Public Static Members
 
 + (NSArray *)cartItems {
     return [[self sharedInstance] cartItems];
@@ -55,6 +59,7 @@
     [[self sharedInstance] clearItems];
 }
 
+#pragma mark - Internal Instance Members
 
 - (NSArray *)cartItems {
     return self.items.allValues;

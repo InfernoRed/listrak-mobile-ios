@@ -13,6 +13,8 @@
 
 @implementation ListrakOrdering
 
+#pragma mark - Public Static Members
+
 + (ListrakOrder *)createOrder {
     return [[ListrakOrder alloc] init];
 }

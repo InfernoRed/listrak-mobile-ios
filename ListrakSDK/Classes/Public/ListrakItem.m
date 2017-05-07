@@ -11,9 +11,9 @@
 #import "ListrakItemExtension.h"
 
 
-@implementation ListrakItem {
+@implementation ListrakItem
 
-}
+#pragma mark - Internal Initialization
 
 - (ListrakItem *) initWithSku:(NSString *)sku
                      quantity:(NSInteger)quantity

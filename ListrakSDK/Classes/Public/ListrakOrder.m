@@ -13,6 +13,8 @@
 
 @implementation ListrakOrder
 
+#pragma mark  - Initialization
+
 - (ListrakOrder *)init {
     self = [super init];
     if (self) {
@@ -29,6 +31,8 @@
     }
     return self;
 }
+
+#pragma mark - Public Instance Members
 
 - (void)addItemWithSku:(NSString *)sku
               quantity:(NSInteger)quantity

@@ -10,9 +10,9 @@
 #import "ListrakCartItemExtension.h"
 
 
-@implementation ListrakCartItem {
+@implementation ListrakCartItem
 
-}
+#pragma mark - Internal Initialization
 
 - (ListrakCartItem *) initWithSku:(NSString *)sku
                          quantity:(NSInteger)quantity
@@ -31,4 +31,5 @@
     }
     return self;
 }
+
 @end

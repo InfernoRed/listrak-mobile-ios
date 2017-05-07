@@ -10,8 +10,21 @@
 
 @interface ListrakSession : NSObject
 
++ (BOOL)isStarted;
++ (BOOL)hasIdentity;
++ (NSString *)sessionId;
 + (NSString *)emailAddress;
 + (NSString *)firstName;
 + (NSString *)lastName;
+
++ (void)start;
++ (void)startWithIdentityWithEmailAddress:(NSString *)email
+                                firstName:(NSString *)firstName
+                                 lastName:(NSString *)lastName;
++ (void)setIdentityWithEmailAddress:(NSString *)email
+                          firstName:(NSString *)firstName
+                           lastName:(NSString *)lastName;
++ (void)subscribeWithSubscriberCode:(NSString *)code
+                               meta:(NSMutableDictionary *)meta;
 
 @end
