@@ -102,13 +102,17 @@ describe(@"ListrakOrder", ^{
 
             it(@"with nil sku will throw an exception", ^{
                 assertThat(^{
-                  [order addItemWithSku:nil quantity:1 price:@1.0];
+                    [order addItemWithSku:nil
+                                 quantity:1
+                                    price:[NSDecimalNumber decimalNumberWithString:@"1.0"]];
                 }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
             it(@"with 0 quantity will throw an exception", ^{
                 assertThat(^{
-                    [order addItemWithSku:@"test-sku-1" quantity:0 price:@1.0];
+                    [order addItemWithSku:@"test-sku-1"
+                                 quantity:0
+                                    price:[NSDecimalNumber decimalNumberWithString:@"1.0"]];
                 }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 

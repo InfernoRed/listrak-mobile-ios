@@ -10,4 +10,16 @@
 
 @interface ListrakContext : NSObject
 
++ (NSString *)globalSessionId;
++ (NSString *)visitId;
++ (NSString *)templateId;
++ (NSString *)merchantId;
++ (NSString *)sessionId;
++ (NSString *)hostOverride;
++ (BOOL)useHttps;
++ (void)initTimestamp;
++ (long)unixTimestamp;
++ (NSString *)generateUid;
++ (void)validate;
+
 @end

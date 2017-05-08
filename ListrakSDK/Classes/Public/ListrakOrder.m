@@ -24,10 +24,10 @@
         _lastName = @"";
         self.currency = @"";
         self.orderNumber = @"";
-        self.orderTotal = @0;
-        self.taxTotal = @0;
-        self.shippingTotal = @0;
-        self.handlingTotal = @0;
+        self.orderTotal = [NSDecimalNumber zero];
+        self.taxTotal = [NSDecimalNumber zero];
+        self.shippingTotal = [NSDecimalNumber zero];
+        self.handlingTotal = [NSDecimalNumber zero];
     }
     return self;
 }

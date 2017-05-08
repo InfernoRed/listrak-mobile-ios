@@ -30,7 +30,7 @@
     return order;
 }
 
-+ (void *)submitOrder:(ListrakOrder *)order {
++ (void)submitOrder:(ListrakOrder *)order {
     if (order == nil) {
         [NSException raise:NSInvalidArgumentException format:@"order cannot be null"];
     }

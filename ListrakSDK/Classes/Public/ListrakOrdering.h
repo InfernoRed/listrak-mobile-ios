@@ -14,6 +14,6 @@
 
 + (ListrakOrder *)createOrder;
 + (ListrakOrder *)createOrderFromCart;
-+ (void *)submitOrder:(ListrakOrder *)order;
++ (void)submitOrder:(ListrakOrder *)order;
 
 @end

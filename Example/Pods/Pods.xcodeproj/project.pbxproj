@@ -89,6 +89,8 @@
 		3E9B52F842526AA5B9E84B3160F0C5D7 /* MKTTestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E489BC2F303BABFC107C17BC02A0155E /* MKTTestLocation.m */; };
 		3EF5B46B9D51757F35124D476B207C96 /* HCTestFailureReporterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DB383A19782C9B101941C0CC70E0FD3C /* HCTestFailureReporterChain.m */; };
 		3FBD805DD706885EBC78AA0C67B8F5DE /* MKTPointerArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAE6857EC67D73CDD6F19D65FB85C6E /* MKTPointerArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FE2A8B91EC0ABA100E561B7 /* ListrakService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */; };
+		3FE2A8BA1EC0ABA100E561B7 /* ListrakService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */; };
 		4038EBC61C69D23AD64053F02634D06C /* MKTMockingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EC520DD254A0EB49185D9C7BA9145CD5 /* MKTMockingProgress.m */; };
 		404D03472FDBA06EADCE07C092165E76 /* MKTDynamicProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E065DF465825DE47DBA9FED69FECFA66 /* MKTDynamicProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		408970D0620278274CD02C307FEDECEC /* HCStringStartsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = A73193682E9A5B227D2D63670B3AD965 /* HCStringStartsWith.m */; };
@@ -457,7 +459,7 @@
 		143A8FCC4EB9B3F05B65D000DC0F0457 /* MKTUnsignedIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedIntReturnSetter.h; sourceTree = "<group>"; };
 		146D7318F4A57D67FB778D2CCEB27154 /* HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingKey.h; path = Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = "<group>"; };
 		1478C4E1CCB73AF12C02484A30EB8EA6 /* MKTInvocationContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationContainer.m; path = Source/OCMockito/Stubbing/MKTInvocationContainer.m; sourceTree = "<group>"; };
-		152F2FDBD738C9D650C8F058F3E8850D /* OCMockito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCMockito.modulemap; sourceTree = "<group>"; };
+		152F2FDBD738C9D650C8F058F3E8850D /* OCMockito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCMockito.modulemap; sourceTree = "<group>"; };
 		1548C9E37DCD36164BA46343444D8DCE /* MKTObjectArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTObjectArgumentGetter.h; sourceTree = "<group>"; };
 		1562A80591EF38CE89C77C280C64C79E /* ListrakCartItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakCartItem.m; sourceTree = "<group>"; };
 		15B9B648C1CAB1D941BE34C75C11066C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -528,6 +530,8 @@
 		3F1F220A6ECA24896C71CA6978EA671E /* ListrakItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakItem.h; sourceTree = "<group>"; };
 		3F4FB119C92ACE8B1D58480271FD46DC /* MKTCallStackElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCallStackElement.h; path = Source/OCMockito/Invocation/MKTCallStackElement.h; sourceTree = "<group>"; };
 		3FA3A357E43F696F5C461DECE0780683 /* MKTObjectAndProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectAndProtocolMock.m; path = Source/OCMockito/Mocking/MKTObjectAndProtocolMock.m; sourceTree = "<group>"; };
+		3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakService.h; sourceTree = "<group>"; };
+		3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakService.m; sourceTree = "<group>"; };
 		411522344422D5EB68490B1D52199BED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4133F056BDE5B6986E01334564CE6572 /* HCFloatReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCFloatReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.h; sourceTree = "<group>"; };
 		41BF2701E372FBA1C03BE63502728A67 /* OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCHamcrest-dummy.m"; sourceTree = "<group>"; };
@@ -567,7 +571,7 @@
 		5CC7F2CD621253F708BE4A521DBCAE03 /* Pods-ListrakSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ListrakSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CFB0E8644171F7E0F22C7BFF78B90CF /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		5D9007597D55098A6FE1D4AB458CF27B /* HCUnsignedCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.m; sourceTree = "<group>"; };
-		5DC28E283FE9C1CECDEC9812F8B193AD /* Pods_ListrakSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ListrakSDK_Example.framework; path = "Pods-ListrakSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC28E283FE9C1CECDEC9812F8B193AD /* Pods_ListrakSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListrakSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDD16BB9BBFDAE8EF7F92A636EA0417 /* MKTFloatReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFloatReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.m; sourceTree = "<group>"; };
 		5DEFEC0E49DE0E9CD1C86424AC37A319 /* HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasDescription.m; path = Source/Library/Object/HCHasDescription.m; sourceTree = "<group>"; };
 		5E0515FAC1E8A591B3142946BB1A20AD /* NSInvocation+OCHamcrest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCHamcrest.m"; path = "Source/Core/Helpers/NSInvocation+OCHamcrest.m"; sourceTree = "<group>"; };
@@ -590,7 +594,7 @@
 		68747DFF99CF2A6976131C443F7F5EA5 /* HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContains.m; path = Source/Library/Text/HCStringContains.m; sourceTree = "<group>"; };
 		696EE43AEB890F8819C2A3FAA67ED59B /* MKTAtLeastNumberOfInvocationsChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtLeastNumberOfInvocationsChecker.h; path = Source/OCMockito/Verifying/MKTAtLeastNumberOfInvocationsChecker.h; sourceTree = "<group>"; };
 		6974A3FA7AB207107CD898381539A6CC /* MKTStructReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.h; sourceTree = "<group>"; };
-		69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListrakSDK.framework; path = ListrakSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListrakSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A758730F2CE3F3C624E95DB74C5B160 /* ListrakOrdering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakOrdering.h; sourceTree = "<group>"; };
 		6AE382606469144AEBB3D90A99120B7D /* HCUnsignedLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.m; sourceTree = "<group>"; };
 		6B19E3776F9C62A4FC82157B15129E8C /* HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseMatcher.h; path = Source/Core/HCBaseMatcher.h; sourceTree = "<group>"; };
@@ -615,7 +619,7 @@
 		74A6A0F8764BFC38EBB6BB74C01ABF7F /* ListrakSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListrakSDK-prefix.pch"; sourceTree = "<group>"; };
 		76DEC88B75D443D1FF440FD2B5E64D81 /* MKTUnsignedIntArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.h; sourceTree = "<group>"; };
 		771BF4A51786F5FFAE7A6ED57D376FE0 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
-		7815AE8EF0D851E4C6F06B33FCFA19C6 /* Pods-ListrakSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ListrakSDK_Example.modulemap"; sourceTree = "<group>"; };
+		7815AE8EF0D851E4C6F06B33FCFA19C6 /* Pods-ListrakSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ListrakSDK_Example.modulemap"; sourceTree = "<group>"; };
 		78C327A6D20BF821E206F5B8214D85C1 /* MKTIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTIntReturnSetter.h; sourceTree = "<group>"; };
 		79104AF36A74BD92F911C8C5A9335284 /* MKTInvocationContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTInvocationContainer.h; path = Source/OCMockito/Stubbing/MKTInvocationContainer.h; sourceTree = "<group>"; };
 		7988FCC6CC5AF89FC31AB440ED4F7389 /* HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCOrderingComparison.h; path = Source/Library/Number/HCOrderingComparison.h; sourceTree = "<group>"; };
@@ -652,15 +656,15 @@
 		8C1135E0748A0F54A36F308CD5BA45FE /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		8C58C0D07F13B9CB0B38BE654D51F1FE /* MKTExactTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTExactTimes.h; path = Source/OCMockito/Verifying/MKTExactTimes.h; sourceTree = "<group>"; };
 		8D0E2A9D5CA761D273DFA19D09F19312 /* MKTSingletonSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTSingletonSwizzler.m; path = Source/OCMockito/Mocking/MKTSingletonSwizzler.m; sourceTree = "<group>"; };
-		8D578B521CF2BDA7CCEBD7CAA45B3A12 /* ListrakSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ListrakSDK.modulemap; sourceTree = "<group>"; };
+		8D578B521CF2BDA7CCEBD7CAA45B3A12 /* ListrakSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ListrakSDK.modulemap; sourceTree = "<group>"; };
 		8E69EF48ED56FD65559AECC53DA99C4F /* MKTArgumentGetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetterChain.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.m; sourceTree = "<group>"; };
 		8FAE6857EC67D73CDD6F19D65FB85C6E /* MKTPointerArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPointerArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.h; sourceTree = "<group>"; };
-		904EE5E49D7507B133630145A5ACDA70 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
+		904EE5E49D7507B133630145A5ACDA70 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
 		906B31FD9E78491253A387FD3706724E /* MKTBoolReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBoolReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.m; sourceTree = "<group>"; };
 		90FE1FD9161624162153C464384192AC /* HCIsCollectionContainingInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInOrder.m; sourceTree = "<group>"; };
 		91669183FFD91E2FC8521AB98144BBBA /* MKTAtMostNumberOfInvocationsChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTAtMostNumberOfInvocationsChecker.m; path = Source/OCMockito/Verifying/MKTAtMostNumberOfInvocationsChecker.m; sourceTree = "<group>"; };
 		91EC50746629BBB7951096DB61D4AB79 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B360BE674CBC84F6CF8970D56799D2 /* MKTReturnValueSetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnValueSetterChain.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetterChain.m; sourceTree = "<group>"; };
 		93C33D6DE877BA0A8CFAA8EF91A4137C /* MKTOngoingStubbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTOngoingStubbing.h; path = Source/OCMockito/Stubbing/MKTOngoingStubbing.h; sourceTree = "<group>"; };
 		93F99D3C6E23DFC030629AF760337E7E /* MKTStructArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTStructArgumentGetter.h; sourceTree = "<group>"; };
@@ -708,7 +712,7 @@
 		AADFEF4287212C1FD88AC8CF085A0E76 /* MKTFilterCallStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFilterCallStack.m; path = Source/OCMockito/Invocation/MKTFilterCallStack.m; sourceTree = "<group>"; };
 		AB3579831EA41B807398C3371CE67195 /* MKTTestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTTestLocation.h; path = Source/OCMockito/Core/MKTTestLocation.h; sourceTree = "<group>"; };
 		AB590A386034153A3C89F9E594E3717A /* HCInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCInvocationMatcher.m; path = Source/Core/Helpers/HCInvocationMatcher.m; sourceTree = "<group>"; };
-		ABF8C5D2FA93D798A3DD4CC790DCDB5E /* Pods_ListrakSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ListrakSDK_Tests.framework; path = "Pods-ListrakSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF8C5D2FA93D798A3DD4CC790DCDB5E /* Pods_ListrakSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListrakSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9C3C3729F435547CA96DE58BB4CB5F /* HCCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.h; sourceTree = "<group>"; };
 		AD521FC5C2D52A7F68D8C374F377855C /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		AD56463E180984AD2675B0A22471888A /* HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAllOf.m; path = Source/Library/Logical/HCAllOf.m; sourceTree = "<group>"; };
@@ -717,7 +721,7 @@
 		AFD6BF8E6C7D784F33A7CB3A5E82D2B8 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		B0E4DF4BB2090AD230FE1C31E438454F /* HCEvery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCEvery.h; path = Source/Library/Collection/HCEvery.h; sourceTree = "<group>"; };
 		B138698C90C64A217A907F1E6CDC961E /* HCReturnValueGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnValueGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.m; sourceTree = "<group>"; };
-		B2D8B96857E75BDFAB583D06D9EBAC43 /* OCMockito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCMockito.framework; path = OCMockito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D8B96857E75BDFAB583D06D9EBAC43 /* OCMockito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMockito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49A611246FEC6816CD3EFFBF56F60BA /* MKTShortArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTShortArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTShortArgumentGetter.h; sourceTree = "<group>"; };
 		B51C8B302107FE0C6D1426438BD2A38E /* MKTArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.m; sourceTree = "<group>"; };
 		B61495EDF3C0F2079F402EDAD9B8030B /* MKTLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongLongArgumentGetter.h; sourceTree = "<group>"; };
@@ -739,7 +743,7 @@
 		C49842459BBD38ED3ABA0C8C41B59AD4 /* MKTUnsignedLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongLongArgumentGetter.h; sourceTree = "<group>"; };
 		C4B7265005172258969DDF5F46AB4151 /* HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsAnything.m; path = Source/Library/Logical/HCIsAnything.m; sourceTree = "<group>"; };
 		C5180C8489D6E3681754AFA468B86B57 /* OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockito.h; path = Source/OCMockito/Core/OCMockito.h; sourceTree = "<group>"; };
-		C5702D3B3274468D4EAB423E43BC8325 /* Pods-ListrakSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ListrakSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		C5702D3B3274468D4EAB423E43BC8325 /* Pods-ListrakSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ListrakSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		C5C8C8AA79B58C38FB9E350FB7355225 /* MKTMockitoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTMockitoCore.h; path = Source/OCMockito/Core/MKTMockitoCore.h; sourceTree = "<group>"; };
 		C61F46DFAB58B63E9B0F9AE62342DB03 /* ListrakSessionExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSessionExtension.h; sourceTree = "<group>"; };
 		C64B9FC6DC9045CF82F4FEC68DF80E22 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
@@ -772,7 +776,7 @@
 		DB383A19782C9B101941C0CC70E0FD3C /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		DB83F22646431C66BB044245EA85E97E /* HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingValue.h; path = Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = "<group>"; };
 		DC01A33C7F956184E762B6058C8788C6 /* HCDiagnosingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDiagnosingMatcher.h; path = Source/Core/HCDiagnosingMatcher.h; sourceTree = "<group>"; };
-		DC73E8968A559C133AD9D227A5AD6A88 /* OCHamcrest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCHamcrest.modulemap; sourceTree = "<group>"; };
+		DC73E8968A559C133AD9D227A5AD6A88 /* OCHamcrest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCHamcrest.modulemap; sourceTree = "<group>"; };
 		DCA0055313551DF876BDFA855651D3D7 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
 		DD954CB2380F48605E0FEECF7294AB0E /* HCXCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCXCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.h; sourceTree = "<group>"; };
 		DDC237BEC62427C7F1B856055172EF59 /* MKTMissingInvocationChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMissingInvocationChecker.m; path = Source/OCMockito/Verifying/MKTMissingInvocationChecker.m; sourceTree = "<group>"; };
@@ -804,7 +808,7 @@
 		EE5E9B31C6E9EE65A3B5F0ABB26F7C1B /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		EF81E3BDB63C467C68B947DE8E9EF8AD /* ListrakItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakItem.m; sourceTree = "<group>"; };
 		F02EAD0AE0C02A7F81B58E567CA1D87A /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		F0555803AC15268436A82F4F55B316A4 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCHamcrest.framework; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0555803AC15268436A82F4F55B316A4 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07F980D643E374209607F35ACEF22F3 /* ListrakOrdering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakOrdering.m; sourceTree = "<group>"; };
 		F09F53DE3DC4451C00DB8E8C7D4B315B /* ListrakSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSession.h; sourceTree = "<group>"; };
 		F21A689913086825C359DB787179A92A /* HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionOnlyContaining.m; path = Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = "<group>"; };
@@ -814,7 +818,7 @@
 		F514D5485F9AFAEF13BD46E0F498E803 /* MKTAnswer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAnswer.h; path = Source/OCMockito/Stubbing/MKTAnswer.h; sourceTree = "<group>"; };
 		F5942FBD05553C0313AE21ECCBB1154F /* HCSenTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSenTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.h; sourceTree = "<group>"; };
 		F5BA7C54F111D30719881C5DD1E5FD2C /* HCGenericTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCGenericTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.h; sourceTree = "<group>"; };
-		F600847FC591FC00A66C0234C679B200 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600847FC591FC00A66C0234C679B200 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65EBFA76DCB09C0C935DB9ABEE75405 /* MKTInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationMatcher.m; path = Source/OCMockito/Invocation/MKTInvocationMatcher.m; sourceTree = "<group>"; };
 		F729AAEF19950CA374FF2BB0225A247D /* HCDiagnosingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDiagnosingMatcher.m; path = Source/Core/HCDiagnosingMatcher.m; sourceTree = "<group>"; };
 		F91FF3AA56044E831B7A7EA1684988B8 /* MKTClassArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTClassArgumentGetter.m; sourceTree = "<group>"; };
@@ -902,7 +906,6 @@
 				6C419FEB68807A23DCA18D28C5E21D8D /* Internal */,
 				7C5E09BFB2C24D54ED0BCF4AC82716F4 /* Public */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -992,7 +995,6 @@
 				F02EAD0AE0C02A7F81B58E567CA1D87A /* XCTestCase+Specta.m */,
 				ADE5DC3A49BBF6FC889E4C824AE69166 /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -1010,12 +1012,13 @@
 			children = (
 				E8E03916D1E2C89152541A463AA316AA /* ListrakCartItemExtension.h */,
 				2168040BDAAE0CDC23E38009068CD1E5 /* ListrakConfigExtension.h */,
-				8AB85057000117CC07D9BF8B897B5EB1 /* ListrakContext.h */,
-				62E8672DE002E4F68516AFE14D4F92B4 /* ListrakContext.m */,
 				03206F0BCEC0C7D12F5B6C3A6D165ACF /* ListrakItemExtension.h */,
 				C61F46DFAB58B63E9B0F9AE62342DB03 /* ListrakSessionExtension.h */,
+				8AB85057000117CC07D9BF8B897B5EB1 /* ListrakContext.h */,
+				62E8672DE002E4F68516AFE14D4F92B4 /* ListrakContext.m */,
+				3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */,
+				3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */,
 			);
-			name = Internal;
 			path = Internal;
 			sourceTree = "<group>";
 		};
@@ -1057,7 +1060,6 @@
 				F09F53DE3DC4451C00DB8E8C7D4B315B /* ListrakSession.h */,
 				C24699F5BAE2DC636C6332797E46FDC0 /* ListrakSession.m */,
 			);
-			name = Public;
 			path = Public;
 			sourceTree = "<group>";
 		};
@@ -1232,7 +1234,6 @@
 				6C4C3E464093A30943BC20BE9D38763D /* OCHamcrest.h */,
 				0F14C6B510D0D8A4D0AF812A00207DFA /* Support Files */,
 			);
-			name = OCHamcrest;
 			path = OCHamcrest;
 			sourceTree = "<group>";
 		};
@@ -1241,7 +1242,6 @@
 			children = (
 				0854EFD954C65213BA24DC70600D9833 /* Classes */,
 			);
-			name = ListrakSDK;
 			path = ListrakSDK;
 			sourceTree = "<group>";
 		};
@@ -1401,7 +1401,6 @@
 				EB79CD9E83DB78A43A9AC3BE683235B8 /* OCMockito.m */,
 				2077BE046566B01A3345E150046676C2 /* Support Files */,
 			);
-			name = OCMockito;
 			path = OCMockito;
 			sourceTree = "<group>";
 		};
@@ -1579,6 +1578,7 @@
 				6D6570A218FC96D25D01A838422BC4FA /* ListrakItemExtension.h in Headers */,
 				22F26EB25FF655D2B406927B1668B8E1 /* ListrakOrder.h in Headers */,
 				0B2DB7662193592DDC6B5D708540512F /* ListrakOrdering.h in Headers */,
+				3FE2A8B91EC0ABA100E561B7 /* ListrakService.h in Headers */,
 				4EC7D59E63BFA49DC38942463BD98D95 /* ListrakSDK-umbrella.h in Headers */,
 				D8DB18C21DAD6C6FAD8E679E7489B1C9 /* ListrakSession.h in Headers */,
 				0ECC227FA707156FEDD72606C1BDAC4A /* ListrakSessionExtension.h in Headers */,
@@ -2052,6 +2052,7 @@
 				8B698F9D1D8A28323CD5AE98A14CE771 /* ListrakCart.m in Sources */,
 				5C95F0E5FC046817655D69DC426088A9 /* ListrakCartItem.m in Sources */,
 				16732C663CE04E1845F3232036879492 /* ListrakConfig.m in Sources */,
+				3FE2A8BA1EC0ABA100E561B7 /* ListrakService.m in Sources */,
 				F089CD6B58263BF55731695E51430F11 /* ListrakContext.m in Sources */,
 				1135BCEBC78D760300C531304A5F5CCB /* ListrakItem.m in Sources */,
 				F84CB95C6C49A5D0E183656B46DB571B /* ListrakOrder.m in Sources */,

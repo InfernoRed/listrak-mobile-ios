@@ -8,6 +8,7 @@
 
 #import "ListrakConfig.h"
 #import "ListrakConfigExtension.h"
+#import "ListrakContext.h"
 
 @implementation ListrakConfig
 
@@ -38,8 +39,8 @@
 #pragma mark - Public Static Members
 
 /// Statically initialize the singleton Config instance with a template id and merchant id
-/// @param templateId
-/// @param merchantId
+/// @param templateId Listrak client template id
+/// @param merchantId Listrak client merchant id
 + (void)initializeWithClientTemplateId:(NSString *)templateId
                       clientMerchantId:(NSString *)merchantId {
     [self.sharedInstance initializeWithClientTemplateId:templateId
@@ -47,31 +48,31 @@
 }
 
 /// Check if the ListrakConfig initialized
-/// @return
+/// @return BOOL indicating if initalized
 + (BOOL)isInitialized {
     return self.sharedInstance.isInitialized;
 }
 
 /// Gets the current app id's UUID string stored in the user's local storage
-/// @return
+/// @return NSString of current app id
 + (NSString *)appId {
     return self.sharedInstance.appId;
 }
 
 /// Gets the current visit id's UUID string
-/// @return
+/// @return NSString of current visit id
 + (NSString *)visitId {
     return self.sharedInstance.visitId;
 }
 
 /// Gets the current app's Listrak client template id
-/// @return
+/// @return NSString of client template id
 + (NSString *)clientTemplateId {
     return self.sharedInstance.clientTemplateId;
 }
 
 /// Gets the current app's Listrak client merchant id
-/// @return
+/// @return NSString of client merchant id
 + (NSString *)clientMerchantId {
     return self.sharedInstance.clientMerchantId;
 }
@@ -102,6 +103,7 @@
     _appId = [self getAppIdFromStorage];
     _visitId = [[NSUUID UUID] UUIDString];
     _isInitialized = true;
+    [ListrakContext initTimestamp];
 }
 
 - (BOOL)isInitialized {
