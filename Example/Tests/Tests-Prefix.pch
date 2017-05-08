@@ -3,6 +3,7 @@
 #ifdef __OBJC__
 
   @import Specta;
-  @import Expecta;
+  @import OCHamcrest;
+  @import OCMockito;
 
 #endif

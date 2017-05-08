@@ -1,11 +1,13 @@
 PODS:
-  - Expecta (1.0.5)
   - ListrakSDK (0.1.0)
+  - OCHamcrest (6.1.1)
+  - OCMockito (4.1.0):
+    - OCHamcrest (~> 6.0)
   - Specta (1.0.6)
 
 DEPENDENCIES:
-  - Expecta
   - ListrakSDK (from `../`)
+  - OCMockito (~> 4.0)
   - Specta
 
 EXTERNAL SOURCES:
@@ -13,10 +15,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   ListrakSDK: c63c7c1bca6369b6e3ed537e0af2c5c87685836e
+  OCHamcrest: 363e1bf738c3e8a94abe7c2c415f70d671adde38
+  OCMockito: bceefcd365252bcdf8b59c1b2bd23890805fc0d8
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
-PODFILE CHECKSUM: 8eb5dbc3780e505a0a6aab860863c0453784ab81
+PODFILE CHECKSUM: faa8f1a526035294b706591536867287a9fee049
 
 COCOAPODS: 1.2.1

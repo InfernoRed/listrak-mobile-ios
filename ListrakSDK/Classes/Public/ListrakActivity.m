@@ -10,4 +10,12 @@
 
 @implementation ListrakActivity
 
++ (void)trackProductBrowseWithSku:(NSString *)sku {
+    if (sku.length == 0) {
+        [NSException raise:NSInvalidArgumentException format:@"sku cannot be null or empty"];
+    }
+
+    // TODO: call trackProduceBrowseWithSku in ListrakService
+}
+
 @end

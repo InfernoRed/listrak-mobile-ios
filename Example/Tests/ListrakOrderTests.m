@@ -32,49 +32,49 @@ describe(@"ListrakOrder", ^{
             });
 
             it(@"should contain 1 item in order", ^{
-               expect(order.items.count).to.equal(1);
+               assertThatInteger((int) order.items.count, equalToInteger(1));
             });
 
             it(@"should contain ListrakItem for sku", ^{
-                expect([order.items valueForKey:@"test-sku"]).notTo.beNil();
+                assertThat([order.items valueForKey:@"test-sku"], notNilValue());
             });
 
             describe(@"initializes empty or 0 values in Order", ^{
 
                 it(@"for email address", ^{
-                    expect(order.emailAddress).to.equal(@"");
+                    assertThat(order.emailAddress, equalTo(@""));
                 });
 
                 it(@"for first name", ^{
-                    expect(order.firstName).to.equal(@"");
+                    assertThat(order.firstName, equalTo(@""));
                 });
 
                 it(@"for last name", ^{
-                    expect(order.lastName).to.equal(@"");
+                    assertThat(order.lastName, equalTo(@""));
                 });
 
                 it(@"for currency", ^{
-                    expect(order.currency).to.equal(@"");
+                    assertThat(order.currency, equalTo(@""));
                 });
 
                 it(@"for orderNumber", ^{
-                    expect(order.orderNumber).to.equal(@"");
+                    assertThat(order.orderNumber, equalTo(@""));
                 });
 
                 it(@"for orderTotal", ^{
-                    expect(order.orderTotal).to.equal(@0);
+                    assertThatDouble(order.orderTotal.doubleValue, equalTo(@0));
                 });
 
                 it(@"for shippingTotal", ^{
-                    expect(order.shippingTotal).to.equal(@0);
+                    assertThatDouble(order.shippingTotal.doubleValue, equalTo(@0));
                 });
 
                 it(@"for taxTotal", ^{
-                    expect(order.taxTotal).to.equal(@0);
+                    assertThatDouble(order.taxTotal.doubleValue, equalTo(@0));
                 });
 
                 it(@"for handlingTotal", ^{
-                    expect(order.handlingTotal).to.equal(@0);
+                    assertThatDouble(order.handlingTotal.doubleValue, equalTo(@0));
                 });
             });
         });
@@ -82,9 +82,9 @@ describe(@"ListrakOrder", ^{
         describe(@"submitting order", ^{
 
             it(@"for nil order throws exception", ^{
-                expect(^{
+                assertThat(^{
                     [ListrakOrdering submitOrder:nil];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
         });
@@ -101,15 +101,15 @@ describe(@"ListrakOrder", ^{
         describe(@"when adding an item", ^{
 
             it(@"with nil sku will throw an exception", ^{
-                expect(^{
+                assertThat(^{
                   [order addItemWithSku:nil quantity:1 price:@1.0];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
             it(@"with 0 quantity will throw an exception", ^{
-                expect(^{
+                assertThat(^{
                     [order addItemWithSku:@"test-sku-1" quantity:0 price:@1.0];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
         });
@@ -123,23 +123,23 @@ describe(@"ListrakOrder", ^{
                 });
 
                 it(@"sets the order email", ^{
-                    expect(order.emailAddress).to.equal(@"email");
+                    assertThat(order.emailAddress, equalTo(@"email"));
                 });
 
                 it(@"sets the order firstName", ^{
-                    expect(order.firstName).to.equal(@"first");
+                    assertThat(order.firstName, equalTo(@"first"));
                 });
 
                 it(@"sets the order lastName", ^{
-                    expect(order.lastName).to.equal(@"last");
+                    assertThat(order.lastName, equalTo(@"last"));
                 });
 
             });
 
             it(@"with nil email throws exception", ^{
-                expect(^{
+                assertThat(^{
                     [order setCustomerWithEmailAddress:nil firstName:nil lastName:nil];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
             describe(@"from ListrakSession", ^{

@@ -31,51 +31,51 @@ describe(@"ListrakCart", ^{
             });
 
             it(@"increases count of cartItems by 1", ^{
-                expect([ListrakCart.cartItems count]).to.equal(initialCount + 1);
+                assertThatUnsignedInteger([ListrakCart.cartItems count], equalToUnsignedInteger((NSUInteger) (initialCount + 1)));
             });
 
             it(@"contains cartItem with given SKU", ^{
-                expect([ListrakCart hasItemWithSku:sku]).to.equal(YES);
+                assertThatBool([ListrakCart hasItemWithSku:sku], isTrue());
             });
 
             it(@"retrieves a cartItem object for the given SKU", ^{
                 ListrakCartItem *item = [ListrakCart getItemWithSku:sku];
-                expect(item).notTo.beNil();
+                assertThat(item, notNilValue());
             });
         });
 
         describe(@"with invalid arguments", ^ {
             it(@"throws exception for nil sku", ^{
-                expect(^{
+                assertThat(^{
                     [ListrakCart addItemWithSku:nil
                                        quantity:1
                                           price:[NSDecimalNumber decimalNumberWithString:@"1.0"]
                                           title:@"test-title"
                                        imageUrl:nil
                                         linkUrl:nil];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
             it(@"throws exception for nil title", ^{
-                expect(^{
+                assertThat(^{
                     [ListrakCart addItemWithSku:@"test-sku-0"
                                        quantity:1
                                           price:[NSDecimalNumber decimalNumberWithString:@"1.0"]
                                           title:nil
                                        imageUrl:nil
                                         linkUrl:nil];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
 
             it(@"throws exception for 0 quantity", ^{
-                expect(^{
+                assertThat(^{
                     [ListrakCart addItemWithSku:@"test-sku-0"
                                        quantity:0
                                           price:[NSDecimalNumber decimalNumberWithString:@"1.0"]
                                           title:@"test-title"
                                        imageUrl:nil
                                         linkUrl:nil];
-                }).to.raise(NSInvalidArgumentException);
+                }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
             });
         });
     });
@@ -91,25 +91,25 @@ describe(@"ListrakCart", ^{
                                 linkUrl:nil];
             [ListrakCart updateItemQuantityWithSku:sku quantity:2];
             ListrakCartItem *item = [ListrakCart getItemWithSku:sku];
-            expect(item.quantity).to.equal(2);
+            assertThatInteger((int) item.quantity, equalTo(@2));
         });
 
         it(@"throws exception for nil sku", ^{
-            expect(^{
+            assertThat(^{
                 [ListrakCart updateItemQuantityWithSku:nil quantity:2];
-            }).to.raise(NSInvalidArgumentException);
+            }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
         });
 
         it(@"throws exception for 0 quantity", ^{
-            expect(^{
+            assertThat(^{
                 [ListrakCart updateItemQuantityWithSku:sku quantity:0];
-            }).to.raise(NSInvalidArgumentException);
+            }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
         });
 
         it(@"throws exception if sku doesn't exist", ^{
-            expect(^{
+            assertThat(^{
                 [ListrakCart updateItemQuantityWithSku:@"non-existent-sku" quantity:1];
-            }).to.raise(NSUndefinedKeyException);
+            }, throwsException(hasProperty(@"name", NSUndefinedKeyException)));
         });
     });
 
@@ -123,19 +123,19 @@ describe(@"ListrakCart", ^{
                                                 imageUrl:nil
                                                  linkUrl:nil];
             [ListrakCart removeItemWithSku:@"test-sku2"];
-            expect([ListrakCart.cartItems count]).to.equal(initialCount);
+            assertThatUnsignedInteger([ListrakCart.cartItems count], equalToInteger(initialCount));
         });
 
         it(@"throws exception if sku is nil", ^{
-            expect(^{
+            assertThat(^{
                 [ListrakCart removeItemWithSku:nil];
-            }).to.raise(NSInvalidArgumentException);
+            }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
         });
 
         it(@"throws exception if sku doesn't exist", ^{
-            expect(^{
+            assertThat(^{
                 [ListrakCart removeItemWithSku:@"non-existent-sku"];
-            }).to.raise(NSUndefinedKeyException);
+            }, throwsException(hasProperty(@"name", NSUndefinedKeyException)));
         });
     });
 
@@ -149,7 +149,7 @@ describe(@"ListrakCart", ^{
                               linkUrl:nil];
            [ListrakCart clearItems];
 
-           expect([ListrakCart.cartItems count]).to.equal(0);
+           assertThatInteger((int) [ListrakCart.cartItems count], equalTo(@0));
        });
     });
 });

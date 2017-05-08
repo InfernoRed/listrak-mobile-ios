@@ -644,8 +644,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
-					"\"Expecta\"",
-					"-framework",
 					"\"Specta\"",
 					"-framework",
 					"\"ListrakSDK\"",
@@ -668,8 +666,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-framework",
-					"\"Expecta\"",
 					"-framework",
 					"\"Specta\"",
 					"-framework",

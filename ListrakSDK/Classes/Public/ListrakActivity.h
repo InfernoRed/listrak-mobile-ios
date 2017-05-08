@@ -10,4 +10,6 @@
 
 @interface ListrakActivity : NSObject
 
++ (void)trackProductBrowseWithSku:(NSString *)sku;
+
 @end
