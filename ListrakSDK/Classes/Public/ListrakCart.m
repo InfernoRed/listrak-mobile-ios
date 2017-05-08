@@ -8,6 +8,7 @@
 
 #import "ListrakCart.h"
 #import "ListrakCartItemExtension.h"
+#import "ListrakService.h"
 
 
 @implementation ListrakCart
@@ -143,12 +144,12 @@
 
 - (void)clearItems {
     [self.items removeAllObjects];
-    // TODO: call service to clear cart items
+    [ListrakService clearCart];
 }
 
 
 - (void)updateCart {
-    // TODO: call service to update cart items
+    [ListrakService updateCartWithCartItems:self.cartItems];
 }
 
 @end

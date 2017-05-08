@@ -60,5 +60,4 @@ static NSDate *timestamp;
     [ListrakSession ensureStarted];
 }
 
-
 @end

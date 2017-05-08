@@ -14,33 +14,30 @@
 		04DE986B634148D63CAA0547B3B4FA1B /* HCIsCollectionContainingInRelativeOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC212A4C54515B1E2C48A981CCD8375 /* HCIsCollectionContainingInRelativeOrder.m */; };
 		05696A60B0D9B4262A2D326C17E9DDA9 /* HCIsNot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F19532A08CE30F5D425EE846F303F37 /* HCIsNot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		093B7CD4B48B546D3597C42A413FEE49 /* HCUnsignedShortReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAD22E58FAD4BA66260A41D24E30FC1 /* HCUnsignedShortReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		095E23E77DCCAB667B97566673A29DEB /* ListrakSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C24699F5BAE2DC636C6332797E46FDC0 /* ListrakSession.m */; };
 		0A4B1C3591CBBBB4AC46FE289FB1253D /* MKTThrowsException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2ED4154E62595428A30669FEFE2D4D /* MKTThrowsException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B2DB7662193592DDC6B5D708540512F /* ListrakOrdering.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A758730F2CE3F3C624E95DB74C5B160 /* ListrakOrdering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C53E2D2E332C4DD63E8175E427D802F /* HCUnsignedLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE382606469144AEBB3D90A99120B7D /* HCUnsignedLongReturnGetter.m */; };
 		0C6E2A741E95A22B37543BC2D0511798 /* HCClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7019569B3EF11DE1930D21E527A49A1A /* HCClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D72718CB0C57981877317B4AC83F980 /* NSInvocation+OCHamcrest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0515FAC1E8A591B3142946BB1A20AD /* NSInvocation+OCHamcrest.m */; };
 		0E3B30D4DF4AAE6B9D50AFA805EB98A0 /* MKTMockitoCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B4634D72DD884DA5E37098CB28FB7 /* MKTMockitoCore.m */; };
-		0ECC227FA707156FEDD72606C1BDAC4A /* ListrakSessionExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C61F46DFAB58B63E9B0F9AE62342DB03 /* ListrakSessionExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0FFF0363902F3D0040ED4F8F1FDF77B4 /* HCTestFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = B87CC50A0C80BC724E4F914B88A6AA7F /* HCTestFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10BAC38A86EA9762EF4CDE6C6E476317 /* HCBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F46AE5DA384C002A79200F46DE9D8A3A /* HCBaseMatcher.m */; };
 		10FE1E85F32261EF243F11A6DA6F0D93 /* MKTUnsignedCharReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9961E80788DA2D0DAACF8A319F54CC /* MKTUnsignedCharReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1105F90FE4353054DB043F6908F6F238 /* HCAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B68D00F56EA87B614405F4A0ED0A7F /* HCAnyOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1135BCEBC78D760300C531304A5F5CCB /* ListrakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81E3BDB63C467C68B947DE8E9EF8AD /* ListrakItem.m */; };
 		11C2C665668F09A0BE1D45E1B658FDEA /* HCXCTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1A03571282B893039690406906B49 /* HCXCTestFailureReporter.m */; };
 		121B54F5728385B0E582B6B18F2BB81E /* HCIsDictionaryContainingValue.h in Headers */ = {isa = PBXBuildFile; fileRef = DB83F22646431C66BB044245EA85E97E /* HCIsDictionaryContainingValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13ACFD3B58E5E87A805A4BD2B9A475A9 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB0E8644171F7E0F22C7BFF78B90CF /* SPTCompiledExample.m */; };
 		1441E0B5AFF1921027642F8CE030A748 /* HCUnsignedIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C52E8FCCEDABC937B9062FED6E838B /* HCUnsignedIntReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		14E355E23B66ABCBF172C78D8B64C300 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = EB99897757756CF8FE80F0465558A144 /* SPTSharedExampleGroups.m */; };
 		152151356B44916C058888CDD52AC7B2 /* MKTLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9B12A60E5E77214FA2BDADDC311BB /* MKTLongLongReturnSetter.m */; };
+		155AE362D004F9366C74E4CC3BDC25E4 /* ListrakSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A19470C49BDCCB5CDD9B0397943329A3 /* ListrakSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1633105C51327AD0130CD681B78B4633 /* HCIsIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 335E689B25A9B2BAE00BE2DF3CDB919F /* HCIsIn.m */; };
 		16571C1236F262F1AC299ABBB8C15D52 /* MKTSingletonSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D453FE12D641E1D7DCB79862B727BB8 /* MKTSingletonSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		166F8AC46FE9806F45B25116CB16F4DB /* MKTNumberOfInvocationsChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = D56D254942E6F4369BABADBB609999BB /* MKTNumberOfInvocationsChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		16732C663CE04E1845F3232036879492 /* ListrakConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA99462B9C28FC2CC9988FD11A3ABD /* ListrakConfig.m */; };
 		174DB83E4F8106E4FB466ECFC64D4170 /* MKTProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 189B0E2DDEBDFD67D80C4A17F8BDEEA7 /* MKTProtocolMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		177D91ACE4EDCE89D0FE8B910C5A6BAD /* HCReturnTypeHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DFD7C19C855F435C081027286AB70 /* HCReturnTypeHandlerChain.m */; };
 		17B6D6DD19357DFCAC8991F79CE33D5A /* MKTSelectorArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C8976547041D452B859A58B51CE15 /* MKTSelectorArgumentGetter.m */; };
 		17C864BB0841D3279307F8527960BA73 /* HCGenericTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BA7C54F111D30719881C5DD1E5FD2C /* HCGenericTestFailureReporter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1A17761C25A944837EE02BACC2EF695C /* ListrakContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C83BACC6163F0A8F2BAF7B42D10F868D /* ListrakContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A88D3442B90B46A37086A32EADFBE58 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3BBA4220BC856FF389B8E8653AA655 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B9F90D79A60798C5105A0D66F4B3383 /* HCIsCollectionOnlyContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = F21A689913086825C359DB787179A92A /* HCIsCollectionOnlyContaining.m */; };
 		1BE2B21577C5446A2CBD0125EA4CB34A /* HCSubstringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5E1A82BCA4856B5BC6D88143CDACE /* HCSubstringMatcher.m */; };
@@ -52,7 +49,6 @@
 		21585599FAC5B66BE91827E4BD29DC2C /* MKTIntArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A200069839515BBA4EF6DAACF89C7926 /* MKTIntArgumentGetter.m */; };
 		215D42EF0EF790AE6F44CEF50536025D /* HCSenTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5942FBD05553C0313AE21ECCBB1154F /* HCSenTestFailureReporter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		225E4EDBBCD7C5885C3D02519B417CB0 /* MKTShortReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B93517D41E0436D7DBC669F146D9B /* MKTShortReturnSetter.m */; };
-		22F26EB25FF655D2B406927B1668B8E1 /* ListrakOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 622466D4E46E24592930CE85D07F42D1 /* ListrakOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FB097F26C375A8DBD7B3A8768ACAB8 /* HCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5E387EF8DB3DF3B310A78694331597 /* HCTestFailureReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23814938DBB30FB94A27E15A14E34753 /* HCArgumentCaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6A0D225D6714317DD87072C0809EB9 /* HCArgumentCaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238E9F3BEE9176E398075459E7C85DE9 /* MKTOngoingStubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C33D6DE877BA0A8CFAA8EF91A4137C /* MKTOngoingStubbing.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +63,7 @@
 		2A52C57D783F7686F16626BBDA253CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411522344422D5EB68490B1D52199BED /* Foundation.framework */; };
 		2BA5BE3F4C01D6310FC7D421A8191987 /* HCDescribedAs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D32629990D246785F7FADE57D46A94F /* HCDescribedAs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CA3FCABA324792686FB6435DC3B6D0B /* MKTUnsignedIntArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DEC88B75D443D1FF440FD2B5E64D81 /* MKTUnsignedIntArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D0A044CC1E9AC9C8D2C3C37CDC78C4F /* ListrakOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EBFD995B7D396D9EA7106BFBDFDE3 /* ListrakOrder.m */; };
 		2D301C3F5547A3396CC750403D0D3B5D /* HCStringContainsInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C813A100AFD26BE0C2372D1CD7451C2 /* HCStringContainsInOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D67DBD1436314970FCB3748FF1B370A /* MKTLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B311ADD51007FBA6EDD325FA55D2937 /* MKTLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2DEA5006B4C47178022A34225D772990 /* HCReturnTypeHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F1E3D5576E3E219CE53FBB77CAD52D /* HCReturnTypeHandlerChain.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -78,7 +75,6 @@
 		32092B7B441F1A22A078DC1D7B52314C /* MKTUnsignedLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F98DA863E4C56F2E87C570A3466AC /* MKTUnsignedLongLongReturnSetter.m */; };
 		357EAE0E2BB855C8A1BC374C63FA9353 /* MKTUnsignedLongLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 018684F37CBCFB56C82360F44BF757DE /* MKTUnsignedLongLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		359A9BB85B72EBAA28E3FD77DFC75949 /* HCIsInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B84E9BA0704B7F81628E8FFB33ADE28 /* HCIsInstanceOf.m */; };
-		36B61D866DE5F8ADCE93FB46F6A25030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411522344422D5EB68490B1D52199BED /* Foundation.framework */; };
 		3730AC08BD63BEC093CA07DBE00B24EE /* HCReturnValueGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B138698C90C64A217A907F1E6CDC961E /* HCReturnValueGetter.m */; };
 		378B10F0C76E35172D3FCCD5FB7CFD0B /* MKTInvocationsChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC567945E27C226A28BA73921DB5126 /* MKTInvocationsChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		38960CE6A0F54EA58833A0E643452072 /* HCStringEndsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = FB534CF97AF304ADB9E1187CD4A2EDFA /* HCStringEndsWith.m */; };
@@ -89,8 +85,6 @@
 		3E9B52F842526AA5B9E84B3160F0C5D7 /* MKTTestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E489BC2F303BABFC107C17BC02A0155E /* MKTTestLocation.m */; };
 		3EF5B46B9D51757F35124D476B207C96 /* HCTestFailureReporterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = DB383A19782C9B101941C0CC70E0FD3C /* HCTestFailureReporterChain.m */; };
 		3FBD805DD706885EBC78AA0C67B8F5DE /* MKTPointerArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAE6857EC67D73CDD6F19D65FB85C6E /* MKTPointerArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3FE2A8B91EC0ABA100E561B7 /* ListrakService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */; };
-		3FE2A8BA1EC0ABA100E561B7 /* ListrakService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */; };
 		4038EBC61C69D23AD64053F02634D06C /* MKTMockingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EC520DD254A0EB49185D9C7BA9145CD5 /* MKTMockingProgress.m */; };
 		404D03472FDBA06EADCE07C092165E76 /* MKTDynamicProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E065DF465825DE47DBA9FED69FECFA66 /* MKTDynamicProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		408970D0620278274CD02C307FEDECEC /* HCStringStartsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = A73193682E9A5B227D2D63670B3AD965 /* HCStringStartsWith.m */; };
@@ -109,12 +103,10 @@
 		495731A1A8D4BBCF0B96B6965E9F7DAA /* MKTUnsignedLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C49842459BBD38ED3ABA0C8C41B59AD4 /* MKTUnsignedLongLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		49ADD9FAFA9EF4493CE3C99E0B1F55FB /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = D916CE56661AD879C02CA8C824B73F96 /* SPTCallSite.m */; };
 		4A7231B5F1682C2976CAA5EA917FC15C /* MKTLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BCF2051DBF0496708D7E03C5B1B968 /* MKTLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A7BC87F72D0602C2A9A19CDE3C2FA08 /* ListrakActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3962DF7BAB3210A1A4236FC2CD8421A0 /* ListrakActivity.m */; };
 		4BE7E7AF08C96C0C01F4F00A0A4FB6BD /* HCCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9C3C3729F435547CA96DE58BB4CB5F /* HCCharReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4C927880126E0148E0A98C42F0F352D5 /* MKTStructReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6974A3FA7AB207107CD898381539A6CC /* MKTStructReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CC8A64B5AE4E417EDE3C3912CB2DEA0 /* HCIsCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 05765F8A736ADD8A0BBF18963A5752EC /* HCIsCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6EA4C6B4A9F55D6485965A9CC93F32 /* MKTInvocationContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1478C4E1CCB73AF12C02484A30EB8EA6 /* MKTInvocationContainer.m */; };
-		4EC7D59E63BFA49DC38942463BD98D95 /* ListrakSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F25913BF83774E44730B6112ADA5B91 /* ListrakSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C74F954672524F295F5566A2A9703E /* MKTReturnValueSetterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B360BE674CBC84F6CF8970D56799D2 /* MKTReturnValueSetterChain.m */; };
 		52EC2028B9CA4162A72B1B349639A82D /* HCIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A87EF49E7155F7DCBAD73DB4A854EE71 /* HCIntReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		530A2E74CD02B11614EC28B68931A42F /* HCIsCollectionContainingInAnyOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6A6BE9B02759034870101B00A0B988 /* HCIsCollectionContainingInAnyOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,15 +125,15 @@
 		5B26E7C1BF70AF9F704FA7EBE823BC72 /* MKTFloatReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD16BB9BBFDAE8EF7F92A636EA0417 /* MKTFloatReturnSetter.m */; };
 		5B42FC466E7563F91A07F03BC2E5998F /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8BCF4C927BD3008D2A1E6E11ED0589 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C386B59E708072DF3F63F21EB804F0A /* HCOrderingComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 7988FCC6CC5AF89FC31AB440ED4F7389 /* HCOrderingComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C95F0E5FC046817655D69DC426088A9 /* ListrakCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562A80591EF38CE89C77C280C64C79E /* ListrakCartItem.m */; };
 		5D5FF23D30D5D1EBC47234D3F12E04B9 /* MKTFloatArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE7583ED29AD0C3B1C99CF24622780F /* MKTFloatArgumentGetter.m */; };
+		5E0141A553C3BE09FA1D4B3C88342F1B /* ListrakSessionExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FC488B9B39603593C3297EC4026ED6CB /* ListrakSessionExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E196DF4338820B3E1A32DEA860870F2 /* MKTUnsignedLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0667BDCCD79A0C98E7E45E47DAE1DB4 /* MKTUnsignedLongReturnSetter.m */; };
 		5E950CF00DCC29D1919483BDC533ED73 /* HCIsDictionaryContaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 353CD2E9E45AA94BC61AA7D9DDEC943F /* HCIsDictionaryContaining.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EB136159D3056FA1D5261433A95A5D7 /* OCMockito.m in Sources */ = {isa = PBXBuildFile; fileRef = EB79CD9E83DB78A43A9AC3BE683235B8 /* OCMockito.m */; };
+		5EDA3F46D98A7EA2B3A6F6EA813E62FA /* ListrakActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = B35F78C24FDACAF3AEFDC66E20EF0228 /* ListrakActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3D93E3A71E1BC90E3A58DB3C0696BE /* MKTDoubleArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39855750E889D52DA45A65161BAB089B /* MKTDoubleArgumentGetter.m */; };
 		612C6BDC4601A97C8CB55BB8D38FA076 /* MKTLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B61495EDF3C0F2079F402EDAD9B8030B /* MKTLongLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6282E3A708AC5266DB7C0E77C6770658 /* MKTStubbedInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A665B8F8D7DE7A533DEAACD07F13149F /* MKTStubbedInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62A3DF5605092F71D94B5B75A7CF15AA /* ListrakSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D9028D581E6197D80A1E78BE77E0 /* ListrakSDK-dummy.m */; };
 		63BEE8711A3A4A128CEF8B4A2C8A88AA /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 737F8ED8594800F1D6C21BAF9381F95D /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A441D0A5743AF743E3F1EDF882B369 /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DCA7A3950C9E2B2559EFAE16196B17 /* HCIsCloseTo.m */; };
 		65E0F1F6354299C1E155D0F69C382DB3 /* HCIsEqualCompressingWhiteSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 22695860AA574F90DA0DE2C9026FA9EC /* HCIsEqualCompressingWhiteSpace.m */; };
@@ -154,28 +146,30 @@
 		6A65ACD445A106A328D6BE73B3719FE1 /* MKTBoolReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 906B31FD9E78491253A387FD3706724E /* MKTBoolReturnSetter.m */; };
 		6AF9AF9AAE72A6A625A5025FFBD72D41 /* HCIsTypeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C53FEEE3AA6D3EC66A7B7440E05846 /* HCIsTypeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C64E1CFDAC79745DF4F0CE64D187BFD /* MKTClassArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = E226891009DCBB44716C546D78BE855C /* MKTClassArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C849507424F246708059496801DBF47 /* ListrakCartItemExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F78EC83BEB9DD22B41263FD8E9F23279 /* ListrakCartItemExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D4A3112BE81D6736CACEC374B315174 /* ListrakService.h in Headers */ = {isa = PBXBuildFile; fileRef = D71D727B9F24B24857261BE9CA21437C /* ListrakService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D54E145449A88C6D4B9473519734E03 /* HCBaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E48BC686B6D8441A426E9AD137965BF7 /* HCBaseDescription.m */; };
-		6D6570A218FC96D25D01A838422BC4FA /* ListrakItemExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 03206F0BCEC0C7D12F5B6C3A6D165ACF /* ListrakItemExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E37FCDF3CD0D657A1E7932D4662BC96 /* HCCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F005041F9BA0DA047556A27B36B21D /* HCCharReturnGetter.m */; };
 		6F0363857C1965BEC0941EF8205F99BD /* HCLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C6AB67E3C5207250755EC35DAF3F40 /* HCLongReturnGetter.m */; };
 		707E4ED9FEB55A503A9C6DDAF187CF88 /* HCTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C15D4903AB38E078F02471C24CBF /* HCTestFailureReporter.m */; };
 		708FD5A1E0F3950530E90C8D69CFEFA0 /* HCObjectReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 771BF4A51786F5FFAE7A6ED57D376FE0 /* HCObjectReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		70ACDF89319A873401D0DA87D91E8095 /* ListrakOrdering.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F980D643E374209607F35ACEF22F3 /* ListrakOrdering.m */; };
 		70C3ECD03219A6EE1C7AE5E41B68CC31 /* HCUnsignedIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3BF518D362B2C43C130AA223B25364 /* HCUnsignedIntReturnGetter.m */; };
 		723D3318208EC8096A2127844F29A1BE /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1135E0748A0F54A36F308CD5BA45FE /* SPTExample.m */; };
 		72AC4AD60A9B5EA6735B5B1CB43F2D6D /* MKTAtLeastNumberOfInvocationsChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C8D4DA5AFECE2397A06CDD85528F4 /* MKTAtLeastNumberOfInvocationsChecker.m */; };
+		73156DB40E9C6B9A4B452DCCC8CD35E3 /* ListrakSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 29027815AB9026A0CBAB03083AD094EA /* ListrakSession.m */; };
 		7343DEF43F44ADBB287263744EC22E03 /* MKTReturnValueSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BCC4C2F4920DEC215C26A4507BFF05 /* MKTReturnValueSetter.m */; };
 		739D9C11C743DAE131809955642948B2 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 682C1D68C4A7B0C1A6508F2B813A59A7 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7437BD47ACEB7F810B83A87E366B7365 /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 02053D2A1E6F95E562B6B7D2B642FF62 /* HCIsDictionaryContainingKey.m */; };
 		74CE21729692BC9362BB28D4F0989BC8 /* HCAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 84590865555A0BB85861CDC35B56B697 /* HCAnyOf.m */; };
+		76515132A2AFB158DC1FFBB879795103 /* ListrakConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA4FC2615469B030DE5B1D3B1A1BCA /* ListrakConfig.m */; };
 		7813045A055CA0E3C93338DA77C72F9D /* MKTUnsignedShortArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9726E66356F51195FF3A115D5D52AE00 /* MKTUnsignedShortArgumentGetter.m */; };
 		788FE1CE5BF287B2C47D61500B4EA62A /* MKTMissingInvocationChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE81AF06C3B7EA1D5E9974681AFA9D9 /* MKTMissingInvocationChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78E8495F3768BA2C42B3CF86C6329391 /* HCDescribedAs.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D920FF744905F8C479B9B25C0A1BBF /* HCDescribedAs.m */; };
 		791643C4A14143929A114EADFC1813A9 /* HCRunloopRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5486CC927A6792827F0219D8E8AB5485 /* HCRunloopRunner.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		79FD5984B611EA1E945E878EAE114B53 /* MKTArgumentGetterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB29F229E33ACCF719D7AA6E247DEEA /* MKTArgumentGetterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A0F44F56731C32FE84FCDEC06456459 /* MKTObjectReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FCDC18719EA88321367A250A8B3F0C /* MKTObjectReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7A472553E935B938BC96273CA81A2270 /* ListrakContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB85057000117CC07D9BF8B897B5EB1 /* ListrakContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A5A2B8D7FCF43EE34FE8D2758D6B8E9 /* HCArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA296EF4991ACC667D82F7ADA6AD4544 /* HCArgumentCaptor.m */; };
+		7A6E29656CE419FAC15D78ED4FA848ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411522344422D5EB68490B1D52199BED /* Foundation.framework */; };
 		7A96B69424CE2A07D63F8EC2C425DE03 /* MKTUnsignedIntArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D30C98FFEC490CDD0ACFC48CA74F0B /* MKTUnsignedIntArgumentGetter.m */; };
 		7B7B426CF9DCD42C72A991ECBFAA81E4 /* HCBoolReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA0055313551DF876BDFA855651D3D7 /* HCBoolReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7BF93D0AF9F8ADF4FC40F11DDF39FD64 /* HCStringContains.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BBCA1634F942F8B2E217015E7F44A0 /* HCStringContains.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -188,15 +182,15 @@
 		82A05029EEF9AD5C2F9E6C7FA4F59770 /* MKTMockingProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 19178FCABE721A6C32CE78B6F547CB35 /* MKTMockingProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8378CF7BA16EBF15BDB266F40D82FB56 /* HCStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 68747DFF99CF2A6976131C443F7F5EA5 /* HCStringContains.m */; };
 		83BEB17969F6754036443E04F166D8A5 /* MKTObjectAndProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EA10430EA1DE06BE24C8A4CAC046A8 /* MKTObjectAndProtocolMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8449B353B83BA4AA6A1AF66524B74292 /* ListrakCart.h in Headers */ = {isa = PBXBuildFile; fileRef = 25100BF45EBBECCB135CC0D6CB433B0C /* ListrakCart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		859656A572FB52381B06A30B0ED550E6 /* ListrakActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AC600930018452BC68BA80333E11F3 /* ListrakActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841BB92DEF76E882637AC8CAE6CD6ADF /* ListrakContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68A02F750BAA1A3F69F6BEA08B5E40 /* ListrakContext.m */; };
+		847D650806AA8CE92D684FB226C00078 /* ListrakItemExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC74D7AB128362452D07EA39037CB3A /* ListrakItemExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8602D7C3A0B808E59506B0B187DBEE46 /* OCHamcrest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF2701E372FBA1C03BE63502728A67 /* OCHamcrest-dummy.m */; };
+		88E9A86B140E8EA55BEADC5981131EAE /* ListrakActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F564D5D7DD5D78E2C31C0C7B8FD6FB /* ListrakActivity.m */; };
 		891E6EF2E825A0CF6D9C8691AA26D458 /* MKTReturnsValue.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CE7DE30CA99F8FE0DE452249D2709B /* MKTReturnsValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		89FC921E9E685141C6A8A6FC6D5A113E /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEDB33D3801E0143AFC1EB821D71293 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A16551F4836A35C25568396A5B7D3B4 /* HCStringEndsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = A69A8048AE8479F70C3C7AC23A6ACAAF /* HCStringEndsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A26CC0612F7B18706487E4F94979EDB /* HCClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 59218F10EFEB4C06DB5DB9DAAC86E46A /* HCClassMatcher.m */; };
 		8B2B1EC78ED5559BBBB13B01D842E926 /* HCAssertThat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4424F5450B61F00A5D48294DFC23C6C7 /* HCAssertThat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B698F9D1D8A28323CD5AE98A14CE771 /* ListrakCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 886FFDBF995CDD61BD8650588166E7DC /* ListrakCart.m */; };
 		8B793E5DEB3FF037040010DAC7F530D2 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B9FC6DC9045CF82F4FEC68DF80E22 /* SPTSpec.m */; };
 		8BAD7B623A29D2491ED56E99561E6ADC /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C3507695DA7F7DA797F8DC5DFCF325 /* SPTTestSuite.m */; };
 		8D416FE224054AA48F5FDA334D9FD755 /* HCInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0952AAC6D3C4F4CAC014D23FC9EEC2 /* HCInvocationMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -211,17 +205,19 @@
 		92052289E3ABA8C9286D8C6A0E0908C1 /* MKTVerificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB5090C90A605479BAE47FC758FFAC9 /* MKTVerificationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92B0658D981DFCD7F749FEE30A49F925 /* MKTAtMostTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E57057BB2D8FA0A5788DCCED0AE5B /* MKTAtMostTimes.m */; };
 		92C86E2C4FC810684F3099086E791D4F /* OCMockito.h in Headers */ = {isa = PBXBuildFile; fileRef = C5180C8489D6E3681754AFA468B86B57 /* OCMockito.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92FB8C12533502387D3FBCCE56D703AD /* ListrakCartItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8BD57109169B0493F25769B28A5AF9 /* ListrakCartItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		933FDD181E02F6805E46A0CACB21BD78 /* MKTUnsignedLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 261C57613E490A7D2F61AA57BC80776B /* MKTUnsignedLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93B3F6CEA507B9EB9A6E8610C91A5CDD /* MKTUnsignedIntReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C4B1135BFEA03435453AC143CF620B /* MKTUnsignedIntReturnSetter.m */; };
 		93BA986B810AA9EBB4A66DAFD73D3547 /* MKTCallStackElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AD495E7C9C2A8124ADFEC844813CA4 /* MKTCallStackElement.m */; };
+		9405A32B313BB57AF170F65808A41920 /* ListrakCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20645461FC426C40F50D26D10A58F1 /* ListrakCart.m */; };
 		97E7279B907550B90193A677D56BC91C /* HCWrapInMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210CE9F60A186E46367DF391CC4A1DA /* HCWrapInMatcher.m */; };
+		9801C6B374905BBE9BAF86EA31624616 /* ListrakOrdering.h in Headers */ = {isa = PBXBuildFile; fileRef = 1224EAB7DFE073DC8A392A56F9E01BC3 /* ListrakOrdering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98A5ECE9D3D3E43398C8A6F60DF8BBAB /* MKTArgumentGetterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E69EF48ED56FD65559AECC53DA99C4F /* MKTArgumentGetterChain.m */; };
 		98BF59E350E108B3D03242DD5C074785 /* HCIsNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 337B728779C5DE1F710D0F98F4239551 /* HCIsNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997A1696353DBA134C11E56F443F9913 /* MKTObjectReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE7310B869D3A02BDC47B9A6CE29A6 /* MKTObjectReturnSetter.m */; };
 		99C67E64886686954AAA3F304C30ABA7 /* MKTUnsignedCharReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E76D5F21B0A4E414AE8EF8F63DC93 /* MKTUnsignedCharReturnSetter.m */; };
 		9A7DCCE61D1EC05836FE709F6B64A725 /* HCSenTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD45B6DD36025F11710E5A19C403042B /* HCSenTestFailureReporter.m */; };
 		9AA38D1B4899018C7669514E99A6A759 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 228C5F5C92914C2AD0A7CD89A87ECDE3 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B74F18713FCE69C16F0387D1DAB76D8 /* ListrakSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2D9028D581E6197D80A1E78BE77E0 /* ListrakSDK-dummy.m */; };
 		9B8F2428D04424EA8879A5877999C0B2 /* MKTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E826CDAD31ECCD2AAB4A0601BEDF2D55 /* MKTLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9BADAA75043842E61727CDB5DC078FEF /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE25C98FA951B1865B073CCA66C2960 /* SpectaDSL.m */; };
 		9BF4CEA72E505F0F7DCDB7125712C35D /* HCEvery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC4B7E315BC88983816687466CC981 /* HCEvery.m */; };
@@ -240,7 +236,6 @@
 		A151AE803FC0C9AC1190CF3AB142E8AB /* MKTInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EBFA76DCB09C0C935DB9ABEE75405 /* MKTInvocationMatcher.m */; };
 		A1B4C5FEB81B51923C9232DDE1EEAE47 /* HCIsDictionaryContainingEntries.h in Headers */ = {isa = PBXBuildFile; fileRef = 831254135D3471E202C9029EF81170AE /* HCIsDictionaryContainingEntries.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A249B28289E5C8AE697E42DC6E8F4096 /* MKTReturnsValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792BAF8ED72E4D51CDE489C4C17258D /* MKTReturnsValue.m */; };
-		A2DEBEC8ED48DD11FAB067F143FD77E9 /* ListrakCartItemExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E03916D1E2C89152541A463AA316AA /* ListrakCartItemExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A33CF69B0DDAE4189C74A358FF8EC892 /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06819241B366ADAE73A4FE25321E9932 /* HCIsNil.m */; };
 		A3A830894BA1D59CEB8F39E6AF4502F9 /* HCRunloopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C3E1E81395D0838A6B33054DBA302 /* HCRunloopRunner.m */; };
 		A51C1B83E472630EA239C7A734A64388 /* HCThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7CD8208B540C6C39027131677C52EA /* HCThrowsException.m */; };
@@ -266,6 +261,7 @@
 		B0C5D48A8A685904EDFAE37FFEAD23DC /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AD521FC5C2D52A7F68D8C374F377855C /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B112A5921D2311BEE95E8BE1672C2E00 /* MKTVerificationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 996B049362668F13FE30B0616FF2AF01 /* MKTVerificationMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B18C5B91D3D50AED6AB4A3093E832B10 /* HCUnsignedCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9007597D55098A6FE1D4AB458CF27B /* HCUnsignedCharReturnGetter.m */; };
+		B1BA678FC516973CCD77B47A93FB494D /* ListrakItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 460B459EDBA2716A66D5BEE63CA1DFC7 /* ListrakItem.m */; };
 		B1C05BD79504F25CA1F800DB9EE4142D /* HCIsEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = EC25B93C8287C569875606A676530348 /* HCIsEqual.m */; };
 		B439718B27E852CE639701E19FA7A051 /* HCNumberAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92807C190FB79395F83185C55663F7 /* HCNumberAssert.m */; };
 		B578F7993DF5B0C019C951BF17AEEF99 /* MKTAtLeastTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA413ACED0B5FD6366AAA33E44AA463 /* MKTAtLeastTimes.m */; };
@@ -300,6 +296,7 @@
 		C3127A006A6429A26C9C8587A5D21430 /* HCUnsignedShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66350FF971D13ACFDE5E57941A8E710E /* HCUnsignedShortReturnGetter.m */; };
 		C346DB79CDAA8E19CFABF80BEBA35AB8 /* MKTInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF41EBC8531DE325B36CD539D1011AD0 /* MKTInvocation.m */; };
 		C3CAAA8998ECC20163C8035007938416 /* MKTAtLeastNumberOfInvocationsChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 696EE43AEB890F8819C2A3FAA67ED59B /* MKTAtLeastNumberOfInvocationsChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C57427251D49FE4E94C72B44709E1CB7 /* ListrakService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7EF4A43B49F82497D7D67C65CCBC3 /* ListrakService.m */; };
 		C592AA615277668D951EE626304B98B0 /* MKTParseCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE9C384F0B9CC8E1047716922B8AD29 /* MKTParseCallStack.m */; };
 		C5A2BD2647847A83349CA3FA4F3B7E1D /* MKTUnsignedCharArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE182FDAD5F623F8B81E0A5062B31A94 /* MKTUnsignedCharArgumentGetter.m */; };
 		C64163DCAB6DE0701DE4F389BA8C53DF /* OCHamcrest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8647E76121F86EE7A7CDBFC2EC0F6BD0 /* OCHamcrest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -325,38 +322,40 @@
 		D1ACE236E37EF85FE7E2C41DB27A6572 /* MKTAtLeastTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A6B3F28A5332C224834010677F1088 /* MKTAtLeastTimes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D2272D1F4E4DC13FDF09ECF7A16E6871 /* MKTIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C327A6D20BF821E206F5B8214D85C1 /* MKTIntReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D254B1026BAC9A70BFE3023B0B8989B1 /* MKTVerificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B1F06B25D0358065610B157D775CD /* MKTVerificationData.m */; };
+		D3102F4AFD85666FAB4C8164E3C329B8 /* ListrakCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADE8200B6AFCD566BD7BB5FA24EBBC /* ListrakCartItem.m */; };
 		D42069FA77852EBC956A2B1C8C25FCF6 /* MKTCharArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E6EA4416446A851B9A44D0A915B9B8 /* MKTCharArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D58FAEB1B2FCE4D632C7B3DF56EF826E /* ListrakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED8A22B57312F114B7A1C287D3F336 /* ListrakItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D70BA6B18772AB9B8C8913AC3FF028C6 /* HCDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E60C09A32A78F6B5F36C4321C20647 /* HCDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D72025DADB2C7DC4E30906C8EA456F1E /* MKTLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708FB04FD92C10BC6006F169D40BBB7 /* MKTLongReturnSetter.m */; };
 		D8358FED82899409CB879D0EB42E97A4 /* MKTStubbedInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E296F7E65DD18C78748C194712A9CB /* MKTStubbedInvocationMatcher.m */; };
 		D8544E54745DF46D32CAAF0952EF25BA /* HCIs.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC0E58BA49245ADA49CFEA5FF38D61F /* HCIs.m */; };
-		D8DB18C21DAD6C6FAD8E679E7489B1C9 /* ListrakSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F53DE3DC4451C00DB8E8C7D4B315B /* ListrakSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D982F3073F579690874F5B7CF6572180 /* HCIsCollectionContainingInRelativeOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE444FEA7B64B7144CC346F1B6F7EE2 /* HCIsCollectionContainingInRelativeOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9EA6228805C5EFBEA527536138CED89 /* HCHasDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A94E2525EE005395CFF25F6659EF6D3 /* HCHasDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA14B620FA8540A0B2B4F3E450A9CE41 /* MKTClassObjectMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DEA4C77AF8668F5616631B903BF8ED /* MKTClassObjectMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDBDBE1FEFAD6F1AAEB325A3B0289218 /* MKTInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 263236DDAE23E73917C905E9234F84FE /* MKTInvocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DE3437DA17A673BF752D27D9C2E5FFA2 /* MKTAtMostNumberOfInvocationsChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E379900407CD7BB896D943875055C00 /* MKTAtMostNumberOfInvocationsChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF1F3826C2C94AD29A534F89A9E1F44E /* ListrakConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BB964B62580C8D8FC284E89DC852C982 /* ListrakConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFB25624F855996734811B548631A48F /* MKTUnsignedShortReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9B361F977793E4152A0EF24734555E /* MKTUnsignedShortReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DFB3050AEB1BC0C9A498B0238E4563F2 /* HCStringStartsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 857BCFD8833E82AC2657A9E343DEC3CF /* HCStringStartsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFE7118E1C541ACEE9EDF983DC3668CE /* ListrakOrdering.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D8C325C2939B78F500FA1B1512E371 /* ListrakOrdering.m */; };
 		E011BAFCA98A7795224E03916504F5B3 /* HCIsEqualIgnoringCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E905DC89581323B0B92115FF81C3D2D4 /* HCIsEqualIgnoringCase.m */; };
 		E0569A40C0C3D37016481071DBB7E870 /* MKTLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8BD7642FF6680B61AFC3252682A13 /* MKTLongArgumentGetter.m */; };
-		E22E5284E24F0B4BEAA77070CD34D84F /* ListrakConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 46484C4ED92DEFB9012FCB20B3B7DB3A /* ListrakConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E6B12DCC8F999214909E503AD1E259 /* ListrakOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 353BFC737A5628682D8CD786111856B8 /* ListrakOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31CD07B2D07481602867E1DE788D250 /* ListrakConfigExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0119C32AAE3D8F78A7822B13E2487D /* ListrakConfigExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3802BA8CC490FFDAF716DD4EB13B472 /* HCIsTrueFalse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B341B47E9C3E53DCB4E36FD77C24BE2 /* HCIsTrueFalse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5B019553B233AC3646556208CC7C971 /* HCDoubleReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD79F6A27ED37F013B665DEC0FC9B8A /* HCDoubleReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E5B310D10A519E279EB678F88FE4F2EA /* Pods-ListrakSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 005B7D902263042EA6896D4FA1FC8126 /* Pods-ListrakSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E62A0171E19A4004E3EDC428B38ABA8A /* MKTBaseMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2871F1F7EB3AC1A43A7233348CFAF581 /* MKTBaseMockObject.m */; };
 		E6A6A462CD8A58892D3A0DE522F641D8 /* HCMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BECEA5BB33CFBFB7B1878ED1747FCF /* HCMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E870EE9D9EAED00E8ACC1821FCC448E1 /* ListrakCartItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CC6AF008C96E76910577EC76D4AC76 /* ListrakCartItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9380673AAAA53A7E31D478384018E37 /* MKTAtMostNumberOfInvocationsChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 91669183FFD91E2FC8521AB98144BBBA /* MKTAtMostNumberOfInvocationsChecker.m */; };
 		E992F1B7EF18C8096581C2BD2F741120 /* MKTClassObjectMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24E4FDFA29A8597E538CDD96DBFAE7 /* MKTClassObjectMock.m */; };
 		E9BE32CBD776AF8E90FB8DB63C82963E /* MKTPointerArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F77FD5A3348B71342E7B49589AD2E8D /* MKTPointerArgumentGetter.m */; };
 		E9DF31E9A41FB23E9CF695D7C9435749 /* HCReturnValueGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A7F26A7154D6427C447090EC803230 /* HCReturnValueGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ED2155C5CCE030B960C3D69A760AC865 /* MKTNumberOfInvocationsChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 701CD46FD74D15D3140B2DA80021BC97 /* MKTNumberOfInvocationsChecker.m */; };
 		EDF98A9C230D1ED432E085518609B7ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411522344422D5EB68490B1D52199BED /* Foundation.framework */; };
-		EE146540674E1352DE60BE8AE4917D3B /* ListrakItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1F220A6ECA24896C71CA6978EA671E /* ListrakItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF0F4723DA4E60868235092D75FE5276 /* HCStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDBE40A3ACCBE934404E0DEA7BB85E /* HCStringDescription.m */; };
-		EF769A11AA68C852BC3C67D953E258BF /* ListrakConfigExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2168040BDAAE0CDC23E38009068CD1E5 /* ListrakConfigExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EFFABAC9180AFE3DAB9CEF3573C2B112 /* MKTStructArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F99D3C6E23DFC030629AF760337E7E /* MKTStructArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F089CD6B58263BF55731695E51430F11 /* ListrakContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E8672DE002E4F68516AFE14D4F92B4 /* ListrakContext.m */; };
 		F13C916F0EA6CCCD4C1D7D4DC1AE7995 /* MKTShortReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAFAB8880C243DE43D5E3B7C2A9CDD2 /* MKTShortReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F43D1E47BFDD7948A823318AA2F9835F /* MKTArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = D60F3DAC989170DE722BDB2F4101F32B /* MKTArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4E4FEA90364BB6D57937A67D7492EDC /* MKTBoolArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F16F627C3C89F1EA3D17D7111D7D7E /* MKTBoolArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -368,16 +367,17 @@
 		F775030FFCDB28561631DE01D5CFF91A /* MKTBoolArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8E7E5052E198D8DC868D6B53C28D0 /* MKTBoolArgumentGetter.m */; };
 		F7DD170B5F4319395FDB7DE036CA4FD4 /* HCBaseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B19E3776F9C62A4FC82157B15129E8C /* HCBaseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F83739B123BB45C8B2E42AF2A53A2C16 /* NSInvocation+OCMockito.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1FEC4EC4F9E012882E1C1E81110DAB /* NSInvocation+OCMockito.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84CB95C6C49A5D0E183656B46DB571B /* ListrakOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7077D70E439C694AE0C98E4345BB6B5 /* ListrakOrder.m */; };
 		F8F483A8ACF6DA754A7A8885E8392BC4 /* MKTThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC854956D46AC801AADC706C25F6D1 /* MKTThrowsException.m */; };
 		F9CB14D3A27B72C70A4576BAD797B324 /* NSInvocation+OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D422B005AC61D1318A6266D77CAE9A0 /* NSInvocation+OCHamcrest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FA89DB166DA1C459BD678B2C7B38AF10 /* HCTestFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4777B9C0DE599C7BA78C104DD3FE1C39 /* HCTestFailure.m */; };
 		FB3D35A7EBA52C3E4F3EEB616780ADDD /* MKTTestLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3579831EA41B807398C3371CE67195 /* MKTTestLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBF6B7FB8066C55DBF0BD263E151DC82 /* ListrakSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F25913BF83774E44730B6112ADA5B91 /* ListrakSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC35B8C9D85E99A9B695742AC9E1D350 /* HCCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = A390682EF942608C892726985EB8D738 /* HCCollect.m */; };
 		FC3EC55A63B7C347EECA06C82711D051 /* MKTBoolReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC73DDD56D35E82120E06D30F33B420 /* MKTBoolReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC83EA910CB9F3FD10216E4D3BEA62D1 /* HCIsTypeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 6081B46E3062EE83CA20FBEA72646078 /* HCIsTypeOf.m */; };
 		FCBD9BA7CBFA1FB9850ED7B7ED0E49EA /* HCFloatReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133F056BDE5B6986E01334564CE6572 /* HCFloatReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FCD88D3B6FB8BF70B28CF69C7C180013 /* MKTObjectAndProtocolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3A357E43F696F5C461DECE0780683 /* MKTObjectAndProtocolMock.m */; };
+		FDB3344C664F5EDEBA0AA1BE412A5F44 /* ListrakCart.h in Headers */ = {isa = PBXBuildFile; fileRef = 426843E76689653B02F2D3BAA742012E /* ListrakCart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEA4487C70615D19F14C0ED23D64A81A /* HCObjectReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC971AC67C8DE64BB52B6647B4F7C2 /* HCObjectReturnGetter.m */; };
 		FEDCD38CE823EF2A7A9BF8DFFC97854D /* MKTPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = E666B88C9557BF6F6ADC6FE75F948CC2 /* MKTPrinter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FFDBB7981F686C3F96D26B5D7B2E7E76 /* HCIsDictionaryContainingValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D497BA1B1777B98BB5036675F0369864 /* HCIsDictionaryContainingValue.m */; };
@@ -402,7 +402,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD2AF4DEBA81FAB1A7C19C728849D2CA;
+			remoteGlobalIDString = 7311CF4513A302639BDC00EAC543FF7D;
 			remoteInfo = ListrakSDK;
 		};
 		8D67F2CBD3322DDBFBAFE119B5362CFB /* PBXContainerItemProxy */ = {
@@ -433,7 +433,6 @@
 		02053D2A1E6F95E562B6B7D2B642FF62 /* HCIsDictionaryContainingKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingKey.m; path = Source/Library/Collection/HCIsDictionaryContainingKey.m; sourceTree = "<group>"; };
 		0277A7B63345B6FC0EE040674CA7EF40 /* MKTExecutesBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTExecutesBlock.m; path = Source/OCMockito/Stubbing/MKTExecutesBlock.m; sourceTree = "<group>"; };
 		02968AC87C16799E891240A4819EBB1E /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
-		03206F0BCEC0C7D12F5B6C3A6D165ACF /* ListrakItemExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakItemExtension.h; sourceTree = "<group>"; };
 		0463313BB584E6913235927625C0A539 /* MKTStructArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStructArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTStructArgumentGetter.m; sourceTree = "<group>"; };
 		04A6B3F28A5332C224834010677F1088 /* MKTAtLeastTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtLeastTimes.h; path = Source/OCMockito/Verifying/MKTAtLeastTimes.h; sourceTree = "<group>"; };
 		05765F8A736ADD8A0BBF18963A5752EC /* HCIsCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCloseTo.h; path = Source/Library/Number/HCIsCloseTo.h; sourceTree = "<group>"; };
@@ -441,6 +440,7 @@
 		06819241B366ADAE73A4FE25321E9932 /* HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNil.m; path = Source/Library/Object/HCIsNil.m; sourceTree = "<group>"; };
 		071B4634D72DD884DA5E37098CB28FB7 /* MKTMockitoCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMockitoCore.m; path = Source/OCMockito/Core/MKTMockitoCore.m; sourceTree = "<group>"; };
 		078ADDDECE9E7C044083B9ECC38C1E1B /* OCMockito-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMockito-dummy.m"; sourceTree = "<group>"; };
+		07CC6AF008C96E76910577EC76D4AC76 /* ListrakCartItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCartItem.h; sourceTree = "<group>"; };
 		098AFBF59F6E6A4C3957FFDDAA40EE95 /* HCFloatReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCFloatReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.m; sourceTree = "<group>"; };
 		0A7676F3F871339DA72FF037A1D8BB5F /* HCUnsignedCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.h; sourceTree = "<group>"; };
 		0AD8E7E5052E198D8DC868D6B53C28D0 /* MKTBoolArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBoolArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.m; sourceTree = "<group>"; };
@@ -455,13 +455,13 @@
 		0F77FD5A3348B71342E7B49589AD2E8D /* MKTPointerArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTPointerArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.m; sourceTree = "<group>"; };
 		0FAD22E58FAD4BA66260A41D24E30FC1 /* HCUnsignedShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.h; sourceTree = "<group>"; };
 		11658D70F7A8435674277D09A028BD95 /* MKTObjectMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectMock.h; path = Source/OCMockito/Mocking/MKTObjectMock.h; sourceTree = "<group>"; };
+		1224EAB7DFE073DC8A392A56F9E01BC3 /* ListrakOrdering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakOrdering.h; sourceTree = "<group>"; };
 		12E60C09A32A78F6B5F36C4321C20647 /* HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescription.h; path = Source/Core/HCDescription.h; sourceTree = "<group>"; };
 		143A8FCC4EB9B3F05B65D000DC0F0457 /* MKTUnsignedIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedIntReturnSetter.h; sourceTree = "<group>"; };
 		146D7318F4A57D67FB778D2CCEB27154 /* HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingKey.h; path = Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = "<group>"; };
 		1478C4E1CCB73AF12C02484A30EB8EA6 /* MKTInvocationContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationContainer.m; path = Source/OCMockito/Stubbing/MKTInvocationContainer.m; sourceTree = "<group>"; };
-		152F2FDBD738C9D650C8F058F3E8850D /* OCMockito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCMockito.modulemap; sourceTree = "<group>"; };
+		152F2FDBD738C9D650C8F058F3E8850D /* OCMockito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCMockito.modulemap; sourceTree = "<group>"; };
 		1548C9E37DCD36164BA46343444D8DCE /* MKTObjectArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTObjectArgumentGetter.h; sourceTree = "<group>"; };
-		1562A80591EF38CE89C77C280C64C79E /* ListrakCartItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakCartItem.m; sourceTree = "<group>"; };
 		15B9B648C1CAB1D941BE34C75C11066C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15FE2A668825C560FDD9D56B571759C5 /* HCShortReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCShortReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.m; sourceTree = "<group>"; };
 		1634ED22051FAC25C9028E1843A316C2 /* HCUnsignedLongLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedLongLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongLongReturnGetter.h; sourceTree = "<group>"; };
@@ -478,10 +478,10 @@
 		1EAC971AC67C8DE64BB52B6647B4F7C2 /* HCObjectReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCObjectReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.m; sourceTree = "<group>"; };
 		1F19532A08CE30F5D425EE846F303F37 /* HCIsNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNot.h; path = Source/Library/Logical/HCIsNot.h; sourceTree = "<group>"; };
 		1F2B19E2C0F7B8826CE7F32CDF3D1BAB /* HCHasProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasProperty.h; path = Source/Library/Object/HCHasProperty.h; sourceTree = "<group>"; };
+		1FD7EF4A43B49F82497D7D67C65CCBC3 /* ListrakService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakService.m; sourceTree = "<group>"; };
 		20AD495E7C9C2A8124ADFEC844813CA4 /* MKTCallStackElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCallStackElement.m; path = Source/OCMockito/Invocation/MKTCallStackElement.m; sourceTree = "<group>"; };
 		20E33E0514F05513F6C247C103E795D5 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		20F82A5BC0D99F0F99DAD367D7654CBA /* HCRequireNonNilObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCRequireNonNilObject.m; path = Source/Core/Helpers/HCRequireNonNilObject.m; sourceTree = "<group>"; };
-		2168040BDAAE0CDC23E38009068CD1E5 /* ListrakConfigExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakConfigExtension.h; sourceTree = "<group>"; };
 		2210CE9F60A186E46367DF391CC4A1DA /* HCWrapInMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCWrapInMatcher.m; path = Source/Core/Helpers/HCWrapInMatcher.m; sourceTree = "<group>"; };
 		22695860AA574F90DA0DE2C9026FA9EC /* HCIsEqualCompressingWhiteSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualCompressingWhiteSpace.m; path = Source/Library/Text/HCIsEqualCompressingWhiteSpace.m; sourceTree = "<group>"; };
 		228C5F5C92914C2AD0A7CD89A87ECDE3 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
@@ -491,17 +491,20 @@
 		243E713C835304D91E90A66A43D06668 /* MKTShortArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTShortArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTShortArgumentGetter.m; sourceTree = "<group>"; };
 		24B196EDFCD431CE4FA7D4E857486856 /* MKTCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTCharReturnSetter.m; sourceTree = "<group>"; };
 		24D30C98FFEC490CDD0ACFC48CA74F0B /* MKTUnsignedIntArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedIntArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.m; sourceTree = "<group>"; };
-		25100BF45EBBECCB135CC0D6CB433B0C /* ListrakCart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCart.h; sourceTree = "<group>"; };
 		261C57613E490A7D2F61AA57BC80776B /* MKTUnsignedLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongArgumentGetter.h; sourceTree = "<group>"; };
 		263236DDAE23E73917C905E9234F84FE /* MKTInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTInvocation.h; path = Source/OCMockito/Invocation/MKTInvocation.h; sourceTree = "<group>"; };
 		2708FB04FD92C10BC6006F169D40BBB7 /* MKTLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongReturnSetter.m; sourceTree = "<group>"; };
 		274D4C1C83E6146B68C374175AF7D9CE /* MKTStructReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStructReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.m; sourceTree = "<group>"; };
 		2871F1F7EB3AC1A43A7233348CFAF581 /* MKTBaseMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBaseMockObject.m; path = Source/OCMockito/Mocking/MKTBaseMockObject.m; sourceTree = "<group>"; };
 		28C964F76F32E35C5E286E6789A176A0 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29027815AB9026A0CBAB03083AD094EA /* ListrakSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakSession.m; sourceTree = "<group>"; };
 		299E76D5F21B0A4E414AE8EF8F63DC93 /* MKTUnsignedCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.m; sourceTree = "<group>"; };
+		2A20645461FC426C40F50D26D10A58F1 /* ListrakCart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakCart.m; sourceTree = "<group>"; };
 		2AAFAB8880C243DE43D5E3B7C2A9CDD2 /* MKTShortReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTShortReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTShortReturnSetter.h; sourceTree = "<group>"; };
 		2AD79F6A27ED37F013B665DEC0FC9B8A /* HCDoubleReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDoubleReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.h; sourceTree = "<group>"; };
 		2B341B47E9C3E53DCB4E36FD77C24BE2 /* HCIsTrueFalse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsTrueFalse.h; path = Source/Library/Number/HCIsTrueFalse.h; sourceTree = "<group>"; };
+		2C8EBFD995B7D396D9EA7106BFBDFDE3 /* ListrakOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakOrder.m; sourceTree = "<group>"; };
+		2D68A02F750BAA1A3F69F6BEA08B5E40 /* ListrakContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakContext.m; sourceTree = "<group>"; };
 		2EEB18EF2A16642AE1AC77DF2AB052ED /* MKTMatchingInvocationsFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMatchingInvocationsFinder.m; path = Source/OCMockito/Invocation/MKTMatchingInvocationsFinder.m; sourceTree = "<group>"; };
 		30AB369166B8B6B7147B312642FD6FFD /* MKTPrinter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTPrinter.m; path = Source/OCMockito/Invocation/MKTPrinter.m; sourceTree = "<group>"; };
 		30C6AB67E3C5207250755EC35DAF3F40 /* HCLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.m; sourceTree = "<group>"; };
@@ -511,11 +514,11 @@
 		343065FDA0274621DB13E0709BC49F63 /* HCIsEqualToNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualToNumber.h; path = Source/Library/Number/HCIsEqualToNumber.h; sourceTree = "<group>"; };
 		34A38DD374103EF87D9B3E96CFBA8F54 /* MKTLongLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongLongReturnSetter.h; sourceTree = "<group>"; };
 		34BCF2051DBF0496708D7E03C5B1B968 /* MKTLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongReturnSetter.h; sourceTree = "<group>"; };
+		353BFC737A5628682D8CD786111856B8 /* ListrakOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakOrder.h; sourceTree = "<group>"; };
 		353CD2E9E45AA94BC61AA7D9DDEC943F /* HCIsDictionaryContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContaining.h; path = Source/Library/Collection/HCIsDictionaryContaining.h; sourceTree = "<group>"; };
 		370B93517D41E0436D7DBC669F146D9B /* MKTShortReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTShortReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTShortReturnSetter.m; sourceTree = "<group>"; };
 		3792BAF8ED72E4D51CDE489C4C17258D /* MKTReturnsValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnsValue.m; path = Source/OCMockito/Stubbing/MKTReturnsValue.m; sourceTree = "<group>"; };
 		37BF63812B5B68137A68676DAF121322 /* HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContaining.m; path = Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = "<group>"; };
-		3962DF7BAB3210A1A4236FC2CD8421A0 /* ListrakActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakActivity.m; sourceTree = "<group>"; };
 		39855750E889D52DA45A65161BAB089B /* MKTDoubleArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTDoubleArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTDoubleArgumentGetter.m; sourceTree = "<group>"; };
 		39D45409F52B3D726304FAA6079D9BD7 /* OCHamcrest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCHamcrest-prefix.pch"; sourceTree = "<group>"; };
 		3BAF98486F9D0D8446403DF023EC2658 /* HCIsEqualToNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualToNumber.m; path = Source/Library/Number/HCIsEqualToNumber.m; sourceTree = "<group>"; };
@@ -527,19 +530,17 @@
 		3DE444FEA7B64B7144CC346F1B6F7EE2 /* HCIsCollectionContainingInRelativeOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInRelativeOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.h; sourceTree = "<group>"; };
 		3E379900407CD7BB896D943875055C00 /* MKTAtMostNumberOfInvocationsChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtMostNumberOfInvocationsChecker.h; path = Source/OCMockito/Verifying/MKTAtMostNumberOfInvocationsChecker.h; sourceTree = "<group>"; };
 		3E554441AF57D722D6B2D0BAF7D0DC35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F1F220A6ECA24896C71CA6978EA671E /* ListrakItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakItem.h; sourceTree = "<group>"; };
 		3F4FB119C92ACE8B1D58480271FD46DC /* MKTCallStackElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCallStackElement.h; path = Source/OCMockito/Invocation/MKTCallStackElement.h; sourceTree = "<group>"; };
 		3FA3A357E43F696F5C461DECE0780683 /* MKTObjectAndProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectAndProtocolMock.m; path = Source/OCMockito/Mocking/MKTObjectAndProtocolMock.m; sourceTree = "<group>"; };
-		3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListrakService.h; sourceTree = "<group>"; };
-		3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakService.m; sourceTree = "<group>"; };
 		411522344422D5EB68490B1D52199BED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4133F056BDE5B6986E01334564CE6572 /* HCFloatReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCFloatReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.h; sourceTree = "<group>"; };
 		41BF2701E372FBA1C03BE63502728A67 /* OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCHamcrest-dummy.m"; sourceTree = "<group>"; };
+		426843E76689653B02F2D3BAA742012E /* ListrakCart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCart.h; sourceTree = "<group>"; };
 		426C334AF35B7199EDBAE32C746763FC /* MKT_TPDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKT_TPDWeakProxy.m; path = "Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.m"; sourceTree = "<group>"; };
 		4370C15D4903AB38E078F02471C24CBF /* HCTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.m; sourceTree = "<group>"; };
 		43C4B1135BFEA03435453AC143CF620B /* MKTUnsignedIntReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedIntReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedIntReturnSetter.m; sourceTree = "<group>"; };
 		4424F5450B61F00A5D48294DFC23C6C7 /* HCAssertThat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCAssertThat.h; path = Source/Core/HCAssertThat.h; sourceTree = "<group>"; };
-		46484C4ED92DEFB9012FCB20B3B7DB3A /* ListrakConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakConfig.h; sourceTree = "<group>"; };
+		460B459EDBA2716A66D5BEE63CA1DFC7 /* ListrakItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakItem.m; sourceTree = "<group>"; };
 		4777B9C0DE599C7BA78C104DD3FE1C39 /* HCTestFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailure.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailure.m; sourceTree = "<group>"; };
 		47E296F7E65DD18C78748C194712A9CB /* MKTStubbedInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStubbedInvocationMatcher.m; path = Source/OCMockito/Stubbing/MKTStubbedInvocationMatcher.m; sourceTree = "<group>"; };
 		4844291A8368404358A82BB0D23A029D /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
@@ -571,8 +572,9 @@
 		5CC7F2CD621253F708BE4A521DBCAE03 /* Pods-ListrakSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ListrakSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CFB0E8644171F7E0F22C7BFF78B90CF /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		5D9007597D55098A6FE1D4AB458CF27B /* HCUnsignedCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.m; sourceTree = "<group>"; };
-		5DC28E283FE9C1CECDEC9812F8B193AD /* Pods_ListrakSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListrakSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC28E283FE9C1CECDEC9812F8B193AD /* Pods_ListrakSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ListrakSDK_Example.framework; path = "Pods-ListrakSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDD16BB9BBFDAE8EF7F92A636EA0417 /* MKTFloatReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFloatReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.m; sourceTree = "<group>"; };
+		5DED8A22B57312F114B7A1C287D3F336 /* ListrakItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakItem.h; sourceTree = "<group>"; };
 		5DEFEC0E49DE0E9CD1C86424AC37A319 /* HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasDescription.m; path = Source/Library/Object/HCHasDescription.m; sourceTree = "<group>"; };
 		5E0515FAC1E8A591B3142946BB1A20AD /* NSInvocation+OCHamcrest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCHamcrest.m"; path = "Source/Core/Helpers/NSInvocation+OCHamcrest.m"; sourceTree = "<group>"; };
 		5E59CBB707AD0C31778F67398FAFE7F3 /* MKTDoubleReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDoubleReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTDoubleReturnSetter.h; sourceTree = "<group>"; };
@@ -581,9 +583,7 @@
 		6081B46E3062EE83CA20FBEA72646078 /* HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsTypeOf.m; path = Source/Library/Object/HCIsTypeOf.m; sourceTree = "<group>"; };
 		617A6870A27477D965DD820779F11211 /* MKTUnsignedCharArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedCharArgumentGetter.h; sourceTree = "<group>"; };
 		617E20E39330950AE92E68616A35C79F /* MKTIntReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTIntReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTIntReturnSetter.m; sourceTree = "<group>"; };
-		622466D4E46E24592930CE85D07F42D1 /* ListrakOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakOrder.h; sourceTree = "<group>"; };
 		62E345B512674156E830712C06745CF8 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
-		62E8672DE002E4F68516AFE14D4F92B4 /* ListrakContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakContext.m; sourceTree = "<group>"; };
 		63331571E3D004FD2B90A51615B3AF42 /* Pods-ListrakSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ListrakSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		644FCB3DAC63C7424A86A024A0FBAF0B /* Pods-ListrakSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ListrakSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64AF3AE8416059C685C2821E8A587DF4 /* Pods-ListrakSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ListrakSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -594,8 +594,7 @@
 		68747DFF99CF2A6976131C443F7F5EA5 /* HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContains.m; path = Source/Library/Text/HCStringContains.m; sourceTree = "<group>"; };
 		696EE43AEB890F8819C2A3FAA67ED59B /* MKTAtLeastNumberOfInvocationsChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtLeastNumberOfInvocationsChecker.h; path = Source/OCMockito/Verifying/MKTAtLeastNumberOfInvocationsChecker.h; sourceTree = "<group>"; };
 		6974A3FA7AB207107CD898381539A6CC /* MKTStructReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.h; sourceTree = "<group>"; };
-		69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListrakSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A758730F2CE3F3C624E95DB74C5B160 /* ListrakOrdering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakOrdering.h; sourceTree = "<group>"; };
+		69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListrakSDK.framework; path = ListrakSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE382606469144AEBB3D90A99120B7D /* HCUnsignedLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.m; sourceTree = "<group>"; };
 		6B19E3776F9C62A4FC82157B15129E8C /* HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseMatcher.h; path = Source/Core/HCBaseMatcher.h; sourceTree = "<group>"; };
 		6B311ADD51007FBA6EDD325FA55D2937 /* MKTLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongArgumentGetter.h; sourceTree = "<group>"; };
@@ -606,7 +605,6 @@
 		6E6B1F06B25D0358065610B157D775CD /* MKTVerificationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTVerificationData.m; path = Source/OCMockito/Verifying/MKTVerificationData.m; sourceTree = "<group>"; };
 		6EC212A4C54515B1E2C48A981CCD8375 /* HCIsCollectionContainingInRelativeOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInRelativeOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.m; sourceTree = "<group>"; };
 		6F6A6BE9B02759034870101B00A0B988 /* HCIsCollectionContainingInAnyOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInAnyOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h; sourceTree = "<group>"; };
-		6F8BD57109169B0493F25769B28A5AF9 /* ListrakCartItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCartItem.h; sourceTree = "<group>"; };
 		7019569B3EF11DE1930D21E527A49A1A /* HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCClassMatcher.h; path = Source/Library/Object/HCClassMatcher.h; sourceTree = "<group>"; };
 		701CD46FD74D15D3140B2DA80021BC97 /* MKTNumberOfInvocationsChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTNumberOfInvocationsChecker.m; path = Source/OCMockito/Verifying/MKTNumberOfInvocationsChecker.m; sourceTree = "<group>"; };
 		709037E62A6A4AD8373094009CC9A40E /* Pods-ListrakSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ListrakSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -619,8 +617,9 @@
 		74A6A0F8764BFC38EBB6BB74C01ABF7F /* ListrakSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListrakSDK-prefix.pch"; sourceTree = "<group>"; };
 		76DEC88B75D443D1FF440FD2B5E64D81 /* MKTUnsignedIntArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.h; sourceTree = "<group>"; };
 		771BF4A51786F5FFAE7A6ED57D376FE0 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
-		7815AE8EF0D851E4C6F06B33FCFA19C6 /* Pods-ListrakSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ListrakSDK_Example.modulemap"; sourceTree = "<group>"; };
+		7815AE8EF0D851E4C6F06B33FCFA19C6 /* Pods-ListrakSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ListrakSDK_Example.modulemap"; sourceTree = "<group>"; };
 		78C327A6D20BF821E206F5B8214D85C1 /* MKTIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTIntReturnSetter.h; sourceTree = "<group>"; };
+		78F564D5D7DD5D78E2C31C0C7B8FD6FB /* ListrakActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakActivity.m; sourceTree = "<group>"; };
 		79104AF36A74BD92F911C8C5A9335284 /* MKTInvocationContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTInvocationContainer.h; path = Source/OCMockito/Stubbing/MKTInvocationContainer.h; sourceTree = "<group>"; };
 		7988FCC6CC5AF89FC31AB440ED4F7389 /* HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCOrderingComparison.h; path = Source/Library/Number/HCOrderingComparison.h; sourceTree = "<group>"; };
 		79DEA4C77AF8668F5616631B903BF8ED /* MKTClassObjectMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTClassObjectMock.h; path = Source/OCMockito/Mocking/MKTClassObjectMock.h; sourceTree = "<group>"; };
@@ -647,24 +646,22 @@
 		857BCFD8833E82AC2657A9E343DEC3CF /* HCStringStartsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringStartsWith.h; path = Source/Library/Text/HCStringStartsWith.h; sourceTree = "<group>"; };
 		863EC835E0D552171BD296327B917B72 /* HCIsSame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsSame.m; path = Source/Library/Object/HCIsSame.m; sourceTree = "<group>"; };
 		8647E76121F86EE7A7CDBFC2EC0F6BD0 /* OCHamcrest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCHamcrest-umbrella.h"; sourceTree = "<group>"; };
-		886FFDBF995CDD61BD8650588166E7DC /* ListrakCart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakCart.m; sourceTree = "<group>"; };
 		893463C6E3170F4043064A326DF4413A /* HCIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIs.h; path = Source/Library/Decorator/HCIs.h; sourceTree = "<group>"; };
 		8956F2A6C0839B961D3DF74FD47B42C5 /* MKTFloatArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTFloatArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTFloatArgumentGetter.h; sourceTree = "<group>"; };
 		8A9B361F977793E4152A0EF24734555E /* MKTUnsignedShortReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedShortReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedShortReturnSetter.h; sourceTree = "<group>"; };
-		8AB85057000117CC07D9BF8B897B5EB1 /* ListrakContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakContext.h; sourceTree = "<group>"; };
 		8BC73DDD56D35E82120E06D30F33B420 /* MKTBoolReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBoolReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.h; sourceTree = "<group>"; };
 		8C1135E0748A0F54A36F308CD5BA45FE /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		8C58C0D07F13B9CB0B38BE654D51F1FE /* MKTExactTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTExactTimes.h; path = Source/OCMockito/Verifying/MKTExactTimes.h; sourceTree = "<group>"; };
 		8D0E2A9D5CA761D273DFA19D09F19312 /* MKTSingletonSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTSingletonSwizzler.m; path = Source/OCMockito/Mocking/MKTSingletonSwizzler.m; sourceTree = "<group>"; };
-		8D578B521CF2BDA7CCEBD7CAA45B3A12 /* ListrakSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ListrakSDK.modulemap; sourceTree = "<group>"; };
+		8D578B521CF2BDA7CCEBD7CAA45B3A12 /* ListrakSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ListrakSDK.modulemap; sourceTree = "<group>"; };
 		8E69EF48ED56FD65559AECC53DA99C4F /* MKTArgumentGetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetterChain.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.m; sourceTree = "<group>"; };
 		8FAE6857EC67D73CDD6F19D65FB85C6E /* MKTPointerArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPointerArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.h; sourceTree = "<group>"; };
-		904EE5E49D7507B133630145A5ACDA70 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
+		904EE5E49D7507B133630145A5ACDA70 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Specta.modulemap; sourceTree = "<group>"; };
 		906B31FD9E78491253A387FD3706724E /* MKTBoolReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBoolReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.m; sourceTree = "<group>"; };
 		90FE1FD9161624162153C464384192AC /* HCIsCollectionContainingInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInOrder.m; sourceTree = "<group>"; };
 		91669183FFD91E2FC8521AB98144BBBA /* MKTAtMostNumberOfInvocationsChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTAtMostNumberOfInvocationsChecker.m; path = Source/OCMockito/Verifying/MKTAtMostNumberOfInvocationsChecker.m; sourceTree = "<group>"; };
 		91EC50746629BBB7951096DB61D4AB79 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B360BE674CBC84F6CF8970D56799D2 /* MKTReturnValueSetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnValueSetterChain.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetterChain.m; sourceTree = "<group>"; };
 		93C33D6DE877BA0A8CFAA8EF91A4137C /* MKTOngoingStubbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTOngoingStubbing.h; path = Source/OCMockito/Stubbing/MKTOngoingStubbing.h; sourceTree = "<group>"; };
 		93F99D3C6E23DFC030629AF760337E7E /* MKTStructArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTStructArgumentGetter.h; sourceTree = "<group>"; };
@@ -688,6 +685,7 @@
 		A09634C6086C7733832570152918B444 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09914B348670B3FBF6034D4D6F77342 /* HCGenericTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCGenericTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.m; sourceTree = "<group>"; };
 		A099ADE54B128967C641734F9354353A /* MKTProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTProtocolMock.m; path = Source/OCMockito/Mocking/MKTProtocolMock.m; sourceTree = "<group>"; };
+		A19470C49BDCCB5CDD9B0397943329A3 /* ListrakSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSession.h; sourceTree = "<group>"; };
 		A1EBB0F86C65C172C1FDA08E12D28D86 /* HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEmptyCollection.h; path = Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = "<group>"; };
 		A200069839515BBA4EF6DAACF89C7926 /* MKTIntArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTIntArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTIntArgumentGetter.m; sourceTree = "<group>"; };
 		A30370C9E0AD4FF5E8C169376039E790 /* MKTDoubleArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDoubleArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTDoubleArgumentGetter.h; sourceTree = "<group>"; };
@@ -712,7 +710,7 @@
 		AADFEF4287212C1FD88AC8CF085A0E76 /* MKTFilterCallStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFilterCallStack.m; path = Source/OCMockito/Invocation/MKTFilterCallStack.m; sourceTree = "<group>"; };
 		AB3579831EA41B807398C3371CE67195 /* MKTTestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTTestLocation.h; path = Source/OCMockito/Core/MKTTestLocation.h; sourceTree = "<group>"; };
 		AB590A386034153A3C89F9E594E3717A /* HCInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCInvocationMatcher.m; path = Source/Core/Helpers/HCInvocationMatcher.m; sourceTree = "<group>"; };
-		ABF8C5D2FA93D798A3DD4CC790DCDB5E /* Pods_ListrakSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListrakSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF8C5D2FA93D798A3DD4CC790DCDB5E /* Pods_ListrakSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ListrakSDK_Tests.framework; path = "Pods-ListrakSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9C3C3729F435547CA96DE58BB4CB5F /* HCCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.h; sourceTree = "<group>"; };
 		AD521FC5C2D52A7F68D8C374F377855C /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		AD56463E180984AD2675B0A22471888A /* HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAllOf.m; path = Source/Library/Logical/HCAllOf.m; sourceTree = "<group>"; };
@@ -721,13 +719,15 @@
 		AFD6BF8E6C7D784F33A7CB3A5E82D2B8 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		B0E4DF4BB2090AD230FE1C31E438454F /* HCEvery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCEvery.h; path = Source/Library/Collection/HCEvery.h; sourceTree = "<group>"; };
 		B138698C90C64A217A907F1E6CDC961E /* HCReturnValueGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnValueGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.m; sourceTree = "<group>"; };
-		B2D8B96857E75BDFAB583D06D9EBAC43 /* OCMockito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMockito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D8B96857E75BDFAB583D06D9EBAC43 /* OCMockito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCMockito.framework; path = OCMockito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35F78C24FDACAF3AEFDC66E20EF0228 /* ListrakActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakActivity.h; sourceTree = "<group>"; };
 		B49A611246FEC6816CD3EFFBF56F60BA /* MKTShortArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTShortArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTShortArgumentGetter.h; sourceTree = "<group>"; };
 		B51C8B302107FE0C6D1426438BD2A38E /* MKTArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.m; sourceTree = "<group>"; };
 		B61495EDF3C0F2079F402EDAD9B8030B /* MKTLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongLongArgumentGetter.h; sourceTree = "<group>"; };
 		B87CC50A0C80BC724E4F914B88A6AA7F /* HCTestFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailure.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailure.h; sourceTree = "<group>"; };
 		B97C871412C3F14B8A88C428A0FCDADB /* MKTNonObjectArgumentMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTNonObjectArgumentMatching.h; path = Source/OCMockito/Core/MKTNonObjectArgumentMatching.h; sourceTree = "<group>"; };
 		BAC0E58BA49245ADA49CFEA5FF38D61F /* HCIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIs.m; path = Source/Library/Decorator/HCIs.m; sourceTree = "<group>"; };
+		BB964B62580C8D8FC284E89DC852C982 /* ListrakConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakConfig.h; sourceTree = "<group>"; };
 		BBBF4BA2234E99F5659FEC90B6E90F06 /* HCIsDictionaryContainingEntries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingEntries.m; path = Source/Library/Collection/HCIsDictionaryContainingEntries.m; sourceTree = "<group>"; };
 		BC703840CBFD76CA9DA67766B48C2BB5 /* HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAssertThat.m; path = Source/Core/HCAssertThat.m; sourceTree = "<group>"; };
 		BC9A70C9F9321DCEE4C8C8F8C1A75B67 /* MKTLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLocation.m; path = Source/OCMockito/Invocation/MKTLocation.m; sourceTree = "<group>"; };
@@ -737,18 +737,18 @@
 		BE49F7EF0A858F1EFE9B3A9BE3E87957 /* Pods-ListrakSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ListrakSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		BEE9C384F0B9CC8E1047716922B8AD29 /* MKTParseCallStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTParseCallStack.m; path = Source/OCMockito/Invocation/MKTParseCallStack.m; sourceTree = "<group>"; };
 		C206B1B90BE1AD7EBA2F2B410FB01B07 /* Pods-ListrakSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ListrakSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C24699F5BAE2DC636C6332797E46FDC0 /* ListrakSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakSession.m; sourceTree = "<group>"; };
+		C2EA4FC2615469B030DE5B1D3B1A1BCA /* ListrakConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakConfig.m; sourceTree = "<group>"; };
 		C45B01EC2780A48A80E50B31CC50B5B6 /* Pods-ListrakSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ListrakSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 		C483611BBB7E28FE505524696B00E0D0 /* MKT_TPDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKT_TPDWeakProxy.h; path = "Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.h"; sourceTree = "<group>"; };
 		C49842459BBD38ED3ABA0C8C41B59AD4 /* MKTUnsignedLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongLongArgumentGetter.h; sourceTree = "<group>"; };
 		C4B7265005172258969DDF5F46AB4151 /* HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsAnything.m; path = Source/Library/Logical/HCIsAnything.m; sourceTree = "<group>"; };
 		C5180C8489D6E3681754AFA468B86B57 /* OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockito.h; path = Source/OCMockito/Core/OCMockito.h; sourceTree = "<group>"; };
-		C5702D3B3274468D4EAB423E43BC8325 /* Pods-ListrakSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ListrakSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		C5702D3B3274468D4EAB423E43BC8325 /* Pods-ListrakSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ListrakSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		C5C8C8AA79B58C38FB9E350FB7355225 /* MKTMockitoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTMockitoCore.h; path = Source/OCMockito/Core/MKTMockitoCore.h; sourceTree = "<group>"; };
-		C61F46DFAB58B63E9B0F9AE62342DB03 /* ListrakSessionExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSessionExtension.h; sourceTree = "<group>"; };
 		C64B9FC6DC9045CF82F4FEC68DF80E22 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		C688DB752423A027B95FE420DA71ECA3 /* HCLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.h; sourceTree = "<group>"; };
 		C7BD135727DFD80052EED13AE03100D1 /* OCHamcrest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCHamcrest.xcconfig; sourceTree = "<group>"; };
+		C83BACC6163F0A8F2BAF7B42D10F868D /* ListrakContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakContext.h; sourceTree = "<group>"; };
 		C8CE7DE30CA99F8FE0DE452249D2709B /* MKTReturnsValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTReturnsValue.h; path = Source/OCMockito/Stubbing/MKTReturnsValue.h; sourceTree = "<group>"; };
 		C8FADCB61E6BDA0E46BBF558CA64F32C /* HCIsEqualCompressingWhiteSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualCompressingWhiteSpace.h; path = Source/Library/Text/HCIsEqualCompressingWhiteSpace.h; sourceTree = "<group>"; };
 		CA3D4BB4AF63FA17C3E690A94638A5D1 /* OCMockito.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMockito.xcconfig; sourceTree = "<group>"; };
@@ -761,6 +761,7 @@
 		CE182FDAD5F623F8B81E0A5062B31A94 /* MKTUnsignedCharArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedCharArgumentGetter.m; sourceTree = "<group>"; };
 		CE6A0D225D6714317DD87072C0809EB9 /* HCArgumentCaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCArgumentCaptor.h; path = Source/Library/Object/HCArgumentCaptor.h; sourceTree = "<group>"; };
 		D0667BDCCD79A0C98E7E45E47DAE1DB4 /* MKTUnsignedLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongReturnSetter.m; sourceTree = "<group>"; };
+		D1D8C325C2939B78F500FA1B1512E371 /* ListrakOrdering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakOrdering.m; sourceTree = "<group>"; };
 		D497BA1B1777B98BB5036675F0369864 /* HCIsDictionaryContainingValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingValue.m; path = Source/Library/Collection/HCIsDictionaryContainingValue.m; sourceTree = "<group>"; };
 		D4F16F627C3C89F1EA3D17D7111D7D7E /* MKTBoolArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBoolArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.h; sourceTree = "<group>"; };
 		D53A2647FA0ED2C14C74B906E9202AD4 /* HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsIn.h; path = Source/Library/Collection/HCIsIn.h; sourceTree = "<group>"; };
@@ -769,19 +770,20 @@
 		D5B1A03571282B893039690406906B49 /* HCXCTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCXCTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.m; sourceTree = "<group>"; };
 		D60F3DAC989170DE722BDB2F4101F32B /* MKTArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.h; sourceTree = "<group>"; };
 		D6AC439352E5B400C84BDEC467F62FC1 /* Pods-ListrakSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ListrakSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D7077D70E439C694AE0C98E4345BB6B5 /* ListrakOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakOrder.m; sourceTree = "<group>"; };
+		D71D727B9F24B24857261BE9CA21437C /* ListrakService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakService.h; sourceTree = "<group>"; };
 		D8F0B77FBEA3200C88E5E067E64C158F /* HCIsSame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsSame.h; path = Source/Library/Object/HCIsSame.h; sourceTree = "<group>"; };
 		D916CE56661AD879C02CA8C824B73F96 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		DB1BFE0CB659A585E9DCE6677ACE3085 /* MKTObjectMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectMock.m; path = Source/OCMockito/Mocking/MKTObjectMock.m; sourceTree = "<group>"; };
 		DB383A19782C9B101941C0CC70E0FD3C /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		DB83F22646431C66BB044245EA85E97E /* HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingValue.h; path = Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = "<group>"; };
 		DC01A33C7F956184E762B6058C8788C6 /* HCDiagnosingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDiagnosingMatcher.h; path = Source/Core/HCDiagnosingMatcher.h; sourceTree = "<group>"; };
-		DC73E8968A559C133AD9D227A5AD6A88 /* OCHamcrest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OCHamcrest.modulemap; sourceTree = "<group>"; };
+		DC73E8968A559C133AD9D227A5AD6A88 /* OCHamcrest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCHamcrest.modulemap; sourceTree = "<group>"; };
 		DCA0055313551DF876BDFA855651D3D7 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
 		DD954CB2380F48605E0FEECF7294AB0E /* HCXCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCXCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.h; sourceTree = "<group>"; };
 		DDC237BEC62427C7F1B856055172EF59 /* MKTMissingInvocationChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMissingInvocationChecker.m; path = Source/OCMockito/Verifying/MKTMissingInvocationChecker.m; sourceTree = "<group>"; };
 		DE6710C8E38862854FB2168F0B991C3C /* MKTFloatReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTFloatReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.h; sourceTree = "<group>"; };
 		DF41EBC8531DE325B36CD539D1011AD0 /* MKTInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocation.m; path = Source/OCMockito/Invocation/MKTInvocation.m; sourceTree = "<group>"; };
+		DFC74D7AB128362452D07EA39037CB3A /* ListrakItemExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakItemExtension.h; sourceTree = "<group>"; };
 		E065DF465825DE47DBA9FED69FECFA66 /* MKTDynamicProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDynamicProperties.h; path = Source/OCMockito/Mocking/MKTDynamicProperties.h; sourceTree = "<group>"; };
 		E0BECEA5BB33CFBFB7B1878ED1747FCF /* HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCMatcher.h; path = Source/Core/HCMatcher.h; sourceTree = "<group>"; };
 		E226891009DCBB44716C546D78BE855C /* MKTClassArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTClassArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTClassArgumentGetter.h; sourceTree = "<group>"; };
@@ -795,22 +797,18 @@
 		E58F98DA863E4C56F2E87C570A3466AC /* MKTUnsignedLongLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongLongReturnSetter.m; sourceTree = "<group>"; };
 		E5DCA7A3950C9E2B2559EFAE16196B17 /* HCIsCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCloseTo.m; path = Source/Library/Number/HCIsCloseTo.m; sourceTree = "<group>"; };
 		E666B88C9557BF6F6ADC6FE75F948CC2 /* MKTPrinter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPrinter.h; path = Source/OCMockito/Invocation/MKTPrinter.h; sourceTree = "<group>"; };
-		E6AC600930018452BC68BA80333E11F3 /* ListrakActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakActivity.h; sourceTree = "<group>"; };
 		E6D920FF744905F8C479B9B25C0A1BBF /* HCDescribedAs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDescribedAs.m; path = Source/Library/Decorator/HCDescribedAs.m; sourceTree = "<group>"; };
 		E826CDAD31ECCD2AAB4A0601BEDF2D55 /* MKTLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLocation.h; path = Source/OCMockito/Invocation/MKTLocation.h; sourceTree = "<group>"; };
-		E8E03916D1E2C89152541A463AA316AA /* ListrakCartItemExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCartItemExtension.h; sourceTree = "<group>"; };
 		E905DC89581323B0B92115FF81C3D2D4 /* HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualIgnoringCase.m; path = Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = "<group>"; };
+		EA0119C32AAE3D8F78A7822B13E2487D /* ListrakConfigExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakConfigExtension.h; sourceTree = "<group>"; };
+		EAADE8200B6AFCD566BD7BB5FA24EBBC /* ListrakCartItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakCartItem.m; sourceTree = "<group>"; };
 		EB79CD9E83DB78A43A9AC3BE683235B8 /* OCMockito.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockito.m; path = Source/OCMockito/Core/OCMockito.m; sourceTree = "<group>"; };
 		EB99897757756CF8FE80F0465558A144 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
-		EBEA99462B9C28FC2CC9988FD11A3ABD /* ListrakConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakConfig.m; sourceTree = "<group>"; };
 		EC25B93C8287C569875606A676530348 /* HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqual.m; path = Source/Library/Object/HCIsEqual.m; sourceTree = "<group>"; };
 		EC520DD254A0EB49185D9C7BA9145CD5 /* MKTMockingProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMockingProgress.m; path = Source/OCMockito/Core/MKTMockingProgress.m; sourceTree = "<group>"; };
 		EE5E9B31C6E9EE65A3B5F0ABB26F7C1B /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
-		EF81E3BDB63C467C68B947DE8E9EF8AD /* ListrakItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakItem.m; sourceTree = "<group>"; };
 		F02EAD0AE0C02A7F81B58E567CA1D87A /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		F0555803AC15268436A82F4F55B316A4 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F07F980D643E374209607F35ACEF22F3 /* ListrakOrdering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ListrakOrdering.m; sourceTree = "<group>"; };
-		F09F53DE3DC4451C00DB8E8C7D4B315B /* ListrakSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSession.h; sourceTree = "<group>"; };
+		F0555803AC15268436A82F4F55B316A4 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCHamcrest.framework; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21A689913086825C359DB787179A92A /* HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionOnlyContaining.m; path = Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = "<group>"; };
 		F3F12525A21DF36047B2E42924C1BD64 /* HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSelfDescribing.h; path = Source/Core/HCSelfDescribing.h; sourceTree = "<group>"; };
 		F46AE5DA384C002A79200F46DE9D8A3A /* HCBaseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBaseMatcher.m; path = Source/Core/HCBaseMatcher.m; sourceTree = "<group>"; };
@@ -818,14 +816,16 @@
 		F514D5485F9AFAEF13BD46E0F498E803 /* MKTAnswer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAnswer.h; path = Source/OCMockito/Stubbing/MKTAnswer.h; sourceTree = "<group>"; };
 		F5942FBD05553C0313AE21ECCBB1154F /* HCSenTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSenTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.h; sourceTree = "<group>"; };
 		F5BA7C54F111D30719881C5DD1E5FD2C /* HCGenericTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCGenericTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.h; sourceTree = "<group>"; };
-		F600847FC591FC00A66C0234C679B200 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600847FC591FC00A66C0234C679B200 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65EBFA76DCB09C0C935DB9ABEE75405 /* MKTInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationMatcher.m; path = Source/OCMockito/Invocation/MKTInvocationMatcher.m; sourceTree = "<group>"; };
 		F729AAEF19950CA374FF2BB0225A247D /* HCDiagnosingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDiagnosingMatcher.m; path = Source/Core/HCDiagnosingMatcher.m; sourceTree = "<group>"; };
+		F78EC83BEB9DD22B41263FD8E9F23279 /* ListrakCartItemExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakCartItemExtension.h; sourceTree = "<group>"; };
 		F91FF3AA56044E831B7A7EA1684988B8 /* MKTClassArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTClassArgumentGetter.m; sourceTree = "<group>"; };
 		FA10CDCE01C56DE7B27B04A433DD80CC /* HCIsEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqual.h; path = Source/Library/Object/HCIsEqual.h; sourceTree = "<group>"; };
 		FB534CF97AF304ADB9E1187CD4A2EDFA /* HCStringEndsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringEndsWith.m; path = Source/Library/Text/HCStringEndsWith.m; sourceTree = "<group>"; };
 		FBF14C9985A3551C68BB5652B4F22C8C /* ListrakSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListrakSDK.xcconfig; sourceTree = "<group>"; };
 		FC4740E255F945E57941E1CE06EB03BE /* HCCollect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCollect.h; path = Source/Core/Helpers/HCCollect.h; sourceTree = "<group>"; };
+		FC488B9B39603593C3297EC4026ED6CB /* ListrakSessionExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ListrakSessionExtension.h; sourceTree = "<group>"; };
 		FD2269FC36F6ACBD7D9F6DD0C9267AD7 /* HCIsEmptyCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEmptyCollection.m; path = Source/Library/Collection/HCIsEmptyCollection.m; sourceTree = "<group>"; };
 		FD2C94CB7F7B0A985768607F2DD3E9A8 /* Pods-ListrakSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ListrakSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE9961E80788DA2D0DAACF8A319F54CC /* MKTUnsignedCharReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.h; sourceTree = "<group>"; };
@@ -841,11 +841,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4DB5939B0876B53910A519F27E211C /* Frameworks */ = {
+		30C857A878234710D2FD526F24C49E4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B61D866DE5F8ADCE93FB46F6A25030 /* Foundation.framework in Frameworks */,
+				7A6E29656CE419FAC15D78ED4FA848ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,15 +900,6 @@
 			path = "Example/Pods/Target Support Files/ListrakSDK";
 			sourceTree = "<group>";
 		};
-		0854EFD954C65213BA24DC70600D9833 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6C419FEB68807A23DCA18D28C5E21D8D /* Internal */,
-				7C5E09BFB2C24D54ED0BCF4AC82716F4 /* Public */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		0E5F5E8C80AE7B375B21AF405F81CE2D /* Pods-ListrakSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -939,6 +930,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/OCHamcrest";
+			sourceTree = "<group>";
+		};
+		1F6A25DA3BCD336D1E106BB6046868CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E020F7F94496896A09E84E41669DB381 /* Internal */,
+				BE45459255D4E4DCC346B2BC102365CE /* Public */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		2077BE046566B01A3345E150046676C2 /* Support Files */ = {
@@ -995,6 +996,7 @@
 				F02EAD0AE0C02A7F81B58E567CA1D87A /* XCTestCase+Specta.m */,
 				ADE5DC3A49BBF6FC889E4C824AE69166 /* Support Files */,
 			);
+			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -1005,21 +1007,6 @@
 				C0EE1A3B1015E20D2ABECB248BF78BAE /* Pods-ListrakSDK_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6C419FEB68807A23DCA18D28C5E21D8D /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				E8E03916D1E2C89152541A463AA316AA /* ListrakCartItemExtension.h */,
-				2168040BDAAE0CDC23E38009068CD1E5 /* ListrakConfigExtension.h */,
-				03206F0BCEC0C7D12F5B6C3A6D165ACF /* ListrakItemExtension.h */,
-				C61F46DFAB58B63E9B0F9AE62342DB03 /* ListrakSessionExtension.h */,
-				8AB85057000117CC07D9BF8B897B5EB1 /* ListrakContext.h */,
-				62E8672DE002E4F68516AFE14D4F92B4 /* ListrakContext.m */,
-				3FE2A8B71EC0ABA100E561B7 /* ListrakService.h */,
-				3FE2A8B81EC0ABA100E561B7 /* ListrakService.m */,
-			);
-			path = Internal;
 			sourceTree = "<group>";
 		};
 		78204EE4ED057197AD7BAFA1EC2DA203 /* Frameworks */ = {
@@ -1038,29 +1025,6 @@
 				1C1B5A42861B91961CD61B3B06929160 /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7C5E09BFB2C24D54ED0BCF4AC82716F4 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				E6AC600930018452BC68BA80333E11F3 /* ListrakActivity.h */,
-				3962DF7BAB3210A1A4236FC2CD8421A0 /* ListrakActivity.m */,
-				25100BF45EBBECCB135CC0D6CB433B0C /* ListrakCart.h */,
-				886FFDBF995CDD61BD8650588166E7DC /* ListrakCart.m */,
-				6F8BD57109169B0493F25769B28A5AF9 /* ListrakCartItem.h */,
-				1562A80591EF38CE89C77C280C64C79E /* ListrakCartItem.m */,
-				46484C4ED92DEFB9012FCB20B3B7DB3A /* ListrakConfig.h */,
-				EBEA99462B9C28FC2CC9988FD11A3ABD /* ListrakConfig.m */,
-				3F1F220A6ECA24896C71CA6978EA671E /* ListrakItem.h */,
-				EF81E3BDB63C467C68B947DE8E9EF8AD /* ListrakItem.m */,
-				622466D4E46E24592930CE85D07F42D1 /* ListrakOrder.h */,
-				D7077D70E439C694AE0C98E4345BB6B5 /* ListrakOrder.m */,
-				6A758730F2CE3F3C624E95DB74C5B160 /* ListrakOrdering.h */,
-				F07F980D643E374209607F35ACEF22F3 /* ListrakOrdering.m */,
-				F09F53DE3DC4451C00DB8E8C7D4B315B /* ListrakSession.h */,
-				C24699F5BAE2DC636C6332797E46FDC0 /* ListrakSession.m */,
-			);
-			path = Public;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -1234,14 +1198,16 @@
 				6C4C3E464093A30943BC20BE9D38763D /* OCHamcrest.h */,
 				0F14C6B510D0D8A4D0AF812A00207DFA /* Support Files */,
 			);
+			name = OCHamcrest;
 			path = OCHamcrest;
 			sourceTree = "<group>";
 		};
 		80713155B9A50972314DEE620B88BBE7 /* ListrakSDK */ = {
 			isa = PBXGroup;
 			children = (
-				0854EFD954C65213BA24DC70600D9833 /* Classes */,
+				1F6A25DA3BCD336D1E106BB6046868CB /* Classes */,
 			);
+			name = ListrakSDK;
 			path = ListrakSDK;
 			sourceTree = "<group>";
 		};
@@ -1401,6 +1367,7 @@
 				EB79CD9E83DB78A43A9AC3BE683235B8 /* OCMockito.m */,
 				2077BE046566B01A3345E150046676C2 /* Support Files */,
 			);
+			name = OCMockito;
 			path = OCMockito;
 			sourceTree = "<group>";
 		};
@@ -1449,6 +1416,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BE45459255D4E4DCC346B2BC102365CE /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B35F78C24FDACAF3AEFDC66E20EF0228 /* ListrakActivity.h */,
+				78F564D5D7DD5D78E2C31C0C7B8FD6FB /* ListrakActivity.m */,
+				426843E76689653B02F2D3BAA742012E /* ListrakCart.h */,
+				2A20645461FC426C40F50D26D10A58F1 /* ListrakCart.m */,
+				07CC6AF008C96E76910577EC76D4AC76 /* ListrakCartItem.h */,
+				EAADE8200B6AFCD566BD7BB5FA24EBBC /* ListrakCartItem.m */,
+				BB964B62580C8D8FC284E89DC852C982 /* ListrakConfig.h */,
+				C2EA4FC2615469B030DE5B1D3B1A1BCA /* ListrakConfig.m */,
+				5DED8A22B57312F114B7A1C287D3F336 /* ListrakItem.h */,
+				460B459EDBA2716A66D5BEE63CA1DFC7 /* ListrakItem.m */,
+				353BFC737A5628682D8CD786111856B8 /* ListrakOrder.h */,
+				2C8EBFD995B7D396D9EA7106BFBDFDE3 /* ListrakOrder.m */,
+				1224EAB7DFE073DC8A392A56F9E01BC3 /* ListrakOrdering.h */,
+				D1D8C325C2939B78F500FA1B1512E371 /* ListrakOrdering.m */,
+				A19470C49BDCCB5CDD9B0397943329A3 /* ListrakSession.h */,
+				29027815AB9026A0CBAB03083AD094EA /* ListrakSession.m */,
+			);
+			name = Public;
+			path = Public;
+			sourceTree = "<group>";
+		};
 		C0EE1A3B1015E20D2ABECB248BF78BAE /* Pods-ListrakSDK_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1465,6 +1456,22 @@
 			);
 			name = "Pods-ListrakSDK_Tests";
 			path = "Target Support Files/Pods-ListrakSDK_Tests";
+			sourceTree = "<group>";
+		};
+		E020F7F94496896A09E84E41669DB381 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				F78EC83BEB9DD22B41263FD8E9F23279 /* ListrakCartItemExtension.h */,
+				EA0119C32AAE3D8F78A7822B13E2487D /* ListrakConfigExtension.h */,
+				C83BACC6163F0A8F2BAF7B42D10F868D /* ListrakContext.h */,
+				2D68A02F750BAA1A3F69F6BEA08B5E40 /* ListrakContext.m */,
+				DFC74D7AB128362452D07EA39037CB3A /* ListrakItemExtension.h */,
+				D71D727B9F24B24857261BE9CA21437C /* ListrakService.h */,
+				1FD7EF4A43B49F82497D7D67C65CCBC3 /* ListrakService.m */,
+				FC488B9B39603593C3297EC4026ED6CB /* ListrakSessionExtension.h */,
+			);
+			name = Internal;
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1563,25 +1570,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEC929BC78D9D17F244D9E95F6098623 /* Headers */ = {
+		CAEE07DCD8A74CAB454C937D834B3CD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859656A572FB52381B06A30B0ED550E6 /* ListrakActivity.h in Headers */,
-				8449B353B83BA4AA6A1AF66524B74292 /* ListrakCart.h in Headers */,
-				92FB8C12533502387D3FBCCE56D703AD /* ListrakCartItem.h in Headers */,
-				A2DEBEC8ED48DD11FAB067F143FD77E9 /* ListrakCartItemExtension.h in Headers */,
-				E22E5284E24F0B4BEAA77070CD34D84F /* ListrakConfig.h in Headers */,
-				EF769A11AA68C852BC3C67D953E258BF /* ListrakConfigExtension.h in Headers */,
-				7A472553E935B938BC96273CA81A2270 /* ListrakContext.h in Headers */,
-				EE146540674E1352DE60BE8AE4917D3B /* ListrakItem.h in Headers */,
-				6D6570A218FC96D25D01A838422BC4FA /* ListrakItemExtension.h in Headers */,
-				22F26EB25FF655D2B406927B1668B8E1 /* ListrakOrder.h in Headers */,
-				0B2DB7662193592DDC6B5D708540512F /* ListrakOrdering.h in Headers */,
-				3FE2A8B91EC0ABA100E561B7 /* ListrakService.h in Headers */,
-				4EC7D59E63BFA49DC38942463BD98D95 /* ListrakSDK-umbrella.h in Headers */,
-				D8DB18C21DAD6C6FAD8E679E7489B1C9 /* ListrakSession.h in Headers */,
-				0ECC227FA707156FEDD72606C1BDAC4A /* ListrakSessionExtension.h in Headers */,
+				5EDA3F46D98A7EA2B3A6F6EA813E62FA /* ListrakActivity.h in Headers */,
+				FDB3344C664F5EDEBA0AA1BE412A5F44 /* ListrakCart.h in Headers */,
+				E870EE9D9EAED00E8ACC1821FCC448E1 /* ListrakCartItem.h in Headers */,
+				6C849507424F246708059496801DBF47 /* ListrakCartItemExtension.h in Headers */,
+				DF1F3826C2C94AD29A534F89A9E1F44E /* ListrakConfig.h in Headers */,
+				E31CD07B2D07481602867E1DE788D250 /* ListrakConfigExtension.h in Headers */,
+				1A17761C25A944837EE02BACC2EF695C /* ListrakContext.h in Headers */,
+				D58FAEB1B2FCE4D632C7B3DF56EF826E /* ListrakItem.h in Headers */,
+				847D650806AA8CE92D684FB226C00078 /* ListrakItemExtension.h in Headers */,
+				E1E6B12DCC8F999214909E503AD1E259 /* ListrakOrder.h in Headers */,
+				9801C6B374905BBE9BAF86EA31624616 /* ListrakOrdering.h in Headers */,
+				FBF6B7FB8066C55DBF0BD263E151DC82 /* ListrakSDK-umbrella.h in Headers */,
+				6D4A3112BE81D6736CACEC374B315174 /* ListrakService.h in Headers */,
+				155AE362D004F9366C74E4CC3BDC25E4 /* ListrakSession.h in Headers */,
+				5E0141A553C3BE09FA1D4B3C88342F1B /* ListrakSessionExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1726,6 +1733,23 @@
 			productReference = ABF8C5D2FA93D798A3DD4CC790DCDB5E /* Pods_ListrakSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7311CF4513A302639BDC00EAC543FF7D /* ListrakSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844F0C70988561E377506E09DFCF43E9 /* Build configuration list for PBXNativeTarget "ListrakSDK" */;
+			buildPhases = (
+				9E0FDE8CF3FFE976CBA06F68D50C1ABB /* Sources */,
+				30C857A878234710D2FD526F24C49E4D /* Frameworks */,
+				CAEE07DCD8A74CAB454C937D834B3CD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListrakSDK;
+			productName = ListrakSDK;
+			productReference = 69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A581140716ED12BF89E1FF07F013CBE8 /* OCHamcrest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E113CD157726D0E176724DD1C2D24A9 /* Build configuration list for PBXNativeTarget "OCHamcrest" */;
@@ -1796,23 +1820,6 @@
 			productReference = B2D8B96857E75BDFAB583D06D9EBAC43 /* OCMockito.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FD2AF4DEBA81FAB1A7C19C728849D2CA /* ListrakSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC5954F64D9B2274D407C8364C8FBEF4 /* Build configuration list for PBXNativeTarget "ListrakSDK" */;
-			buildPhases = (
-				EEC7844D270E37F244215A69E0A31152 /* Sources */,
-				4D4DB5939B0876B53910A519F27E211C /* Frameworks */,
-				BEC929BC78D9D17F244D9E95F6098623 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ListrakSDK;
-			productName = ListrakSDK;
-			productReference = 69EA440FC71BEC06E7BB1D49EBF18E12 /* ListrakSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1834,7 +1841,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD2AF4DEBA81FAB1A7C19C728849D2CA /* ListrakSDK */,
+				7311CF4513A302639BDC00EAC543FF7D /* ListrakSDK */,
 				A581140716ED12BF89E1FF07F013CBE8 /* OCHamcrest */,
 				FBE46E7A3DC098D89B8502F393BB69BF /* OCMockito */,
 				D1842F5A370A705DFA4A42B6D2D1AC3F /* Pods-ListrakSDK_Example */,
@@ -1925,6 +1932,24 @@
 				11C2C665668F09A0BE1D45E1B658FDEA /* HCXCTestFailureReporter.m in Sources */,
 				0D72718CB0C57981877317B4AC83F980 /* NSInvocation+OCHamcrest.m in Sources */,
 				8602D7C3A0B808E59506B0B187DBEE46 /* OCHamcrest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0FDE8CF3FFE976CBA06F68D50C1ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E9A86B140E8EA55BEADC5981131EAE /* ListrakActivity.m in Sources */,
+				9405A32B313BB57AF170F65808A41920 /* ListrakCart.m in Sources */,
+				D3102F4AFD85666FAB4C8164E3C329B8 /* ListrakCartItem.m in Sources */,
+				76515132A2AFB158DC1FFBB879795103 /* ListrakConfig.m in Sources */,
+				841BB92DEF76E882637AC8CAE6CD6ADF /* ListrakContext.m in Sources */,
+				B1BA678FC516973CCD77B47A93FB494D /* ListrakItem.m in Sources */,
+				2D0A044CC1E9AC9C8D2C3C37CDC78C4F /* ListrakOrder.m in Sources */,
+				DFE7118E1C541ACEE9EDF983DC3668CE /* ListrakOrdering.m in Sources */,
+				9B74F18713FCE69C16F0387D1DAB76D8 /* ListrakSDK-dummy.m in Sources */,
+				C57427251D49FE4E94C72B44709E1CB7 /* ListrakService.m in Sources */,
+				73156DB40E9C6B9A4B452DCCC8CD35E3 /* ListrakSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2044,24 +2069,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEC7844D270E37F244215A69E0A31152 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A7BC87F72D0602C2A9A19CDE3C2FA08 /* ListrakActivity.m in Sources */,
-				8B698F9D1D8A28323CD5AE98A14CE771 /* ListrakCart.m in Sources */,
-				5C95F0E5FC046817655D69DC426088A9 /* ListrakCartItem.m in Sources */,
-				16732C663CE04E1845F3232036879492 /* ListrakConfig.m in Sources */,
-				3FE2A8BA1EC0ABA100E561B7 /* ListrakService.m in Sources */,
-				F089CD6B58263BF55731695E51430F11 /* ListrakContext.m in Sources */,
-				1135BCEBC78D760300C531304A5F5CCB /* ListrakItem.m in Sources */,
-				F84CB95C6C49A5D0E183656B46DB571B /* ListrakOrder.m in Sources */,
-				70ACDF89319A873401D0DA87D91E8095 /* ListrakOrdering.m in Sources */,
-				62A3DF5605092F71D94B5B75A7CF15AA /* ListrakSDK-dummy.m in Sources */,
-				095E23E77DCCAB667B97566673A29DEB /* ListrakSession.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2080,7 +2087,7 @@
 		83BDE3C8331FE17CAE896C65F59F552F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ListrakSDK;
-			target = FD2AF4DEBA81FAB1A7C19C728849D2CA /* ListrakSDK */;
+			target = 7311CF4513A302639BDC00EAC543FF7D /* ListrakSDK */;
 			targetProxy = 852D0072A9F46F7A64FE3232FCA317AB /* PBXContainerItemProxy */;
 		};
 		97381DF32D3E11FBA1B33F2AF1C315C7 /* PBXTargetDependency */ = {
@@ -2162,6 +2169,38 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_ListrakSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2499E7AB7824EE08EC940A7821C0AE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF14C9985A3551C68BB5652B4F22C8C /* ListrakSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ListrakSDK/ListrakSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListrakSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ListrakSDK/ListrakSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ListrakSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2286,38 +2325,6 @@
 			};
 			name = Release;
 		};
-		4E8E28A1667C7DB8EE7C9B4635ED5F7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBF14C9985A3551C68BB5652B4F22C8C /* ListrakSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ListrakSDK/ListrakSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ListrakSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ListrakSDK/ListrakSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ListrakSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6EC20C7B6AB45EBB579531C32E24B946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA3D4BB4AF63FA17C3E690A94638A5D1 /* OCMockito.xcconfig */;
@@ -2349,6 +2356,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		705528B44705996A94DC968104AA8E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF14C9985A3551C68BB5652B4F22C8C /* ListrakSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ListrakSDK/ListrakSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListrakSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ListrakSDK/ListrakSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ListrakSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2391,38 +2430,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7490DD42B7A9D10B4262549F066970AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBF14C9985A3551C68BB5652B4F22C8C /* ListrakSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ListrakSDK/ListrakSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ListrakSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ListrakSDK/ListrakSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ListrakSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -2620,6 +2627,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		844F0C70988561E377506E09DFCF43E9 /* Build configuration list for PBXNativeTarget "ListrakSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2499E7AB7824EE08EC940A7821C0AE56 /* Debug */,
+				705528B44705996A94DC968104AA8E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8E113CD157726D0E176724DD1C2D24A9 /* Build configuration list for PBXNativeTarget "OCHamcrest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2634,15 +2650,6 @@
 			buildConfigurations = (
 				A3366B7B08AAFFAC9ECF592E0C6D563D /* Debug */,
 				013B6EA47EEB7041FB6AAC6BA12D3509 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC5954F64D9B2274D407C8364C8FBEF4 /* Build configuration list for PBXNativeTarget "ListrakSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E8E28A1667C7DB8EE7C9B4635ED5F7B /* Debug */,
-				7490DD42B7A9D10B4262549F066970AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -655,6 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListrakSDK_Example.app/ListrakSDK_Example";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../ListrakSDK/Classes/Internal";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -678,6 +679,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListrakSDK_Example.app/ListrakSDK_Example";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../ListrakSDK/Classes/Internal";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

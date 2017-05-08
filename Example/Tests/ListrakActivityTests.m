@@ -9,6 +9,7 @@
 // https://github.com/Specta/Specta
 
 #import <ListrakSDK/ListrakActivity.h>
+#import "ListrakService.h"
 
 SpecBegin(ListrakActivity)
 
@@ -20,6 +21,14 @@ SpecBegin(ListrakActivity)
                 assertThat(^{
                     [ListrakActivity trackProductBrowseWithSku:nil];
                 }, throwsException(hasProperty(@"name", NSInvalidArgumentException)));
+            });
+
+            it(@"with valid sku will call Service", ^{
+                id mockService = mock([ListrakService class]);
+                [ListrakService setInstance:mockService];
+
+                [ListrakActivity trackProductBrowseWithSku:@"test-sku"];
+                [verify(mockService) trackProductBrowseWithSku:[NSArray arrayWithObjects:@"test-sku", nil]];
             });
 
         });

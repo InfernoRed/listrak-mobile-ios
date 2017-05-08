@@ -10,6 +10,9 @@
 #import "ListrakOrder.h"
 #import "ListrakCart.h"
 #import "ListrakItemExtension.h"
+#import "ListrakService.h"
+#import "ListrakSession.h"
+#import "ListrakSessionExtension.h"
 
 @implementation ListrakOrdering
 
@@ -35,16 +38,17 @@
         [NSException raise:NSInvalidArgumentException format:@"order cannot be null"];
     }
 
-    //var svc = Config.Container.Create<IListrakService>();
+    // submit the order
+    [ListrakService submitOrder:order];
 
-    // TODO: submit the order
-    //svc.SubmitOrder(order);
+    // prevent SCA emails
+    [ListrakService finalizeCartWithOrderNumber:order.orderNumber
+                                   emailAddress:order.emailAddress
+                                      firstName:order.firstName
+                                       lastName:order.lastName];
 
-    // TODO: prevent SCA emails
-    //svc.FinalizeCart(order.OrderNumber, order.EmailAddress, order.FirstName, order.LastName);
-
-    // TODO: the session id needs to be reset after each order
-    //Session.Reset();
+    // the session id needs to be reset after each order
+    [ListrakSession reset];
 }
 
 @end

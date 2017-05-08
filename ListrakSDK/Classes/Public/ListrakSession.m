@@ -10,6 +10,7 @@
 #import "ListrakSessionExtension.h"
 #import "ListrakConfig.h"
 #import "ListrakConfigExtension.h"
+#import "ListrakService.h"
 
 @implementation ListrakSession
 
@@ -170,7 +171,7 @@
     _lastName = lastName;
     _hasIdentity = YES;
 
-    // TODO: CaptureCustomer in ListrakService
+    [ListrakService captureCustomerWithEmail:email];
 }
 
 - (void)subscribeWithSubscriberCode:(NSString *)code
@@ -189,7 +190,9 @@
         meta = [NSMutableDictionary dictionary];
     }
 
-    // TODO: call SubscribeCustomer in ListrakService
+    [ListrakService subscribeCustomerWithSubscriberCode:code
+                                           emailAddress:_emailAddress
+                                                   meta:meta];
 }
 
 - (void)reset {

@@ -7,6 +7,7 @@
 //
 
 #import "ListrakActivity.h"
+#import "ListrakService.h"
 
 @implementation ListrakActivity
 
@@ -15,7 +16,7 @@
         [NSException raise:NSInvalidArgumentException format:@"sku cannot be null or empty"];
     }
 
-    // TODO: call trackProduceBrowseWithSku in ListrakService
+    [ListrakService trackProductBrowseWithSku:[NSArray arrayWithObjects:sku, nil]];
 }
 
 @end

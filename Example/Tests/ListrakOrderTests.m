@@ -11,10 +11,17 @@
 #import <ListrakSDK/ListrakOrder.h>
 #import <ListrakSDK/ListrakOrdering.h>
 #import <ListrakSDK/ListrakCart.h>
+#import "ListrakService.h"
 
 SpecBegin(ListrakOrder)
 
 describe(@"ListrakOrder", ^{
+    __block ListrakService *mockService;
+
+    before(^ {
+        mockService = mock([ListrakService class]);
+        [ListrakService setInstance:mockService];
+    });
 
     describe(@"when ordering", ^{
 

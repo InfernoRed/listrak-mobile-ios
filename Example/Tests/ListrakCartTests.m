@@ -9,10 +9,17 @@
 // https://github.com/Specta/Specta
 
 #import <ListrakSDK/ListrakCart.h>
+#import "ListrakService.h"
 
 SpecBegin(ListrakCart)
 
 describe(@"ListrakCart", ^{
+    __block ListrakService *mockService;
+
+    before(^ {
+        mockService = mock([ListrakService class]);
+        [ListrakService setInstance:mockService];
+    });
 
     describe(@"adding cart items", ^{
 
