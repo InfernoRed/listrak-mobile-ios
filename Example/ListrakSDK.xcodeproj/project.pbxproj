@@ -21,6 +21,8 @@
 		3F2739981EBBAAB600B187F5 /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2739911EBBAAB600B187F5 /* CheckoutViewController.m */; };
 		3F2739991EBBAAB600B187F5 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2739931EBBAAB600B187F5 /* ProductDetailViewController.m */; };
 		3F27399A1EBBAAB600B187F5 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2739951EBBAAB600B187F5 /* ProductTableViewController.m */; };
+		3FA2231A1EC10D6C00CCF83B /* ListrakServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA223191EC10D6C00CCF83B /* ListrakServiceTests.m */; };
+		3FA2231D1EC10D8B00CCF83B /* ListrakRequestQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2231C1EC10D8B00CCF83B /* ListrakRequestQueueTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -75,6 +77,8 @@
 		3F2739931EBBAAB600B187F5 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		3F2739941EBBAAB600B187F5 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
 		3F2739951EBBAAB600B187F5 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		3FA223191EC10D6C00CCF83B /* ListrakServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakServiceTests.m; sourceTree = "<group>"; };
+		3FA2231C1EC10D8B00CCF83B /* ListrakRequestQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListrakRequestQueueTests.m; sourceTree = "<group>"; };
 		4B401D1E2E403435E6818D83 /* Pods_ListrakSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListrakSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		502BA0598019CFC364D76108 /* Pods-ListrakSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListrakSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListrakSDK_Example/Pods-ListrakSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ListrakSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListrakSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,6 +244,8 @@
 				6003F5BB195388D20070C39A /* ListrakCartTests.m */,
 				1B09C903BE27CFD9E120D149 /* ListrakOrderTests.m */,
 				1B09CAA401134F3FB4A1AC5E /* ListrakActivityTests.m */,
+				3FA223191EC10D6C00CCF83B /* ListrakServiceTests.m */,
+				3FA2231C1EC10D8B00CCF83B /* ListrakRequestQueueTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -493,6 +499,8 @@
 			files = (
 				6003F5BC195388D20070C39A /* ListrakCartTests.m in Sources */,
 				1B09CC850F55463068024753 /* ListrakOrderTests.m in Sources */,
+				3FA2231A1EC10D6C00CCF83B /* ListrakServiceTests.m in Sources */,
+				3FA2231D1EC10D8B00CCF83B /* ListrakRequestQueueTests.m in Sources */,
 				1B09C881E4CCC7CA4B128704 /* ListrakActivityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

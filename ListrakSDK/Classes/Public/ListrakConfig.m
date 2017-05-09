@@ -71,10 +71,34 @@
     return self.sharedInstance.clientTemplateId;
 }
 
+/// Sets the client template id used by listrak
+/// @param templateId the listrak template id
++ (void)setClientTemplateId:(NSString *)templateId {
+    self.sharedInstance.clientTemplateId = templateId;
+}
+
 /// Gets the current app's Listrak client merchant id
 /// @return NSString of client merchant id
 + (NSString *)clientMerchantId {
     return self.sharedInstance.clientMerchantId;
+}
+
+/// Sets the client merchant id used by Listrak
+/// @param merchantId the listrak merchant id
++ (void)setClientMerchantId:(NSString *)merchantId {
+    self.sharedInstance.clientMerchantId = merchantId;
+}
+
+/// Sets the host override value
+/// @param hostOverride value to use as host for the listrak api
++ (void)setHostOverride:(NSString *)hostOverride {
+    self.sharedInstance.hostOverride = hostOverride;
+}
+
+/// Sets the current apps use https indicator
+/// @param useHttps indicates to use https
++ (void)setUseHttps:(BOOL)useHttps {
+    self.sharedInstance.useHttps = useHttps;
 }
 
 #pragma mark - Internal Static Members
@@ -122,16 +146,31 @@
     return _clientTemplateId;
 }
 
+- (void)setClientTemplateId:(NSString *)templateId {
+    _clientTemplateId = templateId;
+}
+
 - (NSString *)clientMerchantId {
     return _clientMerchantId;
+}
+
+- (void)setClientMerchantId:(NSString *)merchantId {
+    _clientMerchantId = merchantId;
 }
 
 - (NSString *)hostOverride {
     return _hostOverride;
 }
+- (void)setHostOverride:(NSString *)hostOverride {
+    _hostOverride = hostOverride;
+}
 
 - (BOOL)useHttps {
     return _useHttps;
+}
+
+- (void)setUseHttps:(BOOL)useHttps {
+    _useHttps = useHttps;
 }
 
 #pragma mark - Private Members

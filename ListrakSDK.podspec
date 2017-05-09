@@ -26,17 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pamtaro' => 'pamela.vong@infernored.com' }
   s.source           = { :git => 'https://github.com/InfernoRed/listrak-mobile-ios.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ListrakSDK/Classes/**/*'
   s.public_header_files = 'ListrakSDK/Classes/Public/*.h'
-
-  # s.resource_bundles = {
-  #   'ListrakSDK' => ['ListrakSDK/Assets/*.png']
-  # }
-
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,6 +1,6 @@
 //
 //  ListrakService.h
-//  Pods
+//  ListrakSDK
 //
 //  Created by Pamela Vong on 5/8/17.
 //

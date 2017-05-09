@@ -16,6 +16,10 @@
 + (NSString *)appId;
 + (NSString *)visitId;
 + (NSString *)clientTemplateId;
++ (void)setClientTemplateId:(NSString *)templateId;
 + (NSString *)clientMerchantId;
++ (void)setClientMerchantId:(NSString *)merchantId;
++ (void)setHostOverride:(NSString *)hostOverride;
++ (void)setUseHttps:(BOOL)useHttps;
 
 @end

@@ -1,6 +1,6 @@
 //
 //  ListrakContext.h
-//  Pods
+//  ListrakSDK
 //
 //  Created by Pamela Vong on 5/7/17.
 //
