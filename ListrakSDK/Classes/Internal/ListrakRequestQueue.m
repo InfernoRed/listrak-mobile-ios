@@ -47,7 +47,7 @@ static ListrakRequestQueue* singletonInstance;
 }
 
 - (void)runBackgroundTask {
-    dispatch_async(dispatch_get_main_queue(), ^(void) {
+    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void) {
         [self attemptRequest];
     });
 }
@@ -58,6 +58,7 @@ static ListrakRequestQueue* singletonInstance;
         _numberOfAttempts++;
         [ListrakHttpService sendRequest:_urlQueue.firstObject];
     } else {
+        _numberOfAttempts = 0;
         // set not running when count of queue is 0
         _isRunning = NO;
     }

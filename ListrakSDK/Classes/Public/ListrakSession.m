@@ -84,8 +84,8 @@
 }
 
 + (void)subscribeWithSubscriberCode:(NSString *)code
-                               meta:(NSMutableDictionary *)meta {
-    [self subscribeWithSubscriberCode:code meta:meta];
+                               meta:(NSDictionary *)meta {
+    [self.sharedInstance subscribeWithSubscriberCode:code meta:meta];
 }
 
 #pragma mark - Internal Instance Members
@@ -175,7 +175,7 @@
 }
 
 - (void)subscribeWithSubscriberCode:(NSString *)code
-                               meta:(NSMutableDictionary *)meta {
+                               meta:(NSDictionary *)meta {
     if (code.length == 0) {
         [NSException raise:NSInvalidArgumentException format:@"code cannot be null or empty"];
     }
@@ -187,7 +187,7 @@
     }
 
     if (meta == nil) {
-        meta = [NSMutableDictionary dictionary];
+        meta = [NSDictionary dictionary];
     }
 
     [ListrakService subscribeCustomerWithSubscriberCode:code

@@ -6,13 +6,37 @@
 //  Copyright (c) 2017 Listrak. All rights reserved.
 //
 
+#import <ListrakSDK/ListrakConfig.h>
+#import <ListrakSDK/ListrakSession.h>
 #import "ListrakAppDelegate.h"
+#import "Account.h"
 
 @implementation ListrakAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    Account *account = Account.sharedInstance;
+
+    // LISTRAK SDK
+    // for testing purposes only
+    //
+    [ListrakConfig setHostOverride:@"localhost:9000"];
+    [ListrakConfig setUseHttps:false];
+
+    // LISTRAK SDK
+    // initialize the sdk
+    // if we're signed in, start a session with the current signed-in user
+    // otherwise just start a new session
+    //
+    [ListrakConfig initializeWithClientTemplateId:@"123" clientMerchantId:@"456"];
+    if (account.isSignedIn) {
+        [ListrakSession startWithIdentityWithEmailAddress:account.email
+                                                firstName:account.firstName
+                                                 lastName:account.lastName];
+    } else {
+        [ListrakSession start];
+    }
+
     return YES;
 }
 

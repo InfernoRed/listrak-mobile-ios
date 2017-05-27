@@ -281,7 +281,13 @@ static ListrakService* singletonInstance;
                                queryParams:(NSDictionary *)params {
     NSURLComponents *components = [[NSURLComponents alloc] init];
     components.scheme = ListrakContext.useHttps ? @"https" : @"http";
-    components.host = ListrakContext.hostOverride.length == 0 ? host : ListrakContext.hostOverride;
+    if (ListrakContext.hostOverride.length == 0) {
+        components.host = host;
+    } else {
+        NSArray<NSString *> *hostOverrideSubstrings = [ListrakContext.hostOverride componentsSeparatedByString:@":"];
+        components.host = hostOverrideSubstrings[0];
+        components.port = [NSNumber numberWithInteger:[hostOverrideSubstrings[1] integerValue]];
+    }
     components.path = path;
     NSMutableArray *queryItems = [NSMutableArray array];
     for (NSString *key in params) {

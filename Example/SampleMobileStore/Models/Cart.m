@@ -6,6 +6,9 @@
 //  Copyright © 2017 Listrak. All rights reserved.
 //
 
+#import <ListrakSDK/ListrakCart.h>
+#import <ListrakSDK/ListrakOrder.h>
+#import <ListrakSDK/ListrakOrdering.h>
 #import "Cart.h"
 
 NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
@@ -52,21 +55,37 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
     if (![self containsProduct:item]){
         self.items[item.sku] = item;
         [self notifyItemsChanged];
-        // TODO: invoke SDK's addItem
+
+        // LISTRAK SDK
+        // let the sdk know we have added a new cart item
+        //
+        [ListrakCart addItemWithSku:item.sku
+                           quantity:1
+                              price:item.amount
+                              title:item.name
+                           imageUrl:nil
+                            linkUrl:nil];
     }
 }
 
 - (void)removeProduct:(Product *)item {
     [self.items removeObjectForKey:item.sku];
     [self notifyItemsChanged];
-    // TODO: invoke SDK's removeItem
+
+    // LISTRAK SDK
+    // let the sdk know we are removing a cart item
+    //
+    [ListrakCart removeItemWithSku:item.sku];
 }
 
 - (void)clearProducts {
     [self.items removeAllObjects];
     [self notifyItemsChanged];
     
-    // TODO: invoke SDK's clearItems
+    // LISTRAK SDK
+    // have the sdk clear all cart items
+    //
+    [ListrakCart clearItems];
 }
 
 - (void)notifyItemsChanged {
@@ -77,8 +96,19 @@ NSString *const CartItemsChangedNotification = @"CartItemsChangedNotification";
 
 - (BOOL)processOrderWithEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName orderNumber:(NSString *)orderNumber {
     if (email.length != 0 && firstName.length != 0 && lastName.length != 0 && orderNumber.length != 0) {
-        // TODO: send Order info to SDK
-        
+
+        // LISTRAK SDK
+        // create an order from our cart and set necessary info
+        // once order has been filled-out, submit it
+        //
+        ListrakOrder *order = [ListrakOrdering createOrderFromCart];
+        [order setCustomerWithEmailAddress:email
+                                 firstName:firstName
+                                  lastName:lastName];
+        order.orderNumber = orderNumber;
+        order.orderTotal = self.totalAmount;
+        [ListrakOrdering submitOrder:order];
+
         [[Cart sharedInstance] clearProducts];
         
         return YES;

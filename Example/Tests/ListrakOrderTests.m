@@ -11,6 +11,8 @@
 #import <ListrakSDK/ListrakOrder.h>
 #import <ListrakSDK/ListrakOrdering.h>
 #import <ListrakSDK/ListrakCart.h>
+#import <ListrakSDK/ListrakSession.h>
+#import <ListrakSDK/ListrakConfig.h>
 #import "ListrakService.h"
 
 SpecBegin(ListrakOrder)
@@ -154,7 +156,31 @@ describe(@"ListrakOrder", ^{
             });
 
             describe(@"from ListrakSession", ^{
-                // TODO: test session email, first name, last name
+
+                beforeAll(^{
+                    [ListrakConfig initializeWithClientTemplateId:@"test-template-id"
+                                                 clientMerchantId:@"test-merchant-id"];
+                    ListrakConfig.hostOverride = @"test-host";
+                    ListrakConfig.useHttps = NO;
+                    [ListrakSession startWithIdentityWithEmailAddress:@"test-email"
+                                                            firstName:@"test-first-name"
+                                                             lastName:@"test-last-name"];
+                    [order setCustomerFromSession];
+                });
+
+
+                it(@"sets the order email", ^{
+                    assertThat(order.emailAddress, equalTo(@"test-email"));
+                });
+
+                it(@"sets the order firstName", ^{
+                    assertThat(order.firstName, equalTo(@"test-first-name"));
+                });
+
+                it(@"sets the order lastName", ^{
+                    assertThat(order.lastName, equalTo(@"test-last-name"));
+                });
+
             });
 
         });

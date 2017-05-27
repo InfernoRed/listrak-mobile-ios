@@ -25,6 +25,6 @@
                           firstName:(NSString *)firstName
                            lastName:(NSString *)lastName;
 + (void)subscribeWithSubscriberCode:(NSString *)code
-                               meta:(NSMutableDictionary *)meta;
+                               meta:(NSDictionary *)meta;
 
 @end

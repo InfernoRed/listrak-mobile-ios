@@ -6,6 +6,7 @@
 //  Copyright © 2017 Listrak. All rights reserved.
 //
 
+#import <ListrakSDK/ListrakSession.h>
 #import "Account.h"
 
 NSString *const AccountUserChangedNotification = @"AccountUserChangedNotification";
@@ -36,14 +37,21 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
         
         [self saveUserDefaults];
         
-        // TODO: invoke SDK call to setSessionIdentity
-        
+        // LISTRAK SDK
+        // when a user signs-in set the session identity
+        // (a session should have been started when app started)
+        //
+        [ListrakSession setIdentityWithEmailAddress:email
+                                          firstName:firstName
+                                           lastName:lastName];
+
         if (subscribe) {
             // LISTRAK SDK
             // a user can be subscribe to a Listrak mailing list
             // This can be done anytime after a session has been identified
             //
-            
+            [ListrakSession subscribeWithSubscriberCode:@"SAMPLEAPP"
+                                                   meta:@{@"fname":firstName, @"lname":lastName}];
         }
         
         return YES;
@@ -59,7 +67,11 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
     
     [self saveUserDefaults];
     
-    // TODO: invoke SDK call to startSession
+    // LISTRAK SDK
+    // always need a session
+    // when user signs-out start a new session
+    //
+    [ListrakSession start];
 }
 
 - (void)saveUserDefaults {
