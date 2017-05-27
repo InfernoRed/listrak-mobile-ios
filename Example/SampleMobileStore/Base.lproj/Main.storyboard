@@ -426,8 +426,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLa-k2-DfA">
-                                        <rect key="frame" x="8" y="130" width="78" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLa-k2-DfA">
+                                        <rect key="frame" x="8" y="161" width="78" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="NCv-mu-d1p"/>
                                             <constraint firstAttribute="width" constant="78" id="Vrp-v3-iIP"/>
@@ -437,17 +437,31 @@
                                             <action selector="signIn:" destination="KRE-JT-72B" eventType="touchUpInside" id="BMF-Bh-0cH"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subscribe to our mailing list" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYg-dx-vOe">
+                                        <rect key="frame" x="22" y="122" width="225" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POI-qj-XaR">
+                                        <rect key="frame" x="247" y="122" width="50.999999999999943" height="31"/>
+                                    </switch>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="ypp-Ag-vNe" firstAttribute="trailing" secondItem="tiK-Wg-JWc" secondAttribute="trailingMargin" id="2Ky-YR-Xrq"/>
+                                    <constraint firstItem="POI-qj-XaR" firstAttribute="top" secondItem="72H-5l-ZgZ" secondAttribute="bottom" constant="8" id="8Yb-tG-zwe"/>
                                     <constraint firstItem="ypp-Ag-vNe" firstAttribute="top" secondItem="tiK-Wg-JWc" secondAttribute="topMargin" id="AHQ-PG-zvu"/>
                                     <constraint firstItem="fA8-iQ-KUp" firstAttribute="leading" secondItem="tiK-Wg-JWc" secondAttribute="leadingMargin" id="Bkc-7D-Yru"/>
+                                    <constraint firstItem="jYg-dx-vOe" firstAttribute="leading" secondItem="tiK-Wg-JWc" secondAttribute="leading" constant="22" id="G8l-qI-GUF"/>
                                     <constraint firstItem="72H-5l-ZgZ" firstAttribute="leading" secondItem="tiK-Wg-JWc" secondAttribute="leadingMargin" id="GJF-nz-Zcu"/>
-                                    <constraint firstItem="aLa-k2-DfA" firstAttribute="top" secondItem="72H-5l-ZgZ" secondAttribute="bottom" constant="16" id="IE4-iT-fGu"/>
+                                    <constraint firstItem="POI-qj-XaR" firstAttribute="leading" secondItem="jYg-dx-vOe" secondAttribute="trailing" id="HNt-v6-JF4"/>
                                     <constraint firstItem="aLa-k2-DfA" firstAttribute="leading" secondItem="tiK-Wg-JWc" secondAttribute="leadingMargin" id="Jcl-7E-sts"/>
+                                    <constraint firstItem="jYg-dx-vOe" firstAttribute="top" secondItem="72H-5l-ZgZ" secondAttribute="bottom" constant="8" id="UxA-Mt-4Gf"/>
                                     <constraint firstItem="72H-5l-ZgZ" firstAttribute="top" secondItem="fA8-iQ-KUp" secondAttribute="bottom" constant="8" id="VNA-kg-V9c"/>
                                     <constraint firstItem="fA8-iQ-KUp" firstAttribute="top" secondItem="ypp-Ag-vNe" secondAttribute="bottom" constant="8" id="W2J-25-oOx"/>
+                                    <constraint firstItem="aLa-k2-DfA" firstAttribute="top" secondItem="jYg-dx-vOe" secondAttribute="bottom" constant="8" id="Zqv-f5-y3B"/>
+                                    <constraint firstItem="jYg-dx-vOe" firstAttribute="top" secondItem="72H-5l-ZgZ" secondAttribute="bottom" constant="8" id="rAO-D0-xEl"/>
                                     <constraint firstItem="72H-5l-ZgZ" firstAttribute="trailing" secondItem="tiK-Wg-JWc" secondAttribute="trailingMargin" id="tOq-vu-vwk"/>
                                     <constraint firstItem="ypp-Ag-vNe" firstAttribute="leading" secondItem="tiK-Wg-JWc" secondAttribute="leadingMargin" id="yuc-Xa-b8T"/>
                                     <constraint firstItem="fA8-iQ-KUp" firstAttribute="trailing" secondItem="tiK-Wg-JWc" secondAttribute="trailingMargin" id="za7-2m-yzv"/>
@@ -480,17 +494,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6m-n7-ebA">
-                                        <rect key="frame" x="8" y="106.66666666666666" width="100" height="30.000000000000028"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="bhs-HV-u9J"/>
-                                            <constraint firstAttribute="height" constant="30" id="sBi-rp-HT8"/>
-                                        </constraints>
-                                        <state key="normal" title="Sign Out"/>
-                                        <connections>
-                                            <action selector="signOut:" destination="KRE-JT-72B" eventType="touchUpInside" id="foe-tl-jsD"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbG-0A-wSJ">
                                         <rect key="frame" x="8" y="8" width="46" height="20.666666666666657"/>
                                         <constraints>
@@ -506,6 +509,17 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6m-n7-ebA">
+                                        <rect key="frame" x="8" y="116" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="bhs-HV-u9J"/>
+                                            <constraint firstAttribute="height" constant="30" id="sBi-rp-HT8"/>
+                                        </constraints>
+                                        <state key="normal" title="Sign Out"/>
+                                        <connections>
+                                            <action selector="signOut:" destination="KRE-JT-72B" eventType="touchUpInside" id="foe-tl-jsD"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
@@ -519,7 +533,7 @@
                                     <constraint firstItem="TYx-lc-bOl" firstAttribute="top" secondItem="5Qs-lF-aWS" secondAttribute="topMargin" id="FxN-cf-i4q"/>
                                     <constraint firstItem="TYx-lc-bOl" firstAttribute="height" secondItem="BbG-0A-wSJ" secondAttribute="height" id="O6c-f6-1yT"/>
                                     <constraint firstItem="TYx-lc-bOl" firstAttribute="trailing" secondItem="5Qs-lF-aWS" secondAttribute="trailingMargin" constant="8" id="OhQ-2H-81W"/>
-                                    <constraint firstItem="r6m-n7-ebA" firstAttribute="top" secondItem="x6U-X1-Opx" secondAttribute="bottom" constant="21" id="RkE-47-dqL"/>
+                                    <constraint firstItem="r6m-n7-ebA" firstAttribute="top" secondItem="x6U-X1-Opx" secondAttribute="bottom" constant="30.333333333333343" id="RkE-47-dqL"/>
                                     <constraint firstItem="r6m-n7-ebA" firstAttribute="leading" secondItem="5Qs-lF-aWS" secondAttribute="leadingMargin" id="T37-DI-Ld7"/>
                                     <constraint firstItem="QRW-az-0aT" firstAttribute="leading" secondItem="5Qs-lF-aWS" secondAttribute="leadingMargin" id="UGg-dx-9s4"/>
                                     <constraint firstItem="QRW-az-0aT" firstAttribute="leading" secondItem="5Qs-lF-aWS" secondAttribute="leading" constant="8" id="UdD-0X-6qA"/>
@@ -566,6 +580,7 @@
                         <outlet property="lblEmail" destination="Bi2-p3-2CI" id="Ohj-Vn-zj3"/>
                         <outlet property="lblFirstName" destination="TYx-lc-bOl" id="W6v-TD-0Bs"/>
                         <outlet property="lblLastName" destination="Saj-jl-ZZG" id="pRY-2U-wW8"/>
+                        <outlet property="swSubscribe" destination="POI-qj-XaR" id="qxE-tx-jIh"/>
                         <outlet property="txtEmail" destination="72H-5l-ZgZ" id="fXL-tv-m7S"/>
                         <outlet property="txtFirstName" destination="ypp-Ag-vNe" id="YSf-Ej-Sm6"/>
                         <outlet property="txtLastName" destination="fA8-iQ-KUp" id="tjn-VH-HuK"/>

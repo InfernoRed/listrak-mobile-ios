@@ -27,7 +27,8 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
 
 - (BOOL)signInWithEmail:(NSString *)email
               firstName:(NSString *)firstName
-               lastName:(NSString *)lastName {
+               lastName:(NSString *)lastName
+              subscribe:(BOOL)subscribe {
     if (email.length != 0 && firstName.length != 0 && lastName.length != 0) {
         self.email = email;
         self.firstName = firstName;
@@ -36,6 +37,14 @@ NSString *const AccountUserChangedNotification = @"AccountUserChangedNotificatio
         [self saveUserDefaults];
         
         // TODO: invoke SDK call to setSessionIdentity
+        
+        if (subscribe) {
+            // LISTRAK SDK
+            // a user can be subscribe to a Listrak mailing list
+            // This can be done anytime after a session has been identified
+            //
+            
+        }
         
         return YES;
     } else {

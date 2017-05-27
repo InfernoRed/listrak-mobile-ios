@@ -29,6 +29,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblFirstName;
 @property (strong, nonatomic) IBOutlet UILabel *lblLastName;
 @property (strong, nonatomic) IBOutlet UILabel *lblEmail;
+@property (strong, nonatomic) IBOutlet UISwitch *swSubscribe;
 
 - (IBAction)signIn:(id)sender;
 - (IBAction)signOut:(id)sender;

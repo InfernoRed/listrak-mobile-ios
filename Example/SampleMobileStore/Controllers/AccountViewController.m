@@ -15,7 +15,10 @@
 @implementation AccountViewController
 
 - (IBAction)signIn:(id)sender {
-    BOOL success = [[Account sharedInstance] signInWithEmail:self.txtEmail.text firstName:self.txtFirstName.text lastName:self.txtLastName.text];
+    BOOL success = [[Account sharedInstance] signInWithEmail:self.txtEmail.text
+                                                   firstName:self.txtFirstName.text
+                                                    lastName:self.txtLastName.text
+                                                   subscribe:self.swSubscribe.on];
     
     if (!success) {
         id alert = [UIAlertController alertControllerWithTitle:@"Can't Sign In" message:@"Please fill in all fields and try again" preferredStyle:UIAlertControllerStyleAlert];

@@ -22,7 +22,8 @@ extern NSString *const AccountUserChangedNotification;
 - (BOOL)isSignedIn;
 - (BOOL)signInWithEmail:(NSString *)email
               firstName:(NSString *)firstName
-               lastName:(NSString *)lastName;
+               lastName:(NSString *)lastName
+              subscribe:(BOOL)subscribe;
 - (void)signOut;
 
 @end
